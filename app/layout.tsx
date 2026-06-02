@@ -37,6 +37,14 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCP1LD2X12"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ZCP1LD2X12');
+        </script>
       </body>
     </html>
   );

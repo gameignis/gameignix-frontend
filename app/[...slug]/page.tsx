@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import BlogDetailContent from "@/app/blog/[...slug]/BlogDetailContent";
 import { ApiError, apiRequest } from "@/lib/api";
 
+export const runtime = 'edge';
+
+
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.gameignix.com";
 
 type BlogPageProps = {

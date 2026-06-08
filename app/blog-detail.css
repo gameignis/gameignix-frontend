@@ -34,6 +34,7 @@ font-family: "Montserrat", sans-serif; line-height: 62px;  font-weight: 500;}
 font-weight: var(--fw600);line-height:20px;color: #666487;text-decoration: none;}
 .stic-link:hover { color: #82b8e9; }
 .pos-mnsc1 .stic-link.active * { color: #82b8e9; }
+.st-name.st-sub { padding-left: 0.35rem; font-size: 17px; }
 .st-num {border-right:1px solid rgba(102,100,135,.25);margin-right: .625rem;min-width: 40px;padding-right: .625rem;flex-shrink: 0;
 font-size: 24px;line-height: 30px;font-weight: 700;}
 .pos-mncnt p {font-size: 17px;line-height:27px;margin: 0 0 1rem;}
@@ -45,6 +46,15 @@ font-size: 24px;line-height: 30px;font-weight: 700;}
 .dat-tx1 {line-height: var(--sz24);font-size: 14px;color: #bbb;}
 video { border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 .pos-mncnt { padding-left: 55px;}
+.blog-rich-content { text-align: left; word-break: break-word; }
+.blog-rich-content img,
+.blog-rich-content video,
+.blog-rich-content iframe { max-width: 100%; height: auto; display: block; margin: 1rem 0; border-radius: 10px; }
+.blog-rich-content table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.blog-rich-content table td,
+.blog-rich-content table th { border: 1px solid #ddd; padding: 0.5rem 0.75rem; vertical-align: top; }
+.blog-rich-content blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 4px solid var(--primary); }
+.blog-rich-content a { color: #1160f2; text-decoration: underline; }
 .blogfoot{background: #000;}
     .soc-bk1 {margin-top: 2rem;}
 .soc-bk1 img {filter: brightness(0);-webkit-filter: brightness(0);}

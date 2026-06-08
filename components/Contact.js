@@ -1,9 +1,77 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ApiError, apiRequest } from "@/lib/api";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    country: "",
+    phone: "",
+    messengerId: "",
+    service: "",
+    message: "",
+  });
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [alert, setAlert] = useState({ type: "", message: "" });
+
+  useEffect(() => {
+    if (alert.type !== "success" || !alert.message) return undefined;
+    const timer = setTimeout(() => {
+      setAlert({ type: "", message: "" });
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [alert]);
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    setErrors((prev) => ({ ...prev, [name]: "" }));
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    setAlert({ type: "", message: "" });
+    setErrors({});
+
+    try {
+      await apiRequest("/api/contacts", {
+        method: "POST",
+        body: formData,
+      });
+      setAlert({
+        type: "success",
+        message: "Thanks for contacting us. Our team will get back to you soon.",
+      });
+      setFormData({
+        name: "",
+        email: "",
+        country: "",
+        phone: "",
+        messengerId: "",
+        service: "",
+        message: "",
+      });
+    } catch (error) {
+      if (error instanceof ApiError && error.payload && typeof error.payload === "object") {
+        const payload = error.payload;
+        if (payload && "errors" in payload) {
+          setErrors(payload.errors || {});
+        }
+      }
+      setAlert({
+        type: "error",
+        message: "Unable to submit your message now. Please try again shortly.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <>
@@ -11,39 +79,43 @@ export default function Contact() {
           <div className="w-full md:col-span-7">
             <div className="p-6 rounded-lg contact-form">
               <p className="font-bold mb-3 cm-hd1 text-white">Send us a Message</p>
-              <div id="form-alert" className="alert d-none"></div>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-3">
                   <div className="w-full md:col-span-6">
                     <label className="cmLabel block mb-2 font-medium text-white" aria-label="Name">Name</label>
                     <input type="text" className="cmInpbx border rounded-md p-2 w-full contact-input"
-                      placeholder="Enter your name" name="Name" />
+                      placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} required />
+                    {errors.name ? <p className="text-red-400 text-sm mt-1">{errors.name}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
                     <label className="cmLabel block mb-2 font-medium text-white" aria-label="Email">Email</label>
                     <input type="email" className="cmInpbx border rounded-md p-2 w-full contact-input"
-                      placeholder="Enter your Email" name="Email" />
+                      placeholder="Enter your Email" name="email" value={formData.email} onChange={handleChange} required />
+                    {errors.email ? <p className="text-red-400 text-sm mt-1">{errors.email}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
                     <label className="cmLabel block mb-2 font-medium text-white" aria-label="Country">Country</label>
                     <input type="text" className="cmInpbx border rounded-md p-2 w-full contact-input"
-                      placeholder="Enter your country name" name="country" />
+                      placeholder="Enter your country name" name="country" value={formData.country} onChange={handleChange} required />
+                    {errors.country ? <p className="text-red-400 text-sm mt-1">{errors.country}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
                     <label className="cmLabel block mb-2 font-medium text-white" aria-label="Phone No">Phone No</label>
                     <input type="text" className="cmInpbx border rounded-md p-2 w-full contact-input"
-                      placeholder="Enter your phone no" name="Phone No" />
+                      placeholder="Enter your phone no" name="phone" value={formData.phone} onChange={handleChange} required />
+                    {errors.phone ? <p className="text-red-400 text-sm mt-1">{errors.phone}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
                     <label className="cmLabel block mb-2 font-medium text-white" aria-label="WhatsApp/Telegram/Teams">WhatsApp/Telegram/Teams</label>
                     <input type="text" className="cmInpbx border rounded-md p-2 w-full contact-input"
-                      placeholder="Enter your Id" aria-label="WhatsApp/Telegram/Teams" />
+                      placeholder="Enter your Id" aria-label="WhatsApp/Telegram/Teams" name="messengerId" value={formData.messengerId} onChange={handleChange} required />
+                    {errors.messengerId ? <p className="text-red-400 text-sm mt-1">{errors.messengerId}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
                     <label className="cmLabel block mb-2 font-medium text-white" htmlFor="services-opt">Services</label>
                     <div className="relative w-full">
-                      <select className="cmInpselectbx border rounded-md p-2 w-full contact-input font-sans text-base" id="services-opt">
-                        <option value="" disabled>Enter your Service</option>
+                      <select className="cmInpselectbx border rounded-md p-2 w-full contact-input font-sans text-base" id="services-opt" name="service" value={formData.service} onChange={handleChange} required>
+                        <option value="">Enter your Service</option>
                         <option value="custom-game">Custom Game Development</option>
                         <option value="game-art">Game Art and Designing</option>
                         <option value="web3-game">Web3 Game Development</option>
@@ -61,16 +133,24 @@ export default function Contact() {
                         </svg>
                       </div>
                     </div>
+                    {errors.service ? <p className="text-red-400 text-sm mt-1">{errors.service}</p> : null}
                   </div>
                   <div className="w-full md:col-span-12">
                     <label className="cmLabel block mb-2 font-medium text-white" aria-label="Message">Message</label>
-                    <textarea className="cmInpbx border rounded-md p-2 w-full contact-input" rows={4} name="Message"
+                    <textarea className="cmInpbx border rounded-md p-2 w-full contact-input" rows={4} name="message" value={formData.message} onChange={handleChange} required
                       placeholder="Tell us about your gaming goals and how we can help you..."></textarea>
+                    {errors.message ? <p className="text-red-400 text-sm mt-1">{errors.message}</p> : null}
                   </div>
                   <div className="w-full md:col-span-12 mt-2 text-center">
-                    <button type="submit" className="w-full prim-btn font-semibold py-2 px-4 rounded" aria-label="Send message">
-                      Send message
+                    <button type="submit" className="w-full prim-btn font-semibold py-2 px-4 rounded" aria-label="Send message" disabled={isSubmitting}>
+                      {isSubmitting ? "Sending..." : "Send message"}
                     </button>
+                    <div
+                      id="form-alert"
+                      className={`alert mt-3 text-left ${alert.message ? "" : "d-none"} ${alert.type === "error" ? "text-red-400" : "text-green-400"}`}
+                    >
+                      {alert.message}
+                    </div>
                   </div>
                 </div>
               </form>

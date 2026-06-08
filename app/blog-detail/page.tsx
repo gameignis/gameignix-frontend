@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
+import { redirect } from "next/navigation";
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.gameignix.com/";
 
-const BlogdetailClient = dynamic(
-  () => import("./BlogdetailClient")
-);
-
 export async function generateMetadata(): Promise<Metadata> {
-  const canonical = `${SITE}/blog-detail`;
+  const canonical = `${SITE}/blog`;
   return {
       title: "GameIgnix: Blog",
       description: "Have a game idea or project in mind? Contact GameIgnix today to discuss your requirements and connect with our expert game developers.",
@@ -20,5 +16,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function BlogdetailPageServer() {
-  return <BlogdetailClient />;
+  redirect("/blog");
 }

@@ -1,45 +1,76 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Contact from "@/components/Contact";
 import Image from "next/image";
 import Link from "next/link";
-
-const categories = [
-  "AI Companion",
-  "Meeting and chat",
-  "Phone system",
-  "Workforce management",
-  "App marketplace",
-  "Contact center",
-];
-
-const cardsData = [
-  { category: "App marketplace", image: "/common/blog/blogim2.webp" },
-  { category: "Contact center", image: "/common/blog/blogim3.webp" },
-  { category: "AI Companion", image: "/common/blog/blogim1.webp" },
-  { category: "Phone system", image: "/common/blog/blogim4.webp" },
-  { category: "Meeting and chat", image: "/common/blog/blogim5.webp" },
-  { category: "Workforce management", image: "/common/blog/blogim6.webp" },
-];
+import { getBlogExcerpt, getPublishedBlogs, toBlogHref, type BlogPost } from "@/lib/blogs";
 
 export default function BlogPageServer() {
-
   const [search, setSearch] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let mounted = true;
+
+    async function loadBlogs() {
+      try {
+        const data = await getPublishedBlogs({ page: 1, pageSize: 30 });
+        if (mounted) {
+          setPosts(data.items || []);
+        }
+      } catch {
+        if (mounted) {
+          setPosts([]);
+        }
+      } finally {
+        if (mounted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadBlogs();
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  const categories = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          posts
+            .map((post) => post.category?.name)
+            .filter((name): name is string => Boolean(name))
+        )
+      ),
+    [posts]
+  );
 
   const filteredCards = useMemo(() => {
-    return cardsData.filter((card) =>
-      card.category.toLowerCase().includes(search.toLowerCase())
-    );
-  }, [search]);
+    return posts.filter((post) => {
+      const lowerSearch = search.trim().toLowerCase();
+      const titleMatch = post.title?.toLowerCase().includes(lowerSearch);
+      const categoryName = post.category?.name || "";
+      const categorySearchMatch = categoryName.toLowerCase().includes(lowerSearch);
+      const categoryFilterMatch =
+        !selectedCategory || categoryName.toLowerCase() === selectedCategory.toLowerCase();
+
+      return (!lowerSearch || titleMatch || categorySearchMatch) && categoryFilterMatch;
+    });
+  }, [posts, search, selectedCategory]);
 
   const filteredSuggestions = categories.filter((cat) =>
     cat.toLowerCase().includes(search.toLowerCase())
   );
 
+  const heroPost = filteredCards[0] || posts[0];
+
   return (
     <>
-
       <section className="in-bansc">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">
@@ -54,67 +85,75 @@ export default function BlogPageServer() {
                     <div className="grid grid-cols-1 search-group1 md:grid-cols-2 gap-6">
                       <div className="search-fd1 float-label-field">
                         <div className="input-icon-wrapper relative">
-                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
-                          🔍
-                        </span>
-                        <input
-                          type="text"
-                          value={search}
-                          onChange={(e) => {
-                            setSearch(e.target.value);
-                            setShowSuggestions(true);
-                          }}
-                          placeholder="Search blog posts"
-                          className="w-full inp-tx1 focus:outline-none"
-                        />
-                        <label htmlFor="blog-search" className="floating-label">Search blog posts</label>
-                        {showSuggestions && search && filteredSuggestions.length > 0 && (
-                          <ul className="absolute z-10 suggestion-list">
-                            {filteredSuggestions.map((item) => (
-                              <li
-                                key={item}
-                                onClick={() => {
-                                  setSearch(item);
-                                  setShowSuggestions(false);
-                                }}
-                                className="cursor-pointer suggestion-item"
-                              >
-                                {item}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
+                          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
+                          <input
+                            type="text"
+                            value={search}
+                            onChange={(e) => {
+                              setSearch(e.target.value);
+                              setShowSuggestions(true);
+                            }}
+                            placeholder="Search blog posts"
+                            className="w-full inp-tx1 focus:outline-none"
+                          />
+                          <label htmlFor="blog-search" className="floating-label">
+                            Search blog posts
+                          </label>
+                          {showSuggestions && search && filteredSuggestions.length > 0 && (
+                            <ul className="absolute z-10 suggestion-list">
+                              {filteredSuggestions.map((item) => (
+                                <li
+                                  key={item}
+                                  onClick={() => {
+                                    setSearch(item);
+                                    setShowSuggestions(false);
+                                  }}
+                                  className="cursor-pointer suggestion-item"
+                                >
+                                  {item}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
                         </div>
                       </div>
                       <div className="search-fd2">
-                       <div className="cm-select1">
-                        <select
-                          value={search}
-                          onChange={(e) => setSearch(e.target.value)}
-                          className="styled-select focus:outline-none"
-                        >
-                          <option value="">Select a category</option>
-                          {categories.map((cat) => (
-                            <option key={cat}>{cat}</option>
-                          ))}
-                        </select>
+                        <div className="cm-select1">
+                          <select
+                            value={selectedCategory}
+                            onChange={(e) => setSelectedCategory(e.target.value)}
+                            className="styled-select focus:outline-none"
+                          >
+                            <option value="">Select a category</option>
+                            {categories.map((cat) => (
+                              <option key={cat}>{cat}</option>
+                            ))}
+                          </select>
+                        </div>
+                      </div>
                     </div>
-                   </div>
-                   </div>
                   </div>
                 </form>
               </div>
             </div>
             <div className="w-full md:w-5/12">
               <div className="cm-cardbk1 ms-auto">
-                <span className="categ-tag">AI Companion</span>
-                <Image src="/common/blog/blogim1.webp" className="blog-im1" alt="AI Companion" width="450" height="450" />
+                <span className="categ-tag">{heroPost?.category?.name || "Blog"}</span>
+                <Image
+                  src={heroPost?.imageUrl || "/common/blog/blogim1.webp"}
+                  className="blog-im1"
+                  alt={heroPost?.imageAlt || heroPost?.title || "Blog"}
+                  width={450}
+                  height={450}
+                />
                 <div className="cmcard-rcn1">
-                  <h3 className="cm-hd2">Leveraging agentic AI to power the next evolution of GameIgnix</h3>
+                  <h3 className="cm-hd2">{heroPost?.title || "The latest updates from GameIgnix"}</h3>
                   <p className="para-cnt1">
-                    Learn more about how we’re bringing our agentic AI vision to life and discover how GameIgnix can help you radically transform your workday for the better.
+                    {heroPost ? getBlogExcerpt(heroPost, 180) : "Discover new ideas, insights, and practical guidance from the GameIgnix team."}
                   </p>
-                  <Link href="#" className="link-tx1" aria-label="Read more">Read more →</Link>
+                  <Link href={heroPost ? toBlogHref(heroPost) : "/blog"} className="link-tx1" aria-label="Read more">
+                    Read more →
+                  </Link>
                 </div>
               </div>
             </div>
@@ -125,56 +164,44 @@ export default function BlogPageServer() {
       <section className="ccm-cardsc1">
         <div className="container">
           <div id="cards-container" className="flex flex-wrap">
-            {filteredCards.length === 0 ? (
-              <p className="text-center text-gray-500 text-lg">
-                No blog posts found
-              </p>
+            {loading ? (
+              <p className="text-center text-gray-500 text-lg">Loading blog posts...</p>
+            ) : filteredCards.length === 0 ? (
+              <p className="text-center text-gray-500 text-lg">No blog posts found</p>
             ) : (
-              <div
-                id="cards-container"
-                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
-              >
+              <div id="cards-container" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredCards.map((card, index) => (
-                  <div key={index} className="contents">
+                  <div key={card._id || index} className="contents">
                     <div className="cm-cardbk1">
-                      <Link href="#" className="cm-cardin1">
-                        <Image
-                          src={card.image}
+                      <Link href={toBlogHref(card)} className="cm-cardin1">
+                        <img
+                          src={card.imageUrl || "/common/blog/blogim1.webp"}
                           className="w-full h-48 object-cover blog-im1"
-                          alt={card.category}
-                          width={450}
-                          height={250}
+                          alt={card.imageAlt || card.title || card.category?.name || "Blog"}
                         />
                         <div className="p-6">
-                          <span className="categ-tag">{card.category}</span>
-                          <h3 className="cm-hd2">
-                            Leveraging agentic AI to power the next evolution of GameIgnix
-                          </h3>
+                          <span className="categ-tag">{card.category?.name || "Blog"}</span>
+                          <h3 className="cm-hd2">{card.title}</h3>
                           <p className="para-cnt1">
-                            Learn how our agentic AI vision transforms workday productivity.
+                            {getBlogExcerpt(card, 120) || "Read more from GameIgnix."}
                           </p>
                           <span className="link-tx1">Read more →</span>
                         </div>
                       </Link>
                     </div>
-                    {(index + 1) % 3 === 0 &&
-                      index !== filteredCards.length - 1 && (
-                        <div className="col-span-full">
-                          <div className="ad-bk1">
-                            <h2 className="cm-hd2">
-                              See the latest Zoom innovations you don’t want to miss
-                            </h2>
-                            <Link href="#" className="cm-btn1">
-                              <span>What's New?</span>
-                            </Link>
-                          </div>
+                    {(index + 1) % 3 === 0 && index !== filteredCards.length - 1 && (
+                      <div className="col-span-full">
+                        <div className="ad-bk1">
+                          <h2 className="cm-hd2">See the latest Zoom innovations you don’t want to miss</h2>
+                          <Link href="#" className="cm-btn1">
+                            <span>What&apos;s New?</span>
+                          </Link>
                         </div>
-                      )}
+                      </div>
+                    )}
                   </div>
                 ))}
-
               </div>
-
             )}
           </div>
           <div id="no-results" className="fw-rw" style={{ display: "none" }}>
@@ -197,7 +224,6 @@ export default function BlogPageServer() {
           </div>
         </section>
       </div>
-
     </>
   );
 }

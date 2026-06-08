@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 
+export const runtime = 'edge';
+
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.gameignix.com";
 
 type BlogPageProps = {

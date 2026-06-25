@@ -9,7 +9,7 @@ export default function ContactPageServer() {
     <main className="gradientsc mt-12 pt-12">     
       
     <section className="contactsc" id="footer">
-      <div className="container">
+      <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
           <p className="lead text-gray-400">

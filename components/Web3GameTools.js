@@ -43,7 +43,7 @@ export default function Web3GameTools() {
 
   return (
     <section className="toolsc">
-      <div className="container">
+      <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
             Tools & Technologies We Use for Web3 Game Development

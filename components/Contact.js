@@ -78,7 +78,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="w-full md:col-span-7">
             <div className="p-6 rounded-lg contact-form">
-              <p className="font-bold mb-3 cm-hd1 text-white">Send us a Message</p>
+              <h2 className="uppercase text-center mb-3 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">Send us a Message</h2>
               <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-3">
                   <div className="w-full md:col-span-6">

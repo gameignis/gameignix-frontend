@@ -16,9 +16,9 @@ export default function BlockchainGamePageServer() {
 
     <section className="banner relative"> 
         <div className="ban-mid relative h-full">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="bancn absolute bottom-0 left-0 right-0 text-center">            
-            <h1 className="cm-hd1 font-bold">
+            <h1 className="uppercase text-center my-4 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                Blockchain Game Development Company
             </h1>
             <p className="para-cnt1">
@@ -60,7 +60,7 @@ export default function BlockchainGamePageServer() {
     <main className="gradientsc inngrad">
 
       <section className="aboutsc abtop" id="about-us">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Custom Blockchain Game Development for Web3 and Crypto Games
@@ -106,7 +106,7 @@ export default function BlockchainGamePageServer() {
       </section>
 
       <section className="servicesc3">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Our Blockchain Game Development Services
@@ -226,7 +226,7 @@ export default function BlockchainGamePageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/blockchain-game/game-idea.webp" alt="Have a Vision? We’ll Ignite It!" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
             Have a Vision? We’ll Ignite It!
@@ -243,7 +243,7 @@ export default function BlockchainGamePageServer() {
       </section>
 
       <section className="servicesc2">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Types of Blockchain Games We Develop
@@ -412,7 +412,7 @@ export default function BlockchainGamePageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/blockchain-game/game-build.webp" alt="Hire Expert Game Developers Today" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Hire Expert Game Developers Today
@@ -431,7 +431,7 @@ export default function BlockchainGamePageServer() {
       <Testimonials />
       
       <section className="contactsc" id="footer">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
             <p className="lead text-gray-400">

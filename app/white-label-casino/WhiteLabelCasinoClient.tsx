@@ -17,9 +17,9 @@ export default function WhiteLabelCasinoPageServer() {
 
     <section className="banner relative"> 
         <div className="ban-mid relative h-full">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="bancn absolute bottom-0 left-0 right-0 text-center">            
-            <h1 className="cm-hd1 font-bold">
+            <h1 className="uppercase text-center my-4 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                White Label Casino
             </h1>
             <p className="font-semibold cm-stit text-orange italic">
@@ -64,7 +64,7 @@ export default function WhiteLabelCasinoPageServer() {
     <main className="gradientsc inngrad">
 
       <section className="aboutsc abtop" id="about-us">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
               Inside the World of White Label Casino
@@ -109,7 +109,7 @@ export default function WhiteLabelCasinoPageServer() {
       </section>
 
       <section className="servicesc3">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Key Features of Our White Label Casino Software
@@ -212,7 +212,7 @@ export default function WhiteLabelCasinoPageServer() {
         <Image src="/common/casino-game/game-idea.webp" alt="Your White Label Casino, Ready to Launch" width={1440} height={600} 
          className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
             Your White Label Casino, Ready to Launch
@@ -322,7 +322,7 @@ export default function WhiteLabelCasinoPageServer() {
         <Image src="/common/casino-game/game-build.webp" alt="Connect for Your White Label Casino Needs" width={1440} height={600} 
          className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Connect for Your White Label Casino Needs
@@ -343,7 +343,7 @@ export default function WhiteLabelCasinoPageServer() {
       <WhiteLabelFaq />
       
       <section className="contactsc" id="footer">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
             <p className="lead text-gray-400">

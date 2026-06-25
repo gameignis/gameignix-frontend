@@ -16,9 +16,9 @@ export default function MobileGamePageServer() {
 
     <section className="banner relative"> 
         <div className="ban-mid relative h-full">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="bancn absolute bottom-0 left-0 right-0 text-center">            
-            <h1 className="cm-hd1 font-bold">
+            <h1 className="uppercase text-center my-4 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                Mobile Game Development Company
             </h1>
             <p className="para-cnt1">
@@ -60,7 +60,7 @@ export default function MobileGamePageServer() {
     <main className="gradientsc inngrad">
 
       <section className="innheadsc" id="about-us">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Your Trusted Partner for Mobile Game Development
@@ -75,7 +75,7 @@ export default function MobileGamePageServer() {
       </section>
 
       <section className="servicesc3">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Our Mobile Game Development Services
@@ -178,7 +178,7 @@ export default function MobileGamePageServer() {
       </section>
 
       <section className="aboutsc abtop" id="about-us">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
               We Develop Mobile Games For Diverse Platforms
@@ -238,7 +238,7 @@ export default function MobileGamePageServer() {
         <Image src="/common/mobile-game/game-idea.webp" alt="Fuel Your Game Idea With Fire!" width={1440} height={600} 
          className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Fuel Your Game Idea With Fire!
@@ -403,7 +403,7 @@ export default function MobileGamePageServer() {
       <MobileTeams />
 
       <section className="modelsc">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Our Engagement Models</h2>
             <p className="lead text-gray-400">
@@ -466,7 +466,7 @@ export default function MobileGamePageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/mobile-game/game-build.webp" alt="Need Extra Hands or a Full Development Team?" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Need Extra Hands or a Full Development Team?
@@ -485,7 +485,7 @@ export default function MobileGamePageServer() {
       <Testimonials />
       
       <section className="contactsc" id="footer">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
             <p className="lead text-gray-400">

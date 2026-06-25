@@ -21,9 +21,9 @@ export default function ServicesPageServer() {
 
     <section className="banner relative"> 
         <div className="ban-mid relative h-full">
-          <div className="container mx-auto">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
             <div className="bancn absolute bottom-0 left-0 right-0 text-center">            
-            <h1 className="cm-hd1 font-bold">
+            <h1 className="uppercase text-center my-4 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
               Game Development Services
             </h1>
             <p className="para-cnt1">
@@ -65,7 +65,7 @@ export default function ServicesPageServer() {
     <main className="gradientsc inngrad">
 
       <section className="innheadsc" id="about-us">
-        <div className="container mx-auto">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
           <div className="text-center cm-head2">
             <p className="lead text-gray-400">
               GameIgnix, a premier game development services provider, is trusted by studios and publishers to turn a spark into a fully-realized game. 
@@ -78,7 +78,7 @@ export default function ServicesPageServer() {
       </section>
 
       <section className="servicesc3">
-        <div className="container mx-auto">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
               Our Game Development Services
@@ -171,7 +171,7 @@ export default function ServicesPageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/game-develop/game-idea.webp" alt="Got a Game Idea? Let’s Set It on Fire!" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container mx-auto relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
             Got a Game Idea? Let’s Set It on Fire!
@@ -448,7 +448,7 @@ export default function ServicesPageServer() {
       <WhyChooseGamedevServices />
 
       <section className="modelsc">
-        <div className="container mx-auto">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">We Develop Games For Diverse Platforms</h2>
             <p className="lead text-gray-400">
@@ -539,7 +539,7 @@ export default function ServicesPageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/game-develop/game-build.webp" alt="Yours Could Be Our Next Project!" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container mx-auto relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Yours Could Be Our Next Project!
@@ -561,7 +561,7 @@ export default function ServicesPageServer() {
       <ServicesTeams />
 
       <section className="modelsc">
-        <div className="container mx-auto">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Our Engagement Models</h2>
             <p className="lead text-gray-400">
@@ -626,7 +626,7 @@ export default function ServicesPageServer() {
       <ServicesFaq />
       
       <section className="contactsc" id="footer">
-        <div className="container mx-auto">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
             <p className="lead text-gray-400">

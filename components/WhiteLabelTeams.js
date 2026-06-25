@@ -89,7 +89,7 @@ export default function WhiteLabelTeams() {
 
   return (
     <section className="teamsc affix_sc">
-      <div className="container">
+      <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
            <div className="md:col-span-6">
               <div className="teamlef affix_lef">

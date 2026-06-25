@@ -51,7 +51,7 @@ export default function BlogdetailPageServer() {
     <>
 
       <section className="in-bansc">
-        <div className="container mx-auto">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto mx-auto">
           <div className="flex flex-wrap items-center justify-center">
             <div className="w-full md:w-6/12">
               <div className="inban-lef">
@@ -89,7 +89,7 @@ export default function BlogdetailPageServer() {
       </section>
 
       <section className="pos-mnsc1">
-       <div className="container">
+       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
             <div className="w-full md:col-span-4">
               <div className="pos-stickycn">
@@ -195,7 +195,7 @@ export default function BlogdetailPageServer() {
 
       <div className="blogfoot">
         <section className="contactsc" id="footer">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center cm-head2">
               <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
               <p className="lead text-gray-400">

@@ -72,7 +72,7 @@ export default function BlogPageServer() {
   return (
     <>
       <section className="in-bansc">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="flex flex-wrap items-center justify-center">
             <div className="w-full md:w-7/12">
               <div className="inban-lef">
@@ -162,7 +162,7 @@ export default function BlogPageServer() {
       </section>
 
       <section className="ccm-cardsc1">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div id="cards-container" className="flex flex-wrap">
             {loading ? (
               <p className="text-center text-gray-500 text-lg">Loading blog posts...</p>
@@ -212,7 +212,7 @@ export default function BlogPageServer() {
 
       <div className="blogfoot">
         <section className="contactsc" id="footer">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center cm-head2">
               <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
               <p className="lead text-gray-400">

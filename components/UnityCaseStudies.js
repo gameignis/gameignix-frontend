@@ -60,7 +60,7 @@ export default function CaseStudies() {
 
   return (
     <section className="casestudysc">
-      <div className="container">
+      <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase text-white">
              Our Case Studies on Unity Game Development

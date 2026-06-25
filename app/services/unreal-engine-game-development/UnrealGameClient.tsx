@@ -16,9 +16,9 @@ export default function UnrealGamePageServer() {
 
     <section className="banner relative"> 
         <div className="ban-mid relative h-full">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="bancn absolute bottom-0 left-0 right-0 text-center">            
-            <h1 className="cm-hd1 font-bold">
+            <h1 className="uppercase text-center my-4 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                Unreal Engine Game Development Company
             </h1>    
             <p className="para-cnt1">
@@ -60,7 +60,7 @@ export default function UnrealGamePageServer() {
     <main className="gradientsc inngrad">
 
       <section className="innheadsc" id="about-us">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">            
             <p className="lead text-gray-400">
               GameIgnix is a best-in-class Unreal Engine game development company fueled by an unwavering passion for innovation and creativity in 
@@ -72,7 +72,7 @@ export default function UnrealGamePageServer() {
       </section>
 
       <section className="servicesc3">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
                Our Unreal Engine Game Development Services 
@@ -175,7 +175,7 @@ export default function UnrealGamePageServer() {
         <Image src="/common/unreal-game/game-idea.webp" alt="Your Idea, Our Next Big Game!" width={1440} height={600} 
          className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Your Idea, Our Next Big Game!
@@ -214,7 +214,7 @@ export default function UnrealGamePageServer() {
         <Image src="/common/unreal-game/game-build.webp" alt="Power Up Your Game Development" width={1440} height={600} 
          className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
              Power Up Your Game Development
@@ -375,7 +375,7 @@ export default function UnrealGamePageServer() {
       <Testimonials />
       
       <section className="contactsc" id="footer">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
             <p className="lead text-gray-400">

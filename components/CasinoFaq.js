@@ -58,7 +58,7 @@ export default function CasinoFaq() {
 
   return (
     <section className="faqsc">
-      <div className="container">
+      <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase text-white">
             Frequently Asked Questions

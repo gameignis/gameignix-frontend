@@ -44,7 +44,7 @@ export default function CasinoTeams() {
 
   return (
     <section className="teamsc">
-      <div className="container">
+      <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
            <div className="flex">
               <div className="teamlef">

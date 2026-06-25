@@ -22,9 +22,9 @@ export default function GameArtPageServer() {
 
     <section className="banner relative"> 
         <div className="ban-mid relative h-full">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="bancn absolute bottom-0 left-0 right-0 text-center">            
-            <h1 className="cm-hd1 font-bold">
+            <h1 className="uppercase text-center my-4 text-[26px] md:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
               Game Art Services
             </h1>
             <p className="font-semibold cm-stit text-orange-500 italic">
@@ -69,7 +69,7 @@ export default function GameArtPageServer() {
     <main className="gradientsc inngrad">
 
       <section className="innheadsc" id="about-us">
-          <div className="container">
+          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center cm-head2">
               <h2 className="cm-title font-bold uppercase text-white">
                 Your Trusted Game Art Studio 
@@ -85,7 +85,7 @@ export default function GameArtPageServer() {
       </section>
 
       <section className="servicesc3">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">
               Video Game Art Services We Offer
@@ -258,7 +258,7 @@ export default function GameArtPageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/game-art/game-idea.webp" alt="Bring Your Game Worlds to Life with Stunning Art" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
             Bring Your Game Worlds to Life with Stunning Art
@@ -374,7 +374,7 @@ export default function GameArtPageServer() {
       <ArtTeams />
 
       <section className="modelsc">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Engagement Models At Our Game Art Development Company</h2>
             <p className="lead text-gray-400">
@@ -433,7 +433,7 @@ export default function GameArtPageServer() {
       <section className="adsc relative text-center text-white flex items-end">
         <Image src="/common/game-art/game-build.webp" alt="Choose Your Model, Start Your Project" width={1440} height={600} className="adim absolute inset-0 w-full h-full object-cover" />
         <div className="overlay"></div>
-        <div className="container relative py-12">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12">
           <div className="text-center cm-head2">
           <h2 className="cm-title font-bold uppercase">
             Choose Your Model, Start Your Project
@@ -454,7 +454,7 @@ export default function GameArtPageServer() {
       <Testimonials />
 
       <section className="contactsc" id="footer">
-        <div className="container">
+        <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center cm-head2">
             <h2 className="cm-title font-bold uppercase text-white">Contact Us</h2>
             <p className="lead text-gray-400">

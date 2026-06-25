@@ -90,54 +90,54 @@ export default function Navbar() {
                                 <ul className="dropdown-menu mega-menu lg:absolute lg:top-full w-full flex flex-col lg:flex-row gap-2" >
                                     <div className="col lg:w-1/2 space-y-2">
                                         <li>
-                                            <Link className="nav-droplink" href="/services" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Game Development Services" href="/services" onClick={closeMobileMenu}>
                                              Game Development Services
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/game-art-services" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Game Art Services" href="/game-art-services" onClick={closeMobileMenu}>
                                              Game Art Services
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/web3-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Web3 Game Development" href="/services/web3-game-development" onClick={closeMobileMenu}>
                                              Web3 Game Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/slot-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Slot Game Development" href="/services/slot-game-development" onClick={closeMobileMenu}>
                                              Slot Game Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/unity-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Unity Game Development" href="/services/unity-game-development" onClick={closeMobileMenu}>
                                              Unity Game Development
                                             </Link>
                                         </li>
                                     </div>
                                     <div className="col lg:w-1/2 space-y-2">
                                         <li>
-                                            <Link className="nav-droplink" href="/services/mobile-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Mobile Game Development" href="/services/mobile-game-development" onClick={closeMobileMenu}>
                                              Mobile Game Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/casino-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Casino Game Development" href="/services/casino-game-development" onClick={closeMobileMenu}>
                                              Casino Game Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/unreal-engine-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Unreal Engine Game Development" href="/services/unreal-engine-game-development" onClick={closeMobileMenu}>
                                              Unreal Engine Game Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/blockchain-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Blockchain Game Development" href="/services/blockchain-game-development" onClick={closeMobileMenu}>
                                               Blockchain Game Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="nav-droplink" href="/services/poker-game-development" onClick={closeMobileMenu}>
+                                            <Link className="nav-droplink" aria-label="Poker Game Development" href="/services/poker-game-development" onClick={closeMobileMenu}>
                                               Poker Game Development
                                             </Link>
                                         </li>

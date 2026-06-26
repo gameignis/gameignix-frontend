@@ -72,7 +72,8 @@ export default function Portfolio() {
                   src={item.portimg}
                   alt={item.title}
                   width={320}
-                  height={180}
+                  height={180} 
+                  loading="lazy" 
                   className="w-full h-auto object-cover"
                 />
 

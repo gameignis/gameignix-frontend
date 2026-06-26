@@ -9,6 +9,22 @@ body {  background: #000; color: #fff; font-family: var(--font-montserrat);}
 a, button{transition: 0.5s ease-in-out all 0s;-webkit-transition: 0.5s ease-in-out all 0s;}
 h1, h2, h3, h4, h5, h6{font-family: var(--font-orbitron);}
 
+.slick-dots li.slick-active button::before {opacity: .75;color: #FC7400;width: 40px;height: 17px;background: #FC7400;border-radius: 10px;}
+.slick-dots li button {font-size: 0;line-height: 0;display: block;width: 20px;height: 20px;padding: 5px;cursor: pointer;color: transparent;
+  border: 0;outline: none;background: transparent;}
+.slick-dots li.slick-active { margin-right: 25px;}
+.cmslickwrap .slick-dots li button:before {font-size: 10px;color: #fff;opacity: 0.75;}
+.cmslickwrap .slick-dots {bottom: -20px;}
+.cmslickwrap .slick-dots li.slick-active button:before {color: #fc7400;opacity: 1;}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  .cmslickwrap .slick-dots li{margin: 0;}
+  .cmslickwrap .slick-dots li.slick-active{margin-right: 20px;}
+  .cmslickwrap .slick-dots li button{padding: 0;}
+  .case-slider .slick-track {display: flex !important;align-items: stretch;}
+  .case-slider .slick-slide {padding: 0 15px;}
+}
+
 .banner:after{content: "";position: absolute;left: 0;top: 0; background: rgba(0,0,0,0.4); width: 100%; height: 100%;z-index: 2;}
 .banner:before{content:"";position:absolute;width:100%;height:30%;left:0;bottom:0;z-index:2;
  background:linear-gradient(0deg, #000 50%, rgba(17, 86, 113, 0) 100%);}
@@ -129,13 +145,7 @@ background: #fc7400;opacity: 0.3;-webkit-opacity: 0.3;}
 .content-slider .slick-slide {padding: 0 8px;}
 .content-slider .slick-track {display: flex !important;align-items: stretch;}
 .content-slider .slick-slide {height: auto;}
-.slick-dots li.slick-active button::before {opacity: .75;color: #FC7400;width: 40px;height: 17px;background: #FC7400;border-radius: 10px;}
-.slick-dots li button {font-size: 0;line-height: 0;display: block;width: 20px;height: 20px;padding: 5px;cursor: pointer;color: transparent;
-  border: 0;outline: none;background: transparent;}
-.slick-dots li.slick-active { margin-right: 25px;}
-.cmslickwrap .slick-dots li button:before {font-size: 10px;color: #fff;opacity: 0.75;}
-.cmslickwrap .slick-dots {bottom: -20px;}
-.cmslickwrap .slick-dots li.slick-active button:before {color: #fc7400;opacity: 1;}
+
 
 
 .casestudysc{padding: 0 0 2rem;}
@@ -601,8 +611,6 @@ white-space: nowrap;}
   .slick-dots{padding-inline: 2rem;left: 0;}
   .slick-dots li{width: 10px;height: 10px;}
   .slick-dots li.slick-active button:before{width: 30px;height: 10px;left: 5px;font-size: 0;top: 5px;}
-  .case-slider .slick-track {display: flex !important;align-items: stretch;}
-  .case-slider .slick-slide {padding: 0 15px;}
   .case-box {padding: 20px; margin: 0 0px 1rem;}
   .case-tit{font-size: 18px;line-height: 24px;}
   .case-box .para-cnt1 {font-size: 13px;line-height: 20px;}
@@ -700,9 +708,6 @@ white-space: nowrap;}
   .telegram-btn{font-size: 15px;}
   .cm-gim img {height: 40px;object-fit: contain;margin-left: -14px;margin-bottom: 10px;}
   .container{padding-left: 15px;padding-right: 15px;}
-  .cmslickwrap .slick-dots li{margin: 0;}
-  .cmslickwrap .slick-dots li.slick-active{margin-right: 20px;}
-  .cmslickwrap .slick-dots li button{padding: 0;}
   .toolsc .tech-category{  margin: 0 2px;  font-size: 15px;    padding: 6px 0;}
   .tech-categlis {gap: 0.25rem;}
 }

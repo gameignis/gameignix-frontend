@@ -353,7 +353,7 @@ export default function Home() {
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 Our Ga͏me Portfolio
               </h2>
-              <p className="font-semibold tracking-[0px] md:tracking-[1px] my-[0.8rem] md:text-[24px] text-[16px] text-orange italic uppercase">
+              <p className="font-semibold tracking-[0px] md:tracking-[1px] my-[0.8rem] md:text-[24px] text-[16px] text-[#ff8600] italic uppercase">
                 Recent Projects We Have Completed
               </p>
               <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
@@ -397,7 +397,7 @@ export default function Home() {
 
           <Teams />
 
-          <section className="modelsc">
+          <section className="py-12">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
                 <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Our Engagement Models</h2>
@@ -407,47 +407,47 @@ export default function Home() {
                   on progress.
                 </p>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="flex">
-                <div className="model-in h-full w-full">
-                <div className="modelim">
-                <Image src="/common/dedicated-team.webp" alt="Dedicated Team" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
-                </div>
-                <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
-                  Dedicated Team
-                </h3>
-                <p className="text-[15px] leading-[24px] md:text-[16px] text-center">
-                  Our dedicated team model provides businesses with full-time, committed game developers who harness advanced 
-                  technologies and industry best practices to deliver top-tier gaming solutions tailored to your unique needs.
-                </p>
-                </div>
-                </div>
-                <div className="flex">
-                <div className="model-in h-full w-full">
-                <div className="modelim">
-                  <Image src="/common/team-extension.webp" alt="Team Extension" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
-                </div>
-                <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
-                  Team Extension
-                </h3>
-                <p className="text-[15px] leading-[24px] md:text-[16px] text-center">
-                  Our team extension model enables businesses to scale their development teams by adding skilled game developers 
-                  who bring the required expertise for their projects, while aligning with existing workflows and processes.
-                </p>
-                </div>
-                </div>
-                <div className="flex">
-                  <div className="model-in h-full w-full">
-                  <div className="modelim">
-                    <Image src="/common/project-based-model.webp" alt="Project-Based Model" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                    <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
+                      <Image src="/common/dedicated-team.webp" alt="Dedicated Team" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
+                    </div>
+                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
+                      Dedicated Team
+                    </h3>
+                    <p className="text-[15px] leading-[24px] md:text-[16px] mb-4 text-center">
+                      Our dedicated team model provides businesses with full-time, committed game developers who harness advanced 
+                      technologies and industry best practices to deliver top-tier gaming solutions tailored to your unique needs.
+                    </p>
                   </div>
-                  <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
-                    Project-Based Model
-                  </h3>
-                  <p className="text-[15px] leading-[24px] md:text-[16px] text-center">
-                    Our project-driven approach, backed by experienced game development specialists, ensures efficient 
-                    collaboration and successful delivery of your gaming project within a defined scope, timeline, and budget. 
-                  </p>
+                </div>
+                <div className="flex">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                    <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
+                      <Image src="/common/team-extension.webp" alt="Team Extension" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
+                    </div>
+                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
+                      Team Extension
+                    </h3>
+                    <p className="text-[15px] leading-[24px] md:text-[16px] mb-4 text-center">
+                      Our team extension model enables businesses to scale their development teams by adding skilled game developers 
+                      who bring the required expertise for their projects, while aligning with existing workflows and processes.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                    <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
+                      <Image src="/common/project-based-model.webp" alt="Project-Based Model" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
+                    </div>
+                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
+                      Project-Based Model
+                    </h3>
+                    <p className="text-[15px] leading-[24px] md:text-[16px] mb-4 text-center">
+                      Our project-driven approach, backed by experienced game development specialists, ensures efficient 
+                      collaboration and successful delivery of your gaming project within a defined scope, timeline, and budget. 
+                    </p>
                   </div>
                 </div>
               </div>

@@ -44,21 +44,21 @@ export default function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(1);
 
   return (
-    <section className="testimsc">
+    <section className="py-4 pb-12">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
-        <div className="text-center cm-head2">
+        <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
           <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
             Trusted By Happy Clients
           </h2>
-          <p className="font-semibold cm-stit text-orange italic">
+          <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[1rem] md:text-[24px] text-[16px] text-orange italic">
             Dedicated Partner For Leading Brands and Startups
           </p>
-          <p className="lead text-gray-400">
+          <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
             Our success is driven by strong, long-lasting relationships that we have built with game developers, studios, and businesses of 
             all sizes, delivering exceptional gaming solutions that exceed expectations.
           </p>
         </div>
-        <div className="testim-wrapper relative">
+        <div className="relative mx-auto w-full md:w-[80%] pb-10">
         <Swiper
           modules={[Navigation]}
           slidesPerView={1}
@@ -74,43 +74,36 @@ export default function Testimonials() {
         >
           {testimonials.map((item, index) => (
             <SwiperSlide key={index} className="testimonial">
-              <div className="testimonial-inner">
-                <div className="testimonial-image">
-                <Image
-                  src={item.image}
-                  alt={item.name}
-                  width={120}
-                  height={120}
-                  className="max-w-full h-auto flex-shrink-0"
-                />
+              <div className="flex flex-col md:flex-row items-center gap-[30px] w-[99%] rounded-[10px] border border-[#301c0c] bg-gradient-to-r from-[#1a0e0e] to-[#140505] p-6">
+                <div className="w-[200px] rounded-[4px] h-auto overflow-hidden hidden md:flex">
+                <Image src={item.image} alt={item.name} width={120} height={120} className="h-auto w-[200px] rounded-[4px] object-cover" />
                 </div>
-                <div className="testimonial-content">
-                  <p className="testimonial-text">
+                <div className="flex-1 md:pr-5">
+                  <p className="mb-[15px] text-[15px] md:text-[16px] leading-[24px] text-[#eee]">
                     {item.text}
                   </p>
-                  <p className="testimonial-author">
-                    <strong>{item.name}</strong>
+                  <p className="mt-4 mb-0 text-[15px] md:text-[16px] leading-[24px] text-white">
+                    <span className="font-bold">{item.name}</span>
                     <br />
-                    <span className="designation">{item.role}</span>
+                    <span className="font-normal text-[#ff7a00]">{item.role}</span>
                   </p>                  
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="custom-arrows-wrapper flex justify-center items-center gap-4 mt-6">                   
-          <button className="slick-prev slick-arrow" type="button">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round"
-             strokeLinejoin="round" className="w-8 h-8">
+        <div className="custom-arrows-wrapper absolute min-w-[150px] right-[12px] -bottom-[15px] flex justify-center items-center gap-4 mt-6">                   
+          <button className="slick-prev slick-arrow" type="button" aria-label="previous navigation">
+            <svg viewBox="0 0 24 20" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8">
               <path d="M10 4l-6 6 6 6" />
               <path d="M5 10h15" />
             </svg>
           </button>
-          <span className="testimonial-counter text-white">
+          <span className="block min-w-[120px] pl-0 mt-[9px] text-left text-[24px] leading-[34px] text-white">
             {activeIndex}/{testimonials.length}
           </span>
-          <button className="slick-next slick-arrow" type="button">
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round"
+          <button className="slick-next slick-arrow" type="button" aria-label="next navigation">
+           <svg viewBox="0 0 24 20" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round"
              strokeLinejoin="round" className="w-8 h-8">
               <path d="M10 4l6 6-6 6" />
               <path d="M1 10h15" />

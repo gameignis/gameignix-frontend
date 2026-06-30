@@ -43,44 +43,44 @@ export default function Teams() {
   const MidCol = teamsData;
 
   return (
-    <section className="teamsc">
+    <section className="py-[1rem] md:py-[3rem]">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
            <div className="flex">
-              <div className="teamlef">
-                <div className="cm-head2">
-                <h2 className="cm-title font-bold uppercase">
+             <div className="w-full">
+              <div className="w-full">
+                <h2 className="uppercase text-left mt-4 mb-5 text-[24px] leading-[32px] md:text-[30px] lg:text-[32px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                 W͏ho Will Work On ͏Your͏ Project?
                 </h2>
-                <p className="font-semibold cm-stit text-orange italic">
+                <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-6 lg:text-[24px] text-[20px] text-[#ff8600] italic">
                 Meet The Igniters of Your Game
                 </p>
-                <p className="lead text-gray-400">
+                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
                 From creative artists to technical developers, our versatile team of talented professionals brings passion, 
                 creativity, and expertise to every project.
                 </p>
-                </div>
-                <div className="teamim">
-                  <Image src="/common/game-development-team.webp" alt="Game Development Team" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
-                </div>
               </div>
+              <div className="my-[1rem] pr-6">
+                <Image src="/common/game-development-team.webp" alt="Game Development Team" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
+              </div>
+             </div>
            </div>
            <div className="flex">
-             <div className="accord-flush w-full">
+             <div className="w-full space-y-3">
               {MidCol.map((item, index) => (
-                <div key={index} onClick={() => toggleItem(index)} className={`accord-item faq-item mb-3 ${ openIndex === index ? "text-primary" : "" }`}>
-                  <h3 className="accordion-header font-semibold">
-                  <button onClick={() => toggleItem(index)} type="button" aria-label={item.question}
-                    className={`accord-btn relative text-left w-full fw-medium text-white ${openIndex === index ? "" : "toggled"}`}>
-                    {item.question}                    
-                  </button>
+                <div key={index} className="mb-3 border-b border-white bg-transparent rounded-none pt-[10px] pb-[17px]">
+                  <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[32px] font-semibold">
+                    <button type="button" aria-label={item.question} onClick={() => toggleItem(index)} className="relative w-full pl-[60px] pr-[10px] py-[17px] text-left text-white">
+                      <Image src="/common/arrow1.webp" alt="arrow" width={34} height={34} className={`absolute left-[2px] top-[16px] transition-transform duration-300 ease-in-out ${ openIndex === index ? "rotate-180" : "rotate-0" }`} /> 
+                      {item.question}
+                    </button>
                   </h3>
                   {openIndex === index && (
-                    <div className="accord-cn text-white" dangerouslySetInnerHTML={{ __html: item.answer }} />
+                    <div className="border-t border-[#ff8600] px-[10px] py-4 text-[15px] md:text-[16px] leading-[24px] text-white" dangerouslySetInnerHTML={{ __html: item.answer }} />
                   )}
                 </div>
-                ))}
-              </div>
+              ))}
+            </div>
            </div>
         </div>
       </div>

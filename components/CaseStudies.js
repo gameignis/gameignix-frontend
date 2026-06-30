@@ -59,13 +59,13 @@ export default function CaseStudies() {
   };
 
   return (
-    <section className="pb-8">
+    <section className="pb-16">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-          <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
+          <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
             Our Case Studies
           </h2>
-          <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+          <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
             Behind every great game is a story of challenge, creativity, and collaboration. Discover the journey behind our most iconic creations.
           </p>
         </div>
@@ -73,28 +73,28 @@ export default function CaseStudies() {
         <div className="case-slider cmslickwrap">
           <Slider {...settings}>
             {CaseStudiesdata.map((item, i) => (
-              <div key={i} className="relative p-[50px] m-0 after:content-[''] after:absolute after:left-[5px] after:top-0 after:w-[99%] after:h-[99%] after:bg-white/5 after:border after:border-white/30 after:rounded-[15px] after:pointer-events-none">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div key={i} className="relative p-[20px] lg:p-[50px] m-0 after:content-[''] after:absolute after:left-[5px] after:top-0 after:w-[99%] after:h-[99%] after:bg-white/5 after:border after:border-white/30 after:rounded-[15px] after:pointer-events-none">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
                   <div className="flex flex-col gap-1">
                     <div className="md:mb-4 mb-3">
-                      <h3 className="text-[19px] leading-[26px] md:text-[28px] md:leading-[38px] mb-4 font-bold uppercase text-[#ff8600]">{item.title}</h3>
-                      <p className="text-[15px] md:text-[16px] leading-[24px] mb-4 text-white">{item.desc}</p>
+                      <h3 className="text-[19px] leading-[26px] md:text-[24px] lg:text-[28px] md:leading-[38px] mb-4 font-bold uppercase text-[#ff8600]">{item.title}</h3>
+                      <p className="text-[15px] lg:text-[16px] leading-[24px] mb-2 lg:mb-4 text-white">{item.desc}</p>
                     </div>
-                    <div className="flex flex-wrap w-full items-center gap-2 mb-[5px] [&_span]:text-[15px] [&_span]:md:text-[16px] [&_span]:leading-[24px]">
+                    <div className="flex flex-wrap w-full items-center gap-2 mb-[3px] lg:mb-[5px] [&_span]:text-[15px] [&_span]:lg:text-[16px] [&_span]:leading-[24px]">
                       <span className="icon">
                         <Image src="/common/genre-icon.webp" alt="Genre" width={28} height={28} className="max-w-full h-auto flex-shrink-0" />
                       </span>
                       <span className="text-[#ff8600]">Genre:</span>
                       <span className="text-white">{item.desc1}</span>
                     </div>
-                    <div className="flex flex-wrap w-full items-center gap-2 mb-[5px] [&_span]:text-[15px] [&_span]:md:text-[16px] [&_span]:leading-[24px]">
+                    <div className="flex flex-wrap w-full items-center gap-2 mb-[3px] lg:mb-[5px] [&_span]:text-[15px] [&_span]:lg:text-[16px] [&_span]:leading-[24px]">
                       <span className="icon">
                         <Image src="/common/platform-icon.webp" alt="Platform" width={28} height={28} className="max-w-full h-auto flex-shrink-0" />
                       </span>
                       <span className="text-[#ff8600]">Platform:</span>
                       <span className="text-white">{item.desc2}</span>
                     </div>
-                    <div className="flex flex-wrap w-full items-center gap-2 mb-[5px] [&_span]:text-[15px] [&_span]:md:text-[16px] [&_span]:leading-[24px]">
+                    <div className="flex flex-wrap w-full items-center gap-2 mb-[3px] lg:mb-[5px] [&_span]:text-[15px] [&_span]:lg:text-[16px] [&_span]:leading-[24px]">
                       <span className="icon">
                         <Image src="/common/engine-icon.webp" alt="Engine" width={28} height={28} className="max-w-full h-auto flex-shrink-0" />
                       </span>

@@ -32,6 +32,18 @@ min-width: 120px;margin-top: 9px; }
 .custom-arrows-wrapper .slick-prev svg, .custom-arrows-wrapper .slick-next svg {  position: absolute;  top: 0;}
 .custom-arrows-wrapper .slick-prev:hover svg, .custom-arrows-wrapper .slick-next:hover svg {color: #fff;}
 .custom-arrows-wrapper .slick-prev:focus svg, .custom-arrows-wrapper .slick-next:focus svg{color: #fff;}
+.animate-progress {
+  animation: progress 25s linear forwards;
+}
+
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width:320px) and (max-width:767px) {
   .cmslickwrap .slick-dots li{margin: 0;}
@@ -40,6 +52,19 @@ min-width: 120px;margin-top: 9px; }
   .case-slider .slick-track {display: flex !important;align-items: stretch;}
   .case-slider .slick-slide {padding: 0 15px;}
 }
+
+@media screen and (min-width:1016px) and (max-width:1165px) {
+.portfolio-card{width: 300px !important;}
+}
+
+@media screen and (min-width:991px) and (max-width:1017px) {
+.portfolio-card{width: 280px !important;}
+}
+
+@media screen and (min-width:769px) and (max-width:990px) {
+.portfolio-card{width: 210px !important;}
+}
+
 
 .banner:after{content: "";position: absolute;left: 0;top: 0; background: rgba(0,0,0,0.4); width: 100%; height: 100%;z-index: 2;}
 .banner:before{content:"";position:absolute;width:100%;height:30%;left:0;bottom:0;z-index:2;
@@ -138,6 +163,12 @@ right: 10px;position: absolute;top: 20px;}
 .portfolio-slider .slick-slide::after{content: "";position: absolute;width: 100%;height: 100%;left: 0;top: 0;background: rgba(0,0,0,0.4);}
 .portfolio-slider .slick-slide .port-cn{z-index: 2;}
 
+.slick-slider.portfolioin-slider .slick-list{padding: 60px !important;}
+.slick-slider.portfolioin-slider .slick-slide{border-radius: 20px;}
+.slick-slider.portfolioin-slider .slick-center{transform: scaleY(1.1);-webkit-transform: scaleY(1.1);filter: drop-shadow(0px 0px 6px #FC7400);-webkit-filter: drop-shadow(0px 0px 6px #FC7400);}
+.slick-slider.portfolioin-slider .slick-center .arrow2{transform: scaleY(0.9091);-webkit-transform: scaleY(0.9091);right: 20px;width: 34px;height: 34px;}
+
+
 .cmcontentsc{padding: 2rem 0;}
 .content-slider {position: relative;}
 .content-slider:after {content: "";position: absolute;width: 400px;height: 200px;border-radius: 50% / 50%;
@@ -158,11 +189,14 @@ background: #fc7400;opacity: 0.3;-webkit-opacity: 0.3;}
 .content-bk .cm-gbx{display: flex;flex-direction: column;justify-content: center;min-height: 350px;
   background: linear-gradient(150deg, rgba(242, 239, 236, 0.44) 0%, rgba(150, 69, 0, 0.14) 100%);}
 .content-bk .cm-gbxin {flex: 1;display: flex;flex-direction: column;justify-content: center;height: 100%;}
-.content-slider .slick-slide {padding: 0 8px;}
+
 .content-slider .slick-track {display: flex !important;align-items: stretch;}
 .content-slider .slick-slide {height: auto;}
+.case-slider .slick-list {padding-bottom: 40px;}
 
-
+@media screen and (min-width:900px) {
+  .content-slider .slick-slide {padding: 0 8px;}
+}
 
 .casestudysc{padding: 0 0 2rem;}
 .case-box {  padding: 50px;        margin: 0;}
@@ -242,23 +276,18 @@ transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition: tran
 .how-rev .affim{top: 0;margin: 0;left: auto;display: flex;right: -12px;justify-content: flex-end;}
 .affrig {padding-right: 20px;}
 
-.toolsc{padding: 2rem 0 4rem;}
-.toolsc .cm-head2{padding-bottom: 0;}
 .tab-wrapper {padding: 2rem 1rem;}
 .nav-tabs {border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
-.toolsc .tech-category {border: none;color: rgba(255, 255, 255, 0.6);font-weight: 500;margin: 0 20px;background: transparent;font-size: 20px;
-padding: 15px 0;}
-.toolsc .tech-category.active {color: #ff8600; background: transparent;}
+.tech-progress-wrapper .tech-category.active {color: #ff8600; background: transparent;}
 .tech-card-row {margin-top: 4rem;}
 .tech-card { background: rgba(255, 255, 255, 0.05);  margin-top: 2px; padding:1.1rem 1.2rem;border-radius: 8px;color: #fff;border: 1px solid #ffffff73;
   text-align: center;flex: 0 1 auto;transition: 0.3s ease; cursor: pointer;display: flex;align-items: center;justify-content: center;min-height: 80px;}
 .tech-card img{max-width:100%;object-fit: contain;  max-height: 40px;}
 .tech-card span {display: block;font-size: 14px;}
 .tech-card:hover {background: rgba(255, 255, 255, 0.15);}
-.tech-category {transition: color 0.3s ease;-webkit-transition: color 0.3s ease;}
 .tech-category.active {color: #fff;}
-.progress-line {position: relative;height: 2px;width: 0%; background: white;animation: fillProgress 25s linear forwards infinite;
--webkit-animation: fillProgress 25s linear forwards infinite; margin-bottom: 1rem;top:-1px;}
+.progress-line {width: 0%; background: white;animation: fillProgress 25s linear forwards infinite;
+-webkit-animation: fillProgress 25s linear forwards infinite; top:-1px;}
 .progress-line.animate {width: 100%;}
 
 @keyframes fillProgress {
@@ -269,8 +298,7 @@ padding: 15px 0;}
 }
 
 .tech-card-row { overflow: hidden; display: flex;}
-.scrollimgs { white-space: nowrap; animation: 25s linear infinite animslide; -webkit-animation: 25s linear infinite animslide;
-    display: flex; align-items: center; flex-shrink: 0; gap: 2.75rem;}
+.scrollimgs { animation: 25s linear infinite animslide; -webkit-animation: 25s linear infinite animslide; }
 .scrollimgs:hover { animation-play-state: paused;}
 
 @keyframes animslide {
@@ -699,17 +727,11 @@ white-space: nowrap;}
   .serv-rwin1 .serv-lefrad {border-radius: 20px 50px 20px 20px;}
   .serv-rwin1 .serv-rigrad {border-radius: 50px 20px 20px 20px;}
   .serv-rwin2 .serv-imob{position: absolute;}
-  .adsc .py-5 {padding-top: 0 !important;padding-bottom: 0 !important;}
   .serv-rwin2 .serv-lefrad, .serv-rwin2 .serv-rigrad{padding: 15px;}
   .serv-rwin2 .serv-lef{padding-left: 10px;}
   .portfoliosc .cm-head2{padding-bottom: 0;}
   .bancn.innbancn{top:100px;}
   .serv-rwin1{padding: 10px 0;}
-  .whatsapp-btn{font-size: 15px;}
-  .telegram-btn{font-size: 15px;}
-  .cm-gim img {height: 40px;object-fit: contain;margin-left: -14px;margin-bottom: 10px;}
-  .container{padding-left: 15px;padding-right: 15px;}
-  .toolsc .tech-category{  margin: 0 2px;  font-size: 15px;    padding: 6px 0;}
   .tech-categlis {gap: 0.25rem;}
 }
 

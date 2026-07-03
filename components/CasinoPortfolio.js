@@ -21,7 +21,9 @@ const CasinoPortfolioData = [
   { portimg: "/common/coinquest-rise.webp", title: "CoinQuest: Rise of Guilds", desc: "Play to Earn" },
   { portimg: "/common/cinder-clash.webp", title: "Cinder Clash", desc: "Action Combat" },
 ];
+
 export default function CasinoPortfolio() {
+
   const [mounted, setMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -45,7 +47,7 @@ export default function CasinoPortfolio() {
     infinite: true,
     speed: 400,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 5000, 
   };
 
   const mobileSettings = {
@@ -60,30 +62,32 @@ export default function CasinoPortfolio() {
   };
 
   return (    
-      <div className="slickwrapper cmslickwrap">
-        <Slider
-        key={isMobile ? "mobile" : "desktop"}
-        {...(isMobile ? mobileSettings : desktopSettings)}
-        >
-          {CasinoPortfolioData.map((item, i) => (
-            <div key={i} style={{ width: 320 }} className="px-3">
-              <div className="relative rounded-xl overflow-hidden">
-                <Image
-                  src={item.portimg}
-                  alt={item.title}
-                  width={320}
-                  height={180}
-                  className="w-full h-auto object-cover"
-                />
-
-                <div className="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/70">
-                  <p className="text-white font-bold">{item.title}</p>
-                  <p className="text-sm text-gray-300">{item.desc}</p>
-                </div>
+    <div className="slickwrapper cmslickwrap">
+      <Slider className="portfolioin-slider" key={isMobile ? "mobile" : "desktop"} {...(isMobile ? mobileSettings : desktopSettings)}>
+        {CasinoPortfolioData.map((item, i) => (
+          <div key={i} className="portfolio-card px-3 relative h-[420px] rounded-[20px] overflow-hidden">
+            <div className="relative h-full rounded-[20px] overflow-hidden">
+              <Image
+                src={item.portimg}
+                alt={item.title}
+                width={320}
+                height={420}
+                className="w-full h-full object-cover rounded-[20px]"
+              />
+              <div className="absolute inset-0 bg-black/40 z-[1] rounded-[20px]" />
+              <div className="absolute left-0 z-10 flex flex-col bottom-0 right-0 p-[10px_60px_20px_25px]">
+                <p className="text-white font-semibold text-[15px] leading-[24px] font-orbitron my-[4px] text-left">
+                    {item.title}
+                </p>
+                <p className="text-white text-[13px] leading-[16px] m-0">
+                    {item.desc}
+                </p>
+                <span className="arrow2 cursor-pointer"></span>
               </div>
             </div>
-          ))}
-        </Slider>
-      </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 }

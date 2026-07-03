@@ -50,10 +50,10 @@ export default function Testimonials() {
           <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
             Trusted By Happy Clients
           </h2>
-          <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[1rem] md:text-[24px] text-[16px] text-orange italic">
+          <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[1rem] md:text-[24px] text-[17px] text-orange italic">
             Dedicated Partner For Leading Brands and Startups
           </p>
-          <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+          <p className="text-[15px] md:text-[16px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
             Our success is driven by strong, long-lasting relationships that we have built with game developers, studios, and businesses of 
             all sizes, delivering exceptional gaming solutions that exceed expectations.
           </p>
@@ -99,7 +99,7 @@ export default function Testimonials() {
               <path d="M5 10h15" />
             </svg>
           </button>
-          <span className="block min-w-[120px] pl-0 mt-[9px] text-left text-[24px] leading-[34px] text-white">
+          <span className="block min-w-[120px] pl-0 mt-[9px] text-left text-[20px] md:text-[24px] leading-[34px] text-white">
             {activeIndex}/{testimonials.length}
           </span>
           <button className="slick-next slick-arrow" type="button" aria-label="next navigation">

@@ -52,13 +52,13 @@ export default function WhyChoosePokerGameSlider() {
   };
 
   return (
-    <section className="cmcontentsc">
+    <section className="pt-[2rem] md:pt-[3rem] pb-[3rem] md:pb-[6rem]">
       <div className="w-full px-4">
-        <div className="text-center cm-head2">
-          <h2 className="cm-title font-bold uppercase text-white">
+        <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
+          <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
              Why GameIgnix is a Trusted Name in Poker Game Development
           </h2>
-          <p className="lead text-gray-400">
+          <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
             Choosing the proper game development studio is crucial for your game's success. GameIgnix specializes in poker game development, delivering 
             scalable, high-performance poker games tailored to your vision. We build custom poker games from scratch, not templates, with real-money 
             play, secure multiplayer, and cross-platform compatibility. Our agile and transparent process ensures that every gameplay detail is executed 
@@ -66,16 +66,13 @@ export default function WhyChoosePokerGameSlider() {
           </p>
         </div>
         <div className="content-slider cmslickwrap">
-          <Slider
-          key={isMobile ? "mobile" : "desktop"}
-          {...(isMobile ? mobileSettings : desktopSettings)}
-          >
+          <Slider key={isMobile ? "mobile" : "desktop"} {...(isMobile ? mobileSettings : desktopSettings)}>
             {WhyChoosePokerGamedata.map((item, i) => (
-              <div key={i} className="px-2 content-bk">
-                <div className="cm-gbx h-full">
-                  <div className="cm-gbxin">
-                    <h3 className="cm-hd4">{item.title}</h3>
-                    <p className="para-cnt1">{item.desc}</p>
+              <div key={i}>
+                <div className="my-4 flex h-full md:min-h-[350px] flex-col justify-center rounded-[12px] p-[1px] bg-[linear-gradient(150deg,rgba(242,239,236,0.44)_0%,rgba(150,69,0,0.14)_100%)]">
+                  <div className="flex h-full flex-1 flex-col justify-center rounded-[12px] p-3 lg:p-5 bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)]">
+                    <h3 className="text-[17px] lg:text-[20px] leading-[24px] lg:leading-[28px] font-semibold text-left mt-[6px] mb-[15px] lg:my-[18px] text-white">{item.title}</h3>
+                    <p className="text-[13px] leading-[20px] lg:leading-[24px] lg:text-[16px] text-white mb-[1rem]">{item.desc}</p>
                   </div>
                 </div>
               </div>

@@ -36,6 +36,7 @@ const teamsData = [
 ];
 
 export default function Teams() {
+
   const [openIndex, setOpenIndex] = useState(null);
   const toggleItem = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -43,6 +44,7 @@ export default function Teams() {
   const MidCol = teamsData;
 
   return (
+
     <section className="py-[1rem] md:py-[3rem]">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -50,14 +52,14 @@ export default function Teams() {
              <div className="w-full">
               <div className="w-full">
                 <h2 className="uppercase text-left mt-4 mb-5 text-[24px] leading-[32px] md:text-[30px] lg:text-[32px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
-                W͏ho Will Work On ͏Your͏ Project?
+                   W͏ho Will Work On ͏Your͏ Project?
                 </h2>
                 <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-6 lg:text-[24px] text-[20px] text-[#ff8600] italic">
-                Meet The Igniters of Your Game
+                  Meet The Igniters of Your Game
                 </p>
                 <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
-                From creative artists to technical developers, our versatile team of talented professionals brings passion, 
-                creativity, and expertise to every project.
+                  From creative artists to technical developers, our versatile team of talented professionals brings passion, 
+                  creativity, and expertise to every project.
                 </p>
               </div>
               <div className="my-[1rem] pr-6">
@@ -85,5 +87,6 @@ export default function Teams() {
         </div>
       </div>
     </section>
+
   );
 }

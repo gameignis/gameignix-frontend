@@ -55,6 +55,7 @@ const SlotFaqData = [
 ];
 
 export default function SlotFaq() {
+
   const [openIndex, setOpenIndex] = useState(0);
   const toggleItem = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -62,39 +63,36 @@ export default function SlotFaq() {
   const MidCol = SlotFaqData;
 
   return (
-    <section className="faqsc">
+    <section className="py-8">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
-        <div className="text-center cm-head2">
-          <h2 className="cm-title font-bold uppercase text-white">
+        <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
+          <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
             Frequently Asked Questions
           </h2>
-          <p className="font-semibold cm-stit text-orange italic">
+          <p className="font-semibold tracking-[1px] text-[18px] md:text-[24px] mt-[.2rem] mb-[1.2rem] text-[#ff8600] italic">
             Bringing Clarity To Your Curiosity
           </p>
-          <p className="lead text-gray-400">
+          <p className="text-[15px] md:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[2rem]">
             Still have questions? Feel free to reach out to our experts for detailed consultation. 
           </p>
         </div>
         <div className="flex justify-center">
-         <div className="w-full md:w-10/12 mx-auto">
-          <div className="accord-flush">
+         <div className="w-full md:w-10/12 mx-auto space-y-3">
            {MidCol.map((item, index) => (
-            <div key={index} onClick={() => toggleItem(index)} className={`accord-item faq-item mb-3 ${ openIndex === index ? "text-primary" : "" }`}>
-              <button onClick={() => toggleItem(index)} type="button" aria-label={item.question}
-                className={`accord-btn relative text-left w-full fw-medium text-white ${openIndex === index ? "" : "faqtoggle"}`}>
+            <div key={index} className="overflow-hidden rounded-lg border border-[#fc740080] bg-white/[0.03] px-5 py-[10px]">
+              <button onClick={() => toggleItem(index)} type="button" aria-label={item.question} className={`font-orbitron relative w-full border-0 bg-transparent pl-[10px] pr-[50px] py-[10px] md:py-[17px] text-left text-[17px] md:text-[20px] leading-[26px] md:leading-[32px] text-white font-medium shadow-none focus:outline-none focus:ring-0 transition-opacity ${openIndex === index ? "opacity-100" : "opacity-60"}`}>
                 {item.question}
                 <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center">
-                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  <svg className={`h-6 w-6 stroke-[1.5] transition-transform duration-300 ease-in-out ${openIndex === index ? "rotate-180" : "rotate-0"}`} fill="none" stroke="currentColor"  viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                   </svg>
                 </span>
               </button>
               {openIndex === index && (
-                <div className="accord-cn text-white" dangerouslySetInnerHTML={{ __html: item.answer }} />
+                <div className="border-t border-[#ff8600] px-[10px] py-4 text-[15px] md:text-[16px] leading-[24px] text-white" dangerouslySetInnerHTML={{ __html: item.answer }} />
                )}
             </div>
             ))}
-          </div>
          </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function SlotGamePageServer() {
         <section className="relative h-[580px] md:h-[700px] text-white after:content-[''] after:absolute after:inset-0 after:bg-black/40 after:z-[2] before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[30%] before:z-[2] before:bg-gradient-to-t before:from-black before:from-50% before:to-transparent"> 
           <div className="relative z-[5] h-full">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
-              <div className="absolute left-0 right-0 text-center w-[96%] mx-auto top-[175px] md:top-auto md:pb-16 md:bottom-8 xl:pb-32 2xl:w-[1336px]">            
+              <div className="absolute left-0 right-0 text-center w-[96%] mx-auto top-[150px] md:top-auto md:pb-16 md:bottom-8 xl:pb-32 2xl:w-[1336px]">            
                 <h1 className="uppercase text-center my-4 text-[26px] md:text-[36px] lg:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                   Slot Game Development
                 </h1>     
@@ -56,10 +56,9 @@ export default function SlotGamePageServer() {
           <Image src="/common/slot-game/slot-game-development-company-480.webp" alt="Slot Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
         </section>
 
+        <div className="pt-16 md:pt-4">
 
-        <div className="pt-16 md:pt-8">
-
-            <section className="pt-0 pb-16" id="about-us">
+            <section className="pt-0 pb-8" id="about-us">
               <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
                 <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
                 <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -78,7 +77,7 @@ export default function SlotGamePageServer() {
               </div>
             </section>
 
-            <section className="pt-[2rem] pb-[4rem]">
+            <section className="py-[2rem]">
               <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
                 <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
                   <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-6 text-[24px] md:text-[28px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -120,9 +119,9 @@ export default function SlotGamePageServer() {
                           </p>
                         </div>
                         </div>
-                        <div className="md:w-[42%] w-full static md:relative flex">
-                           <div className="absolute right-0 bottom-0 w-full md:w-[88%] h-full rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                             <Image src="/common/slot-game/slot-game-development-services.webp" alt="Slot Game Development Services" width={600} height={600} className="max-w-full h-auto flex-shrink-0" />
+                        <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
+                           <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                             <Image src="/common/slot-game/slot-game-development-services.webp" alt="Slot Game Development Services" width={600} height={400} className="w-full h-full md:h-[480px] object-cover" />
                            </div>
                         </div>
                     </div>
@@ -132,9 +131,9 @@ export default function SlotGamePageServer() {
                 <div className="my-[3rem]">
                   <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                     <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
-                      <div className="md:w-[42%] w-full static md:relative flex">
-                        <div className="absolute left-0 bottom-0 w-full md:w-[88%] h-full rounded-[10px] overflow-hidden opacity-40 md:opacity-100">
-                            <Image src="/common/slot-game/slot-game-development.webp" alt="Slot Game Development" width={600} height={600} className="w-full h-full object-cover" />
+                      <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
+                        <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                          <Image src="/common/slot-game/slot-game-development.webp" alt="Slot Game Development" width={600} height={600} className="w-full h-full object-cover" />
                         </div>
                         </div>
                         <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -175,7 +174,7 @@ export default function SlotGamePageServer() {
               </div>
             </section>
 
-            <section className="pt-[3rem] pb-[7rem]">
+            <section className="pt-[1rem] pb-[7rem]">
               <div className="text-center md:w-[90%] mx-auto w-full">
                 <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                   Our Game Portfolio
@@ -220,13 +219,13 @@ export default function SlotGamePageServer() {
                   <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                     Types of Slot Games We Develop
                   </h2>
-                  <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
+                  <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6]">
                     We develop a variety of slot game types to cater to different markets, themes, and player preferences. Each type is designed to 
                     deliver unique gameplay experiences.
                   </p>
                 </div>          
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 border border-[#ff8600a1] rounded-[14px] my-[1rem]">
-                  <div className="md:col-span-8 min-h-[260px] flex items-end md:block">
+                  <div className="md:col-span-8 md:min-h-[260px] flex items-end md:block">
                     <div className="p-[20px_30px] relative z-[5]">
                       <h3 className="text-[24px] md:text-[30px] mt-[12px] mb-[26px] text-[#ff8600] font-bold italic">
                           Classic 3-Reel Slots
@@ -324,13 +323,13 @@ export default function SlotGamePageServer() {
 
             <SlotGameTools />
 
-            <section className="bg-black shadow-[0_0_200px_0_#000] pt-16 mb-8 md:my-8 overflow-hidden">
+            <section className="bg-black shadow-[0_0_200px_0_#000] pt-4 my-8 overflow-hidden">
               <div className="w-full px-4 mx-auto">
                 <div className="text-center md:w-[90%] mx-auto w-full pb-[1rem]">
                   <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                     Our Result-Driven Slot Game Development Process
                   </h2>
-                  <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+                  <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[2rem]">
                     At GameIgnix, our slot game development process is designed to be transparent, efficient, and creative. We follow a structured, 
                     step-by-step approach that ensures every game meets both player expectations and business goals.
                   </p>
@@ -343,49 +342,49 @@ export default function SlotGamePageServer() {
                   </div>
                   <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
                     <div className="lg:pr-5 md:pr-3 pr-0 relative">
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Concept & Ideation</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           We start by understanding your target audience, market trends, and brand goals. This helps us conceptualize a unique 
                           slot game idea that stands out and appeals to your players.
                         </p>
                       </div>
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px] ml-[1.3rem] md:ml-[5rem]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px] ml-[1.3rem] md:ml-[5rem]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Pre-Production</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           Our team creates a Game Design Document (GDD), a payout table, wireframes, and early prototypes. This ensures the game’s 
                           mechanics, features, and visuals are well-planned before development begins.
                         </p>
                       </div>
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Art & Asset Creation</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           Our artists design reels, symbols, backgrounds, and animations, aligning them perfectly with the game’s theme. Every asset 
                           is optimized for smooth, high-quality performance across devices.
                         </p>
                       </div>
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px] ml-[1.3rem] md:ml-[5rem]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px] ml-[1.3rem] md:ml-[5rem]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Programming & Integration</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           Developers implement the game’s logic, RNG systems, and special features. We also integrate payment systems and back-end 
                           tools for real-money and social slot experiences.
                         </p>
                       </div>
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Testing & Compliance</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           Our QA team tests across devices, browsers, and operating systems to ensure smooth performance. We also check compliance 
                           with gaming regulations and RNG fairness standards.
                         </p>
                       </div>
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px] ml-[1.3rem] md:ml-[5rem]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px] ml-[1.3rem] md:ml-[5rem]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Deployment</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           We publish your slot game to online casinos, mobile stores, or proprietary platforms. The process includes performance 
                           optimization for quick loading and maximum visibility.
                         </p>
                       </div>
-                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
+                      <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] px-[20px] py-[2px]">
                         <h3 className="text-[18px] leading-[26px] md:text-[20px] md:leading-[28px] text-left my-[10px] md:my-[1rem] text-[#ff8600] font-semibold italic">Post-Launch Support</h3>
                         <p className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[24px] mb-[1rem]">
                           Our LiveOps and update services add fresh content, seasonal events, and bonuses to keep players engaged long after launch.

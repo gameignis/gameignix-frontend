@@ -51,9 +51,9 @@ export default function UnityGamePageServer() {
         <Image src="/common/unity-game/unity-game-development-company-480.webp" alt="Unity Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
       </section>
 
-      <div className="pt-16 md:pt-8">
+      <div className="pt-4">
 
-        <section className="pt-0 pb-16" id="about-us">
+        <section className="pt-0 pb-8" id="about-us">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">            
               <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
@@ -80,7 +80,7 @@ export default function UnityGamePageServer() {
               </p>
             </div>
             
-            <div className="my-8 md:my-16 py-8">
+            <div className="my-8">
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
@@ -119,13 +119,12 @@ export default function UnityGamePageServer() {
               </div>
             </div>
 
-            <div className="mt-8 md:my-16 md:py-8 pb-4">
+            <div className="py-8">
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                 <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
-                   <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
+                    <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
                       <div className="flex flex-col w-full h-full flex flex-column">
                         <Image src="/common/unity-game/unity-3d-game-development-company.webp" alt="Unity 3D Game Development Company" width={600} height={600} className="w-full h-full md:h-[560px] object-contain" />
-                      </div>
                       </div>
                     </div>
                     <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -156,8 +155,9 @@ export default function UnityGamePageServer() {
                       </p>
                       </div>
                   </div>                                  
-              </div>
-            </div>    
+                </div>
+              </div>  
+            </div>
 
           </div>
         </section>
@@ -224,7 +224,7 @@ export default function UnityGamePageServer() {
 
       <UnityTools />
 
-      <section className="bg-black shadow-[0_0_200px_0_#000] pt-16 mb-8 md:my-8 overflow-hidden">
+      <section className="bg-black shadow-[0_0_200px_0_#000] pt-8 mb-8 md:my-8 overflow-hidden">
         <div className="w-full px-4 mx-auto">
           <div className="text-center md:w-[90%] mx-auto w-full pb-[1rem]">
             <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -237,7 +237,7 @@ export default function UnityGamePageServer() {
           </div>
           <div className="relative flex flex-wrap">
             <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
-              <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
+              <div className="relative top-[10px] -ml-[15px] h-full lg:h-auto">
                 <Image src="/common/unity-game/unity-game-developers.webp" alt="Unity Game Developers" width={700} height={1000} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
               </div>
             </div>

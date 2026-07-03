@@ -49,7 +49,7 @@ export default function MobileTeams() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
            <div className="flex">
              <div className="w-full">
-              <div className="w-full">
+              <div className="w-full md:w-[95%]">
                 <h2 className="uppercase text-left mt-4 mb-5 text-[24px] leading-[32px] md:text-[30px] lg:text-[32px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                    Who Will Work On Your Project?
                 </h2>
@@ -63,7 +63,7 @@ export default function MobileTeams() {
                 </p>
                 </div>
                 <div className="my-[1rem] pr-6">
-                  <Image src="/common/mobile-game/mobile-game-team.webp" alt="Mobile Game Development Team" width={640} height={350} loading="lazy" className="max-w-full h-auto flex-shrink-0" />
+                  <Image src="/common/mobile-game/mobile-game-team.webp" alt="Mobile Game Development Team" width={640} height={350} loading="lazy" className="max-w-full md:w-[88%] h-auto md:max-h-[300px] flex-shrink-0" />
                 </div>
               </div>
            </div>

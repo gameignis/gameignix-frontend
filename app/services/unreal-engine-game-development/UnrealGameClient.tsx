@@ -51,7 +51,7 @@ export default function UnrealGamePageServer() {
           <Image src="/common/unreal-game/unreal-engine-game-development-company-480.webp" alt="Unreal Engine Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
         </section>
 
-        <div className="pt-16 md:pt-8">
+        <div className="pt-12 md:pt-0 relative overflow-x-hidden md:overflow-visible">
 
           <section className="pt-0 pb-4" id="about-us">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
@@ -65,19 +65,19 @@ export default function UnrealGamePageServer() {
             </div>
           </section>
 
-          <section className="pt-[2rem] pb-[4rem]">
+          <section className="py-[2rem]">
            <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
 
              <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
                 <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                   Our Unreal Engine Game Development Services 
                 </h2>
-                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] md:mb-[1rem]">
                   Powered by the latest advancements in Unreal Engine, we offer a dynamic suite of game development services to develop visually stunning and 
       high-performance games that push the bar of visual fidelity and gameplay, setting new standards in the industry.
                 </p>
               </div>
-              <div className="my-8">
+              <div className="mt-8 md:mb-8 mb-4">
                 <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                   <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                     <div className="md:w-[58%] w-full relative z-[10]">
@@ -187,7 +187,7 @@ export default function UnrealGamePageServer() {
               <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[0.8rem] text-[20px] lg:text-[24px] text-[#ff8600] italic uppercase">
                 Discover Our Recent Projects
               </p>
-              <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem] max-w-[96%] mx-auto">
+              <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] md:mb-[2rem] max-w-[96%] mx-auto">
                 Our portfolio highlights a spectrum of genres and styles, blending art and technology. Each game is proof of our dedication to excellence.
               </p>
             </div>
@@ -196,7 +196,7 @@ export default function UnrealGamePageServer() {
 
           <UnrealCaseStudies />
 
-          <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
+          <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 md:mb-4">
             <Image src="/common/unreal-game/game-build.webp" alt="Power Up Your Game Development" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">

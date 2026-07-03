@@ -54,7 +54,7 @@ export default function Web3GamePageServer() {
           <Image src="/common/web3-game/web3-game-development-company-480.webp" alt="Web3 Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
         </section>
 
-        <div className="pt-16 md:pt-8">
+        <div className="pt-16 md:pt-8 relative overflow-x-hidden md:overflow-visible">
 
           <section className="pt-0 pb-16" id="about-us">
               <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">

@@ -51,9 +51,9 @@ export default function UnityGamePageServer() {
         <Image src="/common/unity-game/unity-game-development-company-480.webp" alt="Unity Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
       </section>
 
-      <div className="pt-4">
+      <div className="relative pt-4 overflow-x-hidden md:overflow-visible">
 
-        <section className="pt-0 pb-8" id="about-us">
+        <section className="pt-0 pb-4" id="about-us">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">            
               <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
@@ -66,7 +66,7 @@ export default function UnityGamePageServer() {
           </div>
         </section>
 
-        <section className="pt-[2rem] pb-[4rem]">
+        <section className="py-[2rem]">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
 
             <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">

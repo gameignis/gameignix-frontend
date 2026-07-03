@@ -14,7 +14,7 @@ export default function ServicesEngines() {
   };
 
   return (
-    <section className="py-2">
+    <section className="pt-6 md:py-10">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center md:w-[90%] mx-auto w-full pb-[2rem]">
           <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -25,7 +25,7 @@ export default function ServicesEngines() {
             performance, scalability, and player experience from start to finish.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8">
           <div className="flex">
             <div onClick={() => handleFlip(0)} className={`flip-card cursor-pointer ${ activeIndex === 0 ? "flipped" : "" }`}>
               <div className="flip-card-inner">
@@ -36,7 +36,7 @@ export default function ServicesEngines() {
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[300px]">
                     <Image src="/common/unity-logo.webp" alt="Unity Logo" width={290} height={100} className="max-w-full h-auto flex-shrink-0" />
                   </div>
-                  <Link className="absolute bottom-4 block text-center text-white no-underline" href="#" aria-label="Read more">
+                  <Link className="absolute bottom-8 md:bottom-4 block text-center text-white no-underline" href="#" aria-label="Read more">
                     Read more 
                     <i className="inline-block ml-2 border-r-2 border-b-2 border-current w-[7px] h-[7px] -rotate-45"></i>
                   </Link>
@@ -65,7 +65,7 @@ export default function ServicesEngines() {
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[300px]">
                     <Image src="/common/unreal-logo.webp" alt="Unreal Logo" width={120} height={50} className="max-w-full h-auto flex-shrink-0" />
                   </div>
-                  <Link className="absolute bottom-4 block text-center text-white no-underline" href="#" aria-label="Read more">
+                  <Link className="absolute bottom-8 md:bottom-4 block text-center text-white no-underline" href="#" aria-label="Read more">
                     Read more 
                     <i className="inline-block ml-2 border-r-2 border-b-2 border-current w-[7px] h-[7px] -rotate-45"></i>
                   </Link>

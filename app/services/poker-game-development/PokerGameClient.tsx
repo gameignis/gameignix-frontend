@@ -21,7 +21,7 @@ export default function PokerGamePageServer() {
       <section className="relative h-[580px] md:h-[700px] text-white after:content-[''] after:absolute after:inset-0 after:bg-black/40 after:z-[2] before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[30%] before:z-[2] before:bg-gradient-to-t before:from-black before:from-50% before:to-transparent"> 
         <div className="relative z-[5] h-full">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
-            <div className="absolute left-0 right-0 text-center w-[96%] mx-auto top-[175px] md:top-auto md:pb-16 md:bottom-8 xl:pb-32 2xl:w-[1336px]">            
+            <div className="absolute left-0 right-0 text-center w-[96%] mx-auto top-[150px] md:top-auto md:pb-16 md:bottom-8 xl:pb-32 2xl:w-[1336px]">            
               <h1 className="uppercase text-center my-4 text-[26px] md:text-[36px] lg:text-[45px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                 Poker Game Development Company
               </h1>     
@@ -56,15 +56,15 @@ export default function PokerGamePageServer() {
           <Image src="/common/poker-game/poker-game-development-company-480.webp" alt="Poker Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
       </section>
 
-      <div className="pt-16 md:pt-8">
+      <div className="pt-[100px] md:pt-2 relative overflow-x-hidden md:overflow-visible">
 
-        <section className="pt-0 pb-16" id="about-us">
+        <section className="pt-0 pb-8" id="about-us">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
               <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 GameIgnix - Your Trusted Partner for Poker Game Development
               </h2>
-              <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+              <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem]">
                 GameIgnix, a leading Poker Game Development Company, is committed to offering feature-rich, secure, and scalable poker game 
                 solutions for web and mobile platforms. Our commitment to quality and a client-centered approach has led to a strong success rate, consistently 
                 exceeding client expectations and ensuring high satisfaction.
@@ -73,7 +73,7 @@ export default function PokerGamePageServer() {
           </div>
         </section>
 
-        <section className="pt-[2rem] pb-[4rem]">
+        <section className="py-[2rem]">
          <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
            <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-6 text-[24px] md:text-[28px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -85,7 +85,7 @@ export default function PokerGamePageServer() {
               </p>
             </div>
 
-            <div className="my-[3rem]">
+            <div className="mt-[2rem] mb-[3rem]">
              <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
               <div className="flex items-stretch rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
@@ -113,21 +113,21 @@ export default function PokerGamePageServer() {
                     </p>
                   </div>
                 </div>
-                <div className="md:w-[42%] w-full static md:relative flex">
-                 <div className="absolute right-0 bottom-0 w-full md:w-[88%] h-full rounded-[10px] overflow-hidden opacity-40 md:opacity-100">
-                   <Image src="/common/poker-game/poker-game-development-services.webp" alt="Poker Game Development Services" width={600} height={600} className="w-full h-full object-cover" />
+                <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
+                    <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                   <Image src="/common/poker-game/poker-game-development-services.webp" alt="Poker Game Development Services" width={600} height={600} className="w-full h-full md:h-[470px] object-cover" />
                 </div>
                 </div>
                 </div>
               </div>
             </div>
 
-            <div className="my-[3rem]">
+            <div className="my-[1rem] md:mb-[3rem]">
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                 <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
-                  <div className="md:w-[42%] w-full static md:relative flex">
-                    <div className="absolute left-0 bottom-0 w-full md:w-[88%] h-full rounded-[10px] overflow-hidden opacity-40 md:opacity-100">
-                      <Image src="/common/poker-game/poker-game-development.webp" alt="Poker Game Development" width={600} height={600} className="w-full h-full object-cover" />
+                  <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
+                    <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                      <Image src="/common/poker-game/poker-game-development.webp" alt="Poker Game Development" width={600} height={600} className="w-full h-full md:h-[480px] object-cover" />
                     </div>
                   </div>
                   <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -206,7 +206,7 @@ export default function PokerGamePageServer() {
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 Popular Poker Game Variants We Develop
               </h2>
-              <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
+              <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6]">
                 Poker games are rich in diverse variants, each offering a unique set of rules and strategic depth. Our game developers specialize 
                 in developing over 15 popular poker game variants to cater to different player preferences, ensuring an engaging experience for 
                 all types of users.
@@ -314,13 +314,13 @@ export default function PokerGamePageServer() {
 
         <PokerGameTools />
 
-        <section className="bg-black shadow-[0_0_200px_0_#000] pt-16 mb-8 md:my-8 overflow-hidden">
+        <section className="bg-black shadow-[0_0_200px_0_#000] pt-8 mb-8 md:my-8 overflow-hidden">
           <div className="w-full px-4 mx-auto">
             <div className="text-center md:w-[90%] mx-auto w-full pb-[1rem]">
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 Our Proven Process for Poker Game Development Success
               </h2>
-              <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+              <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6]">
                 Building a successful poker game demands a clear roadmap and proper execution. Our proven process is designed to navigate the complexities 
                 of game development efficiently, delivering a high-quality and engaging player experience. Here is a proven methodology that we follow to 
                 create the poker game for triumph.

@@ -44,7 +44,7 @@ export default function BlockchainTeams() {
   const MidCol = blockchainteamsData;
 
   return (
-    <section className="py-[1rem] md:py-[3rem]">
+    <section className="py-[3rem]">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
            <div className="flex">
@@ -53,7 +53,7 @@ export default function BlockchainTeams() {
                 <h2 className="uppercase text-left mt-4 mb-5 text-[24px] leading-[32px] md:text-[30px] lg:text-[32px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                    Team Required to Build an Ideal Blockchain Game
                 </h2>
-                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
                   Here are the required specialized teams to deliver a successful blockchain game. Each role is crucial for transforming your 
                   blockchain game concept into a fully functional and properly polished gaming experience. 
                 </p>

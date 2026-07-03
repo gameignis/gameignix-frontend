@@ -51,15 +51,15 @@ export default function MobileGamePageServer() {
             <Image src="/common/mobile-game/mobile-game-development-company-480.webp" alt="Mobile Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
         </section>
 
-        <div className="relative pt-16 md:pt-8">
+        <div className="relative pt-8 md:pt-2 overflow-x-hidden md:overflow-visible">
 
-          <section className="pt-0 pb-16" id="about-us">
+          <section className="pt-0 pb-8" id="about-us">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
                 <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                   Your Trusted Partner for Mobile Game Development
                 </h2>
-                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem]">
                   GameIgnix is a dynamic and creative mobile game development studio with extensive experience in creating premium mobile games 
                   that engage global players. Our commitment to innovation, quality, and customer satisfaction has led us to establish long-term 
                   partnerships within the gaming market, ensuring you're in good hands.
@@ -79,7 +79,7 @@ export default function MobileGamePageServer() {
                   design, ensuring every game is the next big success. Here is a glimpse of our suite of game development solutions.
                 </p>
               </div>
-              <div className="my-8 md:my-16 py-8">
+              <div className="my-8 py-4">
                 <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                   <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                     <div className="md:w-[58%] w-full relative z-[10]">
@@ -119,7 +119,7 @@ export default function MobileGamePageServer() {
                 </div>
               </div>
 
-              <div className="mt-8 md:my-16 md:py-8 pb-4">
+              <div className="mt-8 pb-8">
                <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                 <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                     <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
@@ -177,7 +177,7 @@ export default function MobileGamePageServer() {
                  <div className="flex">
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                         iOS
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -190,7 +190,7 @@ export default function MobileGamePageServer() {
                 <div className="flex">
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">              
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                         Android
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -204,7 +204,7 @@ export default function MobileGamePageServer() {
                 <div className="flex">
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                         Cross-Platform
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">

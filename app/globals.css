@@ -657,7 +657,6 @@ white-space: nowrap;}
   .tech-card { padding: 6px 5px; min-height: 50px;}
   .tech-card img{max-width: 120px;height: 25px;object-fit: contain;}
   .adsc .cm-head2 .cm-title{font-size: 19px;    margin-top: 0;}
-  .flip-card{margin: 1rem auto;}
   .flip-lgim img{height: 450px;}
   .flip-card.flipped .flip-card-inner, .flip-card.flipped:hover .flip-card-inner {transform: rotateY(180deg);-webkit-transform: rotateY(180deg);}
   .flip-card:hover .flip-card-inner {transform: none;-webkit-transform: none;}

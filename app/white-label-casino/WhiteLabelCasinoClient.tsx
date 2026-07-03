@@ -53,9 +53,9 @@ export default function WhiteLabelCasinoPageServer() {
         <Image src="/common/casino-game/casino-game-development-company-480.webp" alt="White Label Casino" fill priority className="md:hidden h-[480px] object-cover" />
     </section>
 
-    <main className="relative pt-[2rem] md:pt-[0.2rem]">
+    <main className="relative pt-[2rem] md:pt-[0.2rem] overflow-x-hidden md:overflow-visible">
 
-      <section className="py-2" id="about-us">
+      <section className="pb-10" id="about-us">
         <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
           <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
             <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -72,7 +72,7 @@ export default function WhiteLabelCasinoPageServer() {
             <div className="flex">
               <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                 <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">                  
-                  <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                  <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                     Ready-to-Launch White-label Online Casino
                   </h3>
                   <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -85,7 +85,7 @@ export default function WhiteLabelCasinoPageServer() {
             <div className="flex">
               <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                 <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
-                  <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                  <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                     White Label Crypto Casino
                   </h3>
                   <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -140,21 +140,21 @@ export default function WhiteLabelCasinoPageServer() {
                       </p>
                   </div>
                   </div>
-                  <div className="md:w-[42%] w-full static md:relative flex">
-                    <div className="absolute right-0 bottom-0 w-full md:w-[88%] h-full rounded-[10px] overflow-hidden opacity-40 md:opacity-100">
-                       <Image src="/common/casino-game/casino-game-development-services.webp" alt="Casino Game Development Services" width={600} height={600} className="w-full h-full object-cover" />
+                  <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
+                    <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                       <Image src="/common/casino-game/casino-game-development-services.webp" alt="Casino Game Development Services" width={600} height={600} className="w-full h-full md:h-[480px] object-cover" />
                     </div>
                   </div>
               </div>
             </div>
           </div>
 
-          <div className="my-[3rem]">
+          <div className="mt-[3rem]">
             <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
               <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
-                <div className="md:w-[42%] w-full static md:relative flex">
-                  <div className="absolute left-0 bottom-0 w-full md:w-[88%] h-full rounded-[10px] overflow-hidden opacity-40 md:opacity-100">
-                    <Image src="/common/casino-game/casino-game-development.webp" alt="Casino Game Development" width={300} height={200} className="w-full h-full object-cover" />
+                <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
+                        <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                    <Image src="/common/casino-game/casino-game-development.webp" alt="Casino Game Development" width={300} height={200} className="w-full h-full md:h-[480px] object-cover" />
                   </div>
                 </div>
                 <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -233,13 +233,13 @@ export default function WhiteLabelCasinoPageServer() {
 
       <WhiteLabelCasinoTools />
 
-      <section className="bg-black shadow-[0_0_200px_0_#000] pt-16 mb-8 md:my-8 overflow-hidden">
+      <section className="bg-black shadow-[0_0_200px_0_#000] pt-8 mb-8 md:my-8 overflow-hidden">
         <div className="w-full px-4 mx-auto">
           <div className="text-center md:w-[90%] mx-auto w-full pb-[1rem]">
             <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                Our White Label Casino Software Development Process
             </h2>
-            <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+            <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem]">
               Our structured approach ensures every casino platform is tailored, compliant, and ready to perform. Each stage is designed to deliver a 
               seamless and efficient launch for your business.
             </p>

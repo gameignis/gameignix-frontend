@@ -51,7 +51,7 @@ export default function BlockchainGamePageServer() {
         <Image src="/common/blockchain-game/blockchain-game-development-company-480.webp" alt="Blockchain Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
       </section>
 
-      <div className="relative pt-16 md:pt-8 overflow-x-hidden md:overflow-visible">
+      <div className="relative pt-16 md:pt-2 overflow-x-hidden md:overflow-visible">
 
         <section className="pt-0 pb-16" id="about-us">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
@@ -70,7 +70,7 @@ export default function BlockchainGamePageServer() {
               <div className="flex">
                 <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                   <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                       Crypto Game Development
                     </h3>
                     <p className="text-[14px] leading-[24px] lg:text-[16px] text-white mb-[1rem]">
@@ -84,7 +84,7 @@ export default function BlockchainGamePageServer() {
               <div className="flex">
                 <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                   <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
-                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                       Web3 Game Development
                     </h3>
                     <p className="text-[14px] leading-[24px] lg:text-[16px] text-white mb-[1rem]">
@@ -99,7 +99,7 @@ export default function BlockchainGamePageServer() {
           </div>
         </section>
 
-        <section className="pt-[2rem] pb-[4rem]">
+        <section className="pt-[2rem]">
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
             <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-6 text-[24px] md:text-[28px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
@@ -111,7 +111,7 @@ export default function BlockchainGamePageServer() {
                 ensuring a top-notch experience for your audience.
               </p>
             </div>
-            <div className="my-8 md:my-16 py-8">
+            <div className="my-8 pt-2 md:my-16 md:py-8">
             <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
               <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
@@ -148,7 +148,7 @@ export default function BlockchainGamePageServer() {
                 </div>
               </div>
             </div>
-            <div className="mt-8 md:my-16 md:py-8 pb-4">
+            <div className="mt-8 md:mt-16 md:mb-4 md:py-8 pb-8">
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                 <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                    <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
@@ -195,7 +195,7 @@ export default function BlockchainGamePageServer() {
             <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[0.8rem] text-[20px] lg:text-[24px] text-[#ff8600] italic uppercase">
               Recent Projects We Have Completed
             </p>
-            <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem] max-w-[96%] mx-auto">
+            <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] md:mb-[1rem] max-w-[96%] mx-auto">
               Explore our portfolio of next-gen games crafted across diverse genres. Each project reflects our passion, creativity, and 
               technical excellence.
             </p>
@@ -232,7 +232,7 @@ export default function BlockchainGamePageServer() {
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 Types of Blockchain Games We Develop
               </h2>
-              <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
+              <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6]">
                 We help you with games across a broad spectrum of genres that refine player ownership, and our experts ensure that each game 
                 harnesses the unique benefits of decentralization and innovative ways to engage and earn.
               </p>
@@ -320,13 +320,13 @@ export default function BlockchainGamePageServer() {
 
         <BlockchainGameTools />
 
-        <section className="bg-black shadow-[0_0_200px_0_#000] pt-16 mb-8 md:my-8 overflow-hidden">
+        <section className="bg-black shadow-[0_0_200px_0_#000] pt-8 mb-8 md:my-8 overflow-hidden">
           <div className="w-full px-4 mx-auto">
             <div className="text-center md:w-[90%] mx-auto w-full pb-[1rem]">
               <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 Our Proven Process for Blockchain Game Development Success
               </h2>
-              <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+              <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6]">
                 Building a successful blockchain game is a complex task, but with our properly structured roadmap & meticulous execution, we 
                 will minimize risks and maximize the potential ROI for your game.
               </p>

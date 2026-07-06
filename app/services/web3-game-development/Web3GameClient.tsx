@@ -118,26 +118,26 @@ export default function Web3GamePageServer() {
                 <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                   <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                     <div className="md:w-[58%] w-full relative z-[10]">
-                      <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             1. Custom Web3 Game Development 
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             At GameIgnix, we build Web3 games from scratch, tailored to your business model, gameplay ideas, and user base. Our process involves 
             understanding your vision, designing mechanics and token flows, creating visuals and backend logic, and finally, crafting a 
             customized Web3 experience that supports your unique gameplay and objectives.
                           </p>
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             2. Game Design Consulting
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             We help you shape your game concept into a market-ready model. From gameplay mechanics to NFT use cases, our consultants ensure your 
             idea is engaging, scalable, and aligned with your business goals. Every decision is made with your players and ROT in mind. 
                           </p>
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             3. Tokenomics and Utility Token Creation
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                             We provide you with a strong token model that powers a thriving game economy. We design balanced tokenomics that drive player 
             retention, incentivize engagement, and enable in-game earnings. From inflation control to staking models, we’ve got you covered. 
                           </p>
@@ -161,25 +161,25 @@ export default function Web3GamePageServer() {
                         </div>
                       </div>
                       <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                        <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           4. Smart Contract for In-game Assets
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           We develop robust smart contracts that manage your game’s core logic, from asset minting to reward distribution. Each contract is 
           thoroughly tested and audited for security and performance. Your game will run seamlessly, independently, and transparently on-chain. 
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           5. Wallet and Payment Gateway Integration
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           We make it easy for players to get started by connecting popular crypto wallets and payment options. Whether they're new to 
           blockchain or experienced with Web3, transactions are quick, simple, and secure. This helps boost adoption across all user types.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           6. Cross-Platform Game Development 
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                         We deliver seamless gameplay experiences that are compatible with all major systems. Our web3 game developers build and deploy your 
           game across all platforms - mobile, browser, desktop, and even VR, so you can engage players wherever they are.
                         </p>

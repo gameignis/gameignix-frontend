@@ -18,9 +18,9 @@ export default function HowDoWeWork() {
           </p>
         </div>
         <div className="relative flex flex-wrap">
-          <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
-            <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
-              <Image src="/common/game-studio.webp" alt="Game Studio" width={800} height={950} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+          <div className="absolute left-0 top-0 z-[1] w-full flex-none h-full opacity-20 md:opacity-100">
+            <div className="relative top-[20px] -ml-[15px] h-full">
+              <Image src="/common/game-studio.webp" alt="Game Studio" width={800} height={950} className="block object-cover h-full max-w-full" />
             </div>
           </div>
           <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -111,9 +111,9 @@ export default function HowDoWeWork() {
               </div>
             </div>
           </div>
-          <div className="order-1 md:order-2 absolute w-full right-[-12px] top-0 z-[1] flex justify-end lg:w-auto lg:h-auto h-full opacity-20 md:opacity-100">
-            <div className="w-full h-full lg:w-auto lg:h-auto">
-              <Image src="/common/top-game-development-companies.webp" alt="Top Game Development Companies" width={1067} height={1159} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+          <div className="order-1 md:order-2 absolute w-full 2xl:w-1/2 right-[-12px] top-0 z-[1] flex justify-end h-full opacity-20 md:opacity-100">
+            <div className="h-full">
+              <Image src="/common/top-game-development-companies.webp" alt="Top Game Development Companies" width={1067} height={1159} className="block object-cover h-full max-w-full" />
             </div>
           </div>
         </div>

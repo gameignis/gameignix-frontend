@@ -33,22 +33,22 @@ export default function Footer() {
         </div>
         <div className="flex-1 min-w-[200px] m-[5px] md:m-5">
           <ul className="list-none p-0 mb-4">
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="About us">About us</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="services" target="_blank" aria-label="Service">Service</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Our Game portfolio">Our Game portfolio</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Case study">Case study</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Development Agency">Development Agency</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Banner">Banner</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="About us">About us</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="services" target="_blank" aria-label="Service">Service</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Our Game portfolio">Our Game portfolio</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Case study">Case study</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Development Agency">Development Agency</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Banner">Banner</Link></li>
           </ul>
         </div>
         <div className="flex-1 min-w-[200px] m-[5px] md:m-5">
           <ul className="mb-4">
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Tools and Technology">Tools and Technology</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Engines">Engines</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="How we work">How we work</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Who will work on your project">Who will work on your project</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Our engagement models">Our engagement models</Link></li>
-            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] md:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Trusted by happy clients">Trusted by happy clients</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Tools and Technology">Tools and Technology</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Engines">Engines</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="How we work">How we work</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Who will work on your project">Who will work on your project</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Our engagement models">Our engagement models</Link></li>
+            <li className="mb-[3px] md:mb-[10px]"><Link className="text-white text-[14px] lg:text-[16px] hover:text-[#ff6d00] transition-colors" href="#" aria-label="Trusted by happy clients">Trusted by happy clients</Link></li>
           </ul>
         </div>
         <div className="flex-1 min-w-[200px] m-[5px] md:m-5">
@@ -82,10 +82,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-wrap justify-center gap-[15px] md:gap-24 pt-[25px] pb-4 text-[13px] md:text-[16px] text-white">
-        <p className="w-full text-[14px] md:text-[16px] md:w-auto text-center">Copyright © 2026 GameIgnix. All Rights Reserved.</p>
-        <Link href="#" aria-label="Terms of service" className="hover:text-[#ff6d00] text-[14px] md:text-[16px] transition-colors">Terms of service</Link>
-        <Link href="#" aria-label="Privacy policy" className="hover:text-[#ff6d00] text-[14px] md:text-[16px] transition-colors">Privacy policy</Link>
-        <Link href="tel:+91 93603 02009" className="hover:text-[#ff6d00] text-[14px] md:text-[16px] transition-colors">+91 93603 02009</Link>
+        <p className="w-full text-[14px] lg:text-[16px] lg:w-auto text-center">Copyright © 2026 GameIgnix. All Rights Reserved.</p>
+        <Link href="#" aria-label="Terms of service" className="hover:text-[#ff6d00] text-[14px] lg:text-[16px] transition-colors">Terms of service</Link>
+        <Link href="#" aria-label="Privacy policy" className="hover:text-[#ff6d00] text-[14px] lg:text-[16px] transition-colors">Privacy policy</Link>
+        <Link href="tel:+91 93603 02009" className="hover:text-[#ff6d00] text-[14px] lg:text-[16px] transition-colors">+91 93603 02009</Link>
       </div>
     </footer>
   );

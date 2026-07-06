@@ -89,7 +89,7 @@ export default function GameArtPageServer() {
               <div className="relative grid grid-cols-1 md:grid-cols-12 bg-[linear-gradient(263.57deg,#010101_64.29%,#DA2C00_224.98%)] rounded-[20px_100px_20px_20px] md:rounded-[20px_200px_20px_20px]">                  
                 <div className="md:col-span-7 min-h-[260px] flex items-end md:block">
                   <div className="p-[1rem_1rem_2rem_1.6rem] md:p-[2rem_1rem_2rem_3rem] relative z-[5]">
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[20px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
                       Concept Art  
                     </h3>
                     <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-white">
@@ -121,7 +121,7 @@ export default function GameArtPageServer() {
                 </div>
                 <div className="md:col-span-7 min-h-[260px] ml-auto flex items-end md:block">
                   <div className="p-[1rem_1rem_2rem_1.6rem] md:p-[2rem_1rem_2rem_3rem] relative z-[5]">
-                    <h3 className="text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic">
+                    <h3 className="text-[20px] md:text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic">
                       2D/3D Assets
                     </h3>
                     <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-white">
@@ -139,7 +139,7 @@ export default function GameArtPageServer() {
               <div className="relative grid grid-cols-1 md:grid-cols-12 rounded-[20px_100px_20px_20px] md:rounded-[20px_200px_20px_20px] bg-[linear-gradient(263.57deg,#010101_64.29%,#EF0227_224.98%)]">                  
                 <div className="md:col-span-7 min-h-[260px] flex items-end md:block">
                   <div className="p-[1rem_1rem_2rem_1.6rem] md:p-[2rem_1rem_2rem_3rem] relative z-[5]">
-                    <h3 className="text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[20px] md:text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
                       3D Modeling and Texturing 
                     </h3>
                     <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-white">
@@ -172,7 +172,7 @@ export default function GameArtPageServer() {
                 </div>
                 <div className="md:col-span-7 min-h-[260px] ml-auto flex items-end md:block">
                   <div className="p-[1rem_1rem_2rem_1.6rem] md:p-[2rem_1rem_2rem_3rem] relative z-[5]">
-                    <h3 className="text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic">
+                    <h3 className="text-[20px] md:text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic">
                       Game Animation
                     </h3>
                     <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-white">
@@ -190,7 +190,7 @@ export default function GameArtPageServer() {
               <div className="relative grid grid-cols-1 md:grid-cols-12 rounded-[20px_100px_20px_20px] md:rounded-[20px_200px_20px_20px] bg-[linear-gradient(263.57deg,#010101_64.29%,#1168b6_224.98%)]">                  
                 <div className="md:col-span-7 min-h-[260px] flex items-end md:block">
                   <div className="p-[1rem_1rem_2rem_1.6rem] md:p-[2rem_1rem_2rem_3rem] relative z-[5]">
-                    <h3 className="text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[20px] md:text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
                       VFX
                     </h3>
                     <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-white">
@@ -222,7 +222,7 @@ export default function GameArtPageServer() {
                 </div>
                 <div className="md:col-span-7 min-h-[260px] ml-auto flex items-end md:block">
                   <div className="p-[1rem_1rem_2rem_1.6rem] md:p-[2rem_1rem_2rem_3rem] relative z-[5]">
-                    <h3 className="text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic">
+                    <h3 className="text-[20px] md:text-[24px] mt-[0.4rem] mb-[1.5rem] text-[#ff8600] font-bold italic">
                       UI/UX
                     </h3>
                     <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[24px] text-white">

@@ -116,25 +116,25 @@ export default function WhiteLabelCasinoPageServer() {
             <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
               <div className="flex items-stretch rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
-                  <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                  <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         1. Multi-Genre Game Library
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         We offer a range of games, including slots, poker, blackjack, baccarat, bingo, and more. Each game 
                         features rich visuals and fair play certification for a trusted experience.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         2. Multi-Currency Support
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         Cater to a global audience with support for both fiat and crypto transactions. Let users deposit, 
                         withdraw, and play using their preferred currency.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         3. Secure Payment System
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                         Integrate trusted payment gateways for fast, secure transactions with built-in fraud prevention and 
                         data encryption. KYC compliance ensures complete financial safety for both operators and players.
                       </p>
@@ -142,7 +142,7 @@ export default function WhiteLabelCasinoPageServer() {
                   </div>
                   <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
                     <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                       <Image src="/common/casino-game/casino-game-development-services.webp" alt="Casino Game Development Services" width={600} height={600} className="w-full h-full md:h-[480px] object-cover" />
+                       <Image src="/common/casino-game/casino-game-development-services.webp" alt="Casino Game Development Services" width={600} height={600} className="w-full h-full md:h-[440px] object-cover" />
                     </div>
                   </div>
               </div>
@@ -154,31 +154,31 @@ export default function WhiteLabelCasinoPageServer() {
               <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
                 <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
                         <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                    <Image src="/common/casino-game/casino-game-development.webp" alt="Casino Game Development" width={300} height={200} className="w-full h-full md:h-[480px] object-cover" />
+                    <Image src="/common/casino-game/casino-game-development.webp" alt="Casino Game Development" width={300} height={200} className="w-full h-full md:h-[440px] object-cover" />
                   </div>
                 </div>
                 <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                  <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                  <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         4. Admin Dashboard and CRM
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         Manage your platform efficiently with a user-friendly admin dashboard and integrated CRM tools. 
                         Monitor player behavior, launch promotions, and access real-time reports effortlessly.
                       </p>
 
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         5. Fast Deployment
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         Launch your platform in just 10 to 15 days with our pre-configured white label solution. It includes 
                         licensing support, integrated game content, and essential backend tools for a smooth start.
                       </p>
 
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         6. Mobile-Optimized Platform
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                         Deliver smooth, responsive gaming across all mobile devices with our lightweight platform. It ensures 
                         top performance on Android, iOS, and tablets alike.
                       </p>
@@ -245,7 +245,7 @@ export default function WhiteLabelCasinoPageServer() {
             </p>
           </div>
           <div className="relative flex flex-wrap">
-            <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
+            <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-30">
               <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
                 <Image src="/common/casino-game/casino-game-developers.webp" alt="Casino Software Development Process" width={700} height={1000} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
               </div>

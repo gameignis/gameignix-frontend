@@ -49,11 +49,15 @@ export default function ServicesGameArtSlider() {
       {...(isMobile ? mobileSettings : desktopSettings)}
       >
         {ServicesGameArtdata.map((item, i) => (
-          <div key={i} className="px-2 incont-bk">
-            <div className="serv-rbx h-full">
-              <div className="serv-rinbx">
-                <h3 className="cm-hd4 text-orange font-bold italic">{item.title}</h3>
-                <p className="para-cnt1">{item.desc}</p>
+          <div key={i} className="px-[15px]">
+            <div className="h-full border border-[#FC7400] rounded-[61px_8.71429px] p-[10px] my-4">
+              <div className="bg-[rgba(51,51,51,0.5)] rounded-[52.2857px_8.71429px] min-h-[250px] px-5 py-[10px]">
+                <h3 className="text-left text-[16px] leading-6 my-[1.2rem] text-[#FC7400] font-bold italic">
+                  {item.title}
+                </h3>
+                <p className="text-[14px] leading-6">
+                  {item.desc}
+                </p>
               </div>
             </div>
           </div>

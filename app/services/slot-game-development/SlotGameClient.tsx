@@ -93,27 +93,27 @@ export default function SlotGamePageServer() {
                   <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                     <div className="flex items-stretch rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                       <div className="md:w-[58%] w-full relative z-[10]">
-                        <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             1. Full-Cycle Slot Game Development
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             We manage the complete development journey from initial concept and math modeling to coding, testing, 
                             and launch. This ensures your slot game is built with a strong creative foundation and delivered with 
                             technical excellence.
                           </p>
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             2. Slot Game Art & Animation
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             Our artists design high-quality symbols, reels, backgrounds, and animations that visually enhance 
                             gameplay. Every asset is crafted to align with your chosen theme and create an immersive visual experience 
                             for players.
                           </p>
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             3. Math & RNG Development
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                             We create precise payout structures and integrate certified RNG systems to ensure fairness. This keeps 
                             gameplay engaging while complying with industry regulations in multiple jurisdictions.
                           </p>
@@ -137,32 +137,32 @@ export default function SlotGamePageServer() {
                         </div>
                         </div>
                         <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                          <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                            <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[0.5rem_1rem]">
+                            <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                               4. UI/UX Design for Slot Games
                             </h3>
-                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                               Our designers create interfaces that are visually appealing yet highly intuitive. Players enjoy seamless 
                               navigation, simple controls, and clear prompts that make every spin satisfying.
                             </p>
-                            <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                            <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                               5. Slot Game Porting
                             </h3>
-                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                               We adapt your existing slot games to new devices, platforms, or operating systems. Our team ensures 
                               performance, graphics, and features remain consistent across all versions.
                             </p>
-                            <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                            <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                               6. Slot Game Testing & QA
                             </h3>
-                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                               Our QA specialists run exhaustive tests for functionality, compatibility, and compliance. This guarantees 
                               a bug-free, smooth, and enjoyable player experience.
                             </p>
-                            <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                            <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                               7. Post-Launch LiveOps
                             </h3>
-                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                            <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                               We keep your game relevant with content updates, seasonal events, and new bonus features. This helps retain 
                               players and maintain steady revenue after the initial launch.
                             </p>                          

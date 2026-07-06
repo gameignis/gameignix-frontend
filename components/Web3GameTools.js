@@ -77,7 +77,7 @@ deliver high-performance games that are both engaging and future-ready.
             ))}
           </div>
           <div className="progress-line h-[2px] relative mb-[1rem]"></div>
-          <div className="flex overflow-hidden mt-8 md:mt-16">
+          <div className="flex overflow-hidden pb-4 mt-8 md:mt-16">
             <div className="flex shrink-0 items-center gap-4 lg:gap-11 whitespace-nowrap scrollimgs">
               {techData.map((item, i) => (
                 <div key={i} className="flex flex-[0_1_auto] items-center justify-center mt-[2px] rounded-lg border border-[#ffffff73] bg-white/5 hover:bg-white/15 transition-all duration-300 min-h-[80px] px-[1.2rem] py-[1.1rem] md:max-lg:w-[100px] md:max-lg:p-[5px] max-md:min-h-[50px] max-md:px-[5px] max-md:py-[6px]">

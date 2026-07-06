@@ -47,13 +47,13 @@ export default function Testimonials() {
     <section className="py-4 pb-12">
       <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
         <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-          <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
+          <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-4 lg:px-10 text-[24px] md:text-[28px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
             Trusted By Happy Clients
           </h2>
-          <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[1rem] md:text-[24px] text-[17px] text-orange italic">
+          <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[1rem] lg:text-[24px] text-[18px] text-orange italic">
             Dedicated Partner For Leading Brands and Startups
           </p>
-          <p className="text-[15px] md:text-[16px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
+          <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[1rem] lg:mb-[2rem]">
             Our success is driven by strong, long-lasting relationships that we have built with game developers, studios, and businesses of 
             all sizes, delivering exceptional gaming solutions that exceed expectations.
           </p>
@@ -79,10 +79,10 @@ export default function Testimonials() {
                 <Image src={item.image} alt={item.name} width={120} height={120} className="h-auto w-[200px] rounded-[4px] object-cover" />
                 </div>
                 <div className="flex-1 md:pr-5">
-                  <p className="mb-[15px] text-[15px] md:text-[16px] leading-[24px] text-[#eee]">
+                  <p className="mb-[15px] text-[14px] lg:text-[16px] leading-[20px] lg:leading-[24px] text-[#eee]">
                     {item.text}
                   </p>
-                  <p className="mt-4 mb-0 text-[15px] md:text-[16px] leading-[24px] text-white">
+                  <p className="mt-4 mb-0 text-[14px] lg:text-[16px] leading-[20px] lg:leading-[24px] text-white">
                     <span className="font-bold">{item.name}</span>
                     <br />
                     <span className="font-normal text-[#ff7a00]">{item.role}</span>

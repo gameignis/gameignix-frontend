@@ -82,7 +82,7 @@ export default function Home() {
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
                         <Image src="/common/gameignix-mission.webp" alt="GameIgnix Mission" loading="lazy" width={80} height={64} className="max-w-full h-[40px] object-contain ml-[-14px] mb-[10px] lg:h-auto lg:ml-0 flex-shrink-0" />
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                         Our Mission
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -96,7 +96,7 @@ export default function Home() {
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
                         <Image src="/common/gameignix-vision.webp" alt="GameIgnix Vision" loading="lazy" width={80} height={64} className="max-w-full h-[40px] object-contain ml-[-14px] mb-[10px] lg:h-auto lg:ml-0 flex-shrink-0" />
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                         Our Vision
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -110,7 +110,7 @@ export default function Home() {
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
                         <Image src="/common/gameignix-philosophy.webp" alt="GameIgnix Philosophy" loading="lazy" width={80} height={64} className="max-w-full h-[40px] object-contain ml-[-14px] mb-[10px] lg:h-auto lg:ml-0 flex-shrink-0" />
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-white italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#ff8600] italic">
                         Our Philosophy
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -371,51 +371,51 @@ export default function Home() {
           <section className="py-12">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Our Engagement Models</h2>
-                <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
+                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-4 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Our Engagement Models</h2>
+                <p className="text-[15px] xl:text-[18px] leading-[24px] xl:leading-[28px] text-[#e6e6e6] mb-[1rem] lg:mb-[2rem]">
                   At GameIgnix, we not only customize game solutions to meet your requirements but also offer the best-fit engagement 
                   model for your project. Our engagement model is built on transparency and collaboration, with a clear line of sight 
                   on progress.
                 </p>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 lg:gap-6">
                 <div className="flex">
-                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
-                    <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                    <div className="my-[10px] mb-8 h-[200px] xl:h-[310px] w-full overflow-hidden rounded-[15px]">
                       <Image src="/common/dedicated-team.webp" alt="Dedicated Team" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
-                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
+                    <h3 className="text-[17px] lg:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] lg:my-[1.8rem] text-white">
                       Dedicated Team
                     </h3>
-                    <p className="text-[15px] leading-[24px] md:text-[16px] mb-4 text-center">
+                    <p className="text-[14px] leading-[20px] xl:leading-[24px] xl:text-[16px] mb-4 text-center">
                       Our dedicated team model provides businesses with full-time, committed game developers who harness advanced 
                       technologies and industry best practices to deliver top-tier gaming solutions tailored to your unique needs.
                     </p>
                   </div>
                 </div>
                 <div className="flex">
-                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
-                    <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                    <div className="my-[10px] mb-8 h-[200px] xl:h-[310px] w-full overflow-hidden rounded-[15px]">
                       <Image src="/common/team-extension.webp" alt="Team Extension" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
-                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
+                    <h3 className="text-[17px] lg:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] lg:my-[1.8rem] text-white">
                       Team Extension
                     </h3>
-                    <p className="text-[15px] leading-[24px] md:text-[16px] mb-4 text-center">
+                    <p className="text-[14px] leading-[20px] xl:leading-[24px] xl:text-[16px] mb-4 text-center">
                       Our team extension model enables businesses to scale their development teams by adding skilled game developers 
                       who bring the required expertise for their projects, while aligning with existing workflows and processes.
                     </p>
                   </div>
                 </div>
                 <div className="flex">
-                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
-                    <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                    <div className="my-[10px] mb-8 h-[200px] xl:h-[310px] w-full overflow-hidden rounded-[15px]">
                       <Image src="/common/project-based-model.webp" alt="Project-Based Model" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
-                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
+                    <h3 className="text-[17px] lg:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] lg:my-[1.8rem] text-white">
                       Project-Based Model
                     </h3>
-                    <p className="text-[15px] leading-[24px] md:text-[16px] mb-4 text-center">
+                    <p className="text-[14px] leading-[20px] xl:leading-[24px] xl:text-[16px] mb-4 text-center">
                       Our project-driven approach, backed by experienced game development specialists, ensures efficient 
                       collaboration and successful delivery of your gaming project within a defined scope, timeline, and budget. 
                     </p>
@@ -430,7 +430,7 @@ export default function Home() {
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-              <h2 className="inline-block w-fit mx-auto my-[1.4rem] text-[22px] md:text-[28px] leading-[1.5] tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full box-border font-bold uppercase">
+              <h2 className="inline-block w-fit mx-auto my-[1.4rem] text-[24px] lg:text-[28px] leading-[1.5] tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full box-border font-bold uppercase">
                 Do You Need Extra Hands or a Dedicated Development Team?
               </h2>
               <p className="text-[15px] leading-[20px] md:text-[16px] lg:text-[18px] md:leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[2rem]">
@@ -450,8 +450,8 @@ export default function Home() {
           <section className="py-[2rem]" id="footer">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Contact Us</h2>
-                <p className="text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
+                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Contact Us</h2>
+                <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
                   Have a game idea or project in mind? Share your requirements with GameIgnix, and our team will get back to you with the perfect 
                   solution tailored to your goals.
                 </p>

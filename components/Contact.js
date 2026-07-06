@@ -78,38 +78,38 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="w-full md:col-span-7">
             <div className="rounded-lg border border-[#333] bg-[#161313] p-6">
-              <h2 className="uppercase text-left mb-4 text-[22px] leading-[32px] md:text-[30px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">Send us a Message</h2>
+              <h2 className="uppercase text-left mb-4 text-[22px] leading-[32px] lg:text-[30px] lg:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">Send us a Message</h2>
               <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
                   <div className="w-full md:col-span-6">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" aria-label="Name">Name</label>
-                    <input type="text" className="w-full text-[14px] md:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} required />
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" aria-label="Name">Name</label>
+                    <input type="text" className="w-full text-[14px] lg:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} required />
                     {errors.name ? <p className="text-red-400 text-sm mt-1">{errors.name}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" aria-label="Email">Email</label>
-                    <input type="email" className="w-full text-[14px] md:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your Email" name="email" value={formData.email} onChange={handleChange} required />
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" aria-label="Email">Email</label>
+                    <input type="email" className="w-full text-[14px] lg:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your Email" name="email" value={formData.email} onChange={handleChange} required />
                     {errors.email ? <p className="text-red-400 text-sm mt-1">{errors.email}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" aria-label="Country">Country</label>
-                    <input type="text" className="w-full text-[14px] md:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your country name" name="country" value={formData.country} onChange={handleChange} required />
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" aria-label="Country">Country</label>
+                    <input type="text" className="w-full text-[14px] lg:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your country name" name="country" value={formData.country} onChange={handleChange} required />
                     {errors.country ? <p className="text-red-400 text-sm mt-1">{errors.country}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" aria-label="Phone No">Phone No</label>
-                    <input type="text" className="w-full text-[14px] md:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your phone no" name="phone" value={formData.phone} onChange={handleChange} required />
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" aria-label="Phone No">Phone No</label>
+                    <input type="text" className="w-full text-[14px] lg:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your phone no" name="phone" value={formData.phone} onChange={handleChange} required />
                     {errors.phone ? <p className="text-red-400 text-sm mt-1">{errors.phone}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" aria-label="WhatsApp/Telegram/Teams">WhatsApp/Telegram/Teams</label>
-                    <input type="text" className="w-full text-[14px] md:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your Id" aria-label="WhatsApp/Telegram/Teams" name="messengerId" value={formData.messengerId} onChange={handleChange} required />
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" aria-label="WhatsApp/Telegram/Teams">WhatsApp/Telegram/Teams</label>
+                    <input type="text" className="w-full text-[14px] lg:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" placeholder="Enter your Id" aria-label="WhatsApp/Telegram/Teams" name="messengerId" value={formData.messengerId} onChange={handleChange} required />
                     {errors.messengerId ? <p className="text-red-400 text-sm mt-1">{errors.messengerId}</p> : null}
                   </div>
                   <div className="w-full md:col-span-6">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" htmlFor="services-opt">Services</label>
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" htmlFor="services-opt">Services</label>
                     <div className="relative w-full">
-                      <select className="w-full text-[14px] md:text-[16px] appearance-none rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-[#aaa] font-sans transition focus:border-[#c57111] focus:outline-none focus:ring-0" id="services-opt" name="service" value={formData.service} onChange={handleChange} required>
+                      <select className="w-full text-[14px] lg:text-[16px] appearance-none rounded-md border border-transparent bg-[#281f17] p-2 h-[50px] text-[#aaa] font-sans transition focus:border-[#c57111] focus:outline-none focus:ring-0" id="services-opt" name="service" value={formData.service} onChange={handleChange} required>
                         <option value="">Enter your Service</option>
                         <option value="custom-game">Custom Game Development</option>
                         <option value="game-art">Game Art and Designing</option>
@@ -131,12 +131,12 @@ export default function Contact() {
                     {errors.service ? <p className="text-red-400 text-sm mt-1">{errors.service}</p> : null}
                   </div>
                   <div className="w-full md:col-span-12">
-                    <label className="text-[14px] md:text-[16px] block mb-2 font-medium text-white" aria-label="Message">Message</label>
-                    <textarea className="w-full text-[14px] md:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[150px] resize-none text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" rows={4} name="message" value={formData.message} onChange={handleChange} required placeholder="Tell us about your gaming goals and how we can help you..."></textarea>
+                    <label className="text-[14px] lg:text-[16px] block mb-2 font-medium text-white" aria-label="Message">Message</label>
+                    <textarea className="w-full text-[14px] lg:text-[16px] rounded-md border border-transparent bg-[#281f17] p-2 h-[150px] resize-none text-white placeholder:text-[#aaa] transition focus:border-[#c57111] focus:outline-none focus:ring-0" rows={4} name="message" value={formData.message} onChange={handleChange} required placeholder="Tell us about your gaming goals and how we can help you..."></textarea>
                     {errors.message ? <p className="text-red-400 text-sm mt-1">{errors.message}</p> : null}
                   </div>
                   <div className="w-full md:col-span-12 mt-2 text-center">
-                    <button type="submit" className="w-full rounded bg-[#ff8600] cursor-pointer px-4 py-2 text-[16px] md:text-[18px] font-semibold text-white transition-colors hover:bg-[#e77007]" aria-label="Send message" disabled={isSubmitting}>
+                    <button type="submit" className="w-full rounded bg-[#ff8600] cursor-pointer px-4 py-2 text-[16px] lg:text-[18px] font-semibold text-white transition-colors hover:bg-[#e77007]" aria-label="Send message" disabled={isSubmitting}>
                       {isSubmitting ? "Sending..." : "Send message"}
                     </button>
                     <div id="form-alert" className={`alert mt-3 text-left ${alert.message ? "" : "d-none"} ${alert.type === "error" ? "text-red-400" : "text-green-400"}`}>
@@ -150,68 +150,68 @@ export default function Contact() {
           <div className="w-full md:col-span-5">
             <div className="grid gap-3">
               <div className="mb-2 flex rounded-lg border border-[#333] bg-[#161313] p-3 text-white transition-colors hover:border-[#ff8600]">
-                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] items-center justify-center rounded-[10px] bg-white/10">
+                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] flex-shrink-0 items-center justify-center rounded-[10px] bg-white/10">
                   <Image src="/common/email.webp" alt="email" width={24} height={24} className="max-h-[33px] max-w-[33px] object-contain" loading="lazy" />
                 </div>
                 <div>
-                  <p className="mb-1 font-orbitron text-[16px] md:text-[18px] font-semibold capitalize text-white">Email support</p>
-                  <Link href="mailto:sales@gameignix.com" target="_blank" rel="noopener noreferrer" className="mb-0 text-[#ff8600] text-[14px] md:text-[15px]">sales@gameignix.com</Link>
-                  <p className="text-[14px] md:text-[15px] text-[#E6E6E6]">General inquiries and support</p>
+                  <p className="mb-1 font-orbitron text-[16px] lg:text-[18px] font-semibold capitalize text-white">Email support</p>
+                  <Link href="mailto:sales@gameignix.com" target="_blank" rel="noopener noreferrer" className="mb-0 text-[#ff8600] text-[14px] lg:text-[15px]">sales@gameignix.com</Link>
+                  <p className="text-[14px] lg:text-[15px] text-[#E6E6E6]">General inquiries and support</p>
                 </div>
               </div>
               <div className="mb-2 flex rounded-lg border border-[#333] bg-[#161313] p-3 text-white transition-colors hover:border-[#ff8600]">
-                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] items-center justify-center rounded-[10px] bg-white/10">
+                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] flex-shrink-0 items-center justify-center rounded-[10px] bg-white/10">
                   <Image src="/common/phone.webp" alt="phone" width={24} height={24} className="max-h-[33px] max-w-[33px] object-contain" loading="lazy" />
                 </div>
                 <div>
-                  <p className="mb-1 font-orbitron text-[16px] md:text-[18px] font-semibold capitalize text-white">Phone Support</p>
-                  <Link href="tel:+91 93603 02009" target="_blank" className="mb-0 text-[#ff8600] text-[14px] md:text-[15px]">+91 93603 02009</Link>
-                  <p className="text-[14px] md:text-[15px] text-[#E6E6E6]">Mon–Fri 9.00AM – 6.30PM IST</p>
+                  <p className="mb-1 font-orbitron text-[16px] lg:text-[18px] font-semibold capitalize text-white">Phone Support</p>
+                  <Link href="tel:+91 93603 02009" target="_blank" className="mb-0 text-[#ff8600] text-[14px] lg:text-[15px]">+91 93603 02009</Link>
+                  <p className="text-[14px] lg:text-[15px] text-[#E6E6E6]">Mon–Fri 9.00AM – 6.30PM IST</p>
                 </div>
               </div>
               <div className="mb-2 flex rounded-lg border border-[#333] bg-[#161313] p-3 text-white transition-colors hover:border-[#ff8600]">
-                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] items-center justify-center rounded-[10px] bg-white/10">
+                <div className="mr-3 mt-[5px] flex h-[60px] flex-shrink-0 w-[60px] items-center justify-center rounded-[10px] bg-white/10">
                   <Image src="/common/location.webp" alt="location" width={24} height={24} className="max-h-[33px] max-w-[33px] object-contain" loading="lazy" />
                 </div>
                 <div>
-                  <p className="mb-1 font-orbitron text-[16px] md:text-[18px] font-semibold capitalize text-white">Office Location</p>
-                  <p className="mb-0 text-[#ff8600] text-[14px] md:text-[15px]">Tamil Nadu, India</p>
-                  <p className="text-[14px] md:text-[15px] text-[#E6E6E6]">
+                  <p className="mb-1 font-orbitron text-[16px] lg:text-[18px] font-semibold capitalize text-white">Office Location</p>
+                  <p className="mb-0 text-[#ff8600] text-[14px] lg:text-[15px]">Tamil Nadu, India</p>
+                  <p className="text-[14px] lg:text-[15px] text-[#E6E6E6]">
                     C-18 First Floor, Chockanathar Street,<br />
                     Thirunagar 4th Stop, Madurai - 625006.
                   </p>
-                  <p className="mt-2 mb-1 font-orbitron text-[16px] md:text-[18px] font-semibold capitalize text-white">Sales Office</p>
-                  <p className="text-[14px] md:text-[15px] text-[#E6E6E6]">
+                  <p className="mt-2 mb-1 font-orbitron text-[16px] lg:text-[18px] font-semibold capitalize text-white">Sales Office</p>
+                  <p className="text-[14px] lg:text-[15px] text-[#E6E6E6]">
                     Flat - 303, Building no: 11, Shabiya 11, Mussafah,<br />
                     Abu Dhabi, UAE.
                   </p>
                 </div>
               </div>
               <div className="mb-2 flex rounded-lg border border-[#333] bg-[#161313] p-3 text-white transition-colors hover:border-[#ff8600]">
-                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] items-center justify-center rounded-[10px] bg-white/10">
+                <div className="mr-3 mt-[5px] flex h-[60px] w-[60px] flex-shrink-0 items-center justify-center rounded-[10px] bg-white/10">
                   <Image src="/common/community.webp" alt="Telegram community" width={24} height={24} className="max-h-[33px] max-w-[33px] object-contain" loading="lazy" />
                 </div>
                 <div>
-                  <p className="mb-1 font-orbitron text-[16px] md:text-[18px] font-semibold capitalize text-white">Telegram Community</p>
-                  <Link className="mb-0 text-[#ff8600] text-[14px] md:text-[15px] underline" href="https://t.me/gameignixofficial" target="_blank" rel="noopener noreferrer">t.me/gameignixofficial</Link>
-                  <p className="text-[14px] md:text-[15px] text-[#E6E6E6]">24/7 Community Support</p>
+                  <p className="mb-1 font-orbitron text-[16px] lg:text-[18px] font-semibold capitalize text-white">Telegram Community</p>
+                  <Link className="mb-0 text-[#ff8600] text-[14px] lg:text-[15px] underline" href="https://t.me/gameignixofficial" target="_blank" rel="noopener noreferrer">t.me/gameignixofficial</Link>
+                  <p className="text-[14px] lg:text-[15px] text-[#E6E6E6]">24/7 Community Support</p>
                 </div>
               </div>
-              <p className="mt-[3px] mb-2 text-[20px] md:text-[24px] font-semibold text-white">Quick Contact</p>
+              <p className="mt-[3px] mb-2 text-[20px] lg:text-[24px] font-semibold text-white">Quick Contact</p>
               <div className="flex gap-2">
-                <Link id="whatsapp-btn" className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#fc0000] px-4 pt-3 pb-2 text-[15px] md:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#2ba805]" href="#" target="_blank" rel="noopener noreferrer" aria-label="whatsapp">
-                  <span className="absolute left-0 flex w-full items-center justify-center gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                <Link id="whatsapp-btn" className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#fc0000] px-4 pt-3 pb-2 text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#2ba805]" href="#" target="_blank" rel="noopener noreferrer" aria-label="whatsapp">
+                  <span className="absolute left-0 flex w-full items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                     <Image src="/common/whatsapp.webp" alt="whatsapp" width={24} height={24} loading="lazy" /> WhatsApp Us
                   </span>
                   <span className="absolute inset-0 flex items-center justify-center gap-2 whitespace-nowrap opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <Image src="/common/whatsapp.webp" alt="whatsapp" width={24} height={24} loading="lazy" /> +91 93603 02009
                   </span>
                 </Link>
-                <Link className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#ff8600] px-4 py-[10px] text-[15px] md:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#1c87c9]" href="https://telegram.me/gameignix" rel="noopener noreferrer" aria-label="telegram" target="_blank">
-                  <span className="absolute left-0 flex w-full items-center justify-center gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                <Link className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#ff8600] px-4 py-[10px] text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#1c87c9]" href="https://telegram.me/gameignix" rel="noopener noreferrer" aria-label="telegram" target="_blank">
+                  <span className="absolute left-0 flex w-full items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                     <Image src="/common/telegram.webp" alt="telegram" width={24} height={24} loading="lazy" /> Telegram Us
                   </span>
-                  <span className="absolute inset-0 flex items-center justify-center gap-2 whitespace-nowrap opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  <span className="absolute inset-0 flex items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <Image src="/common/telegram.webp" alt="telegram" width={24} height={24} loading="lazy" /> @gameignix
                   </span>
                 </Link>

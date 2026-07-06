@@ -51,10 +51,10 @@ export default function Teams() {
            <div className="flex">
              <div className="w-full">
               <div className="w-full">
-                <h2 className="uppercase text-left mt-4 mb-5 text-[24px] leading-[32px] md:text-[30px] lg:text-[32px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
+                <h2 className="uppercase text-left mt-4 mb-5 text-[24px] leading-[32px] md:text-[28px] lg:text-[32px] md:leading-[40px] text-white [-webkit-text-stroke:1px_#ff8600] font-bold">
                    W͏ho Will Work On ͏Your͏ Project?
                 </h2>
-                <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-6 lg:text-[24px] text-[20px] text-[#ff8600] italic">
+                <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-6 lg:text-[24px] text-[18px] text-[#ff8600] italic">
                   Meet The Igniters of Your Game
                 </p>
                 <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
@@ -70,7 +70,7 @@ export default function Teams() {
            <div className="flex">
              <div className="w-full space-y-3">
               {MidCol.map((item, index) => (
-                <div key={index} className="mb-3 border-b border-white bg-transparent rounded-none pt-[10px] pb-[17px]">
+                <div key={index} className="mb-1 lg:mb-3 border-b border-white bg-transparent rounded-none pt-[4px] lg:pt-[10px] pb-[8px] lg:pb-[17px]">
                   <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[32px] font-semibold">
                     <button type="button" aria-label={item.question} onClick={() => toggleItem(index)} className="relative w-full pl-[60px] pr-[10px] py-[17px] text-left text-white">
                       <Image src="/common/arrow1.webp" alt="arrow" width={34} height={34} className={`absolute left-[2px] top-[16px] transition-transform duration-300 ease-in-out ${ openIndex === index ? "rotate-180" : "rotate-0" }`} /> 

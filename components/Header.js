@@ -84,16 +84,18 @@ export default function Navbar() {
                 <Link href="/" onClick={closeMobileMenu}>
                     <Image src="/common/logo.webp" alt="logo" width={170} height={63} className="max-h-[50px] object-contain" />
                 </Link>
-                <button className={`lg:hidden flex flex-col navbar-icon gap-1 ${hambOpen ? "" : "hamb-open"}`}
-                onClick={() => {
-                    setMenuOpen(!menuOpen);
-                    setHambOpen(!hambOpen);
-                }}>
-                    <span className="w-6 h-[2px] bg-white top-bar" />
-                    <span className="w-6 h-[2px] bg-white middle-bar" />
-                    <span className="w-6 h-[2px] bg-white bottom-bar" />
+
+                <button type="button" aria-controls="mobile-navigation" 
+                aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"} 
+                aria-expanded={menuOpen} 
+                className={`lg:hidden flex flex-col justify-center w-10 items-center h-[34px] ${hambOpen ? "" : "hamb-open"}`}
+                onClick={() => { setMenuOpen(!menuOpen); setHambOpen(!hambOpen); }}>
+                    <span className={`block w-6 h-[2px] bg-white transition-all duration-300 ${ menuOpen ? "rotate-45 translate-y-[6px]" : "" }`} />
+                    <span className={`block w-6 h-[2px] bg-white my-1 transition-all duration-300 ${ menuOpen ? "opacity-0" : "" }`} />
+                    <span className={`block w-6 h-[2px] bg-white transition-all duration-300 ${ menuOpen ? "-rotate-45 -translate-y-[6px]" : "" }`} />                  
                 </button>
-                <div className={`navbar-menu flex flex-col lg:flex-row transition-all duration-300 ${menuOpen ? "active" : ""} `}>
+
+                <div id="mobile-navigation" className={`navbar-menu flex flex-col lg:flex-row transition-all duration-300 ${menuOpen ? "active" : ""} `}>
                     <ul className="tp-navmn flex flex-col lg:flex-row mx-auto items-start lg:items-center">
                         <li className="nav-lis p-4 lg:p-0">
                             <Link className="nav-listin font-semibold" href="#about-us" onClick={(e) => handleSmoothScroll(e, "#about-us")}>

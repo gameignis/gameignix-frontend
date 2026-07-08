@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 const ReliableAgencydata = [
   { title: "Proven Industry Expertise", desc: "GameIgnix has demonstrated strong industry experience and technical expertise in game development, with a proven track record of delivering creative and high-quality gaming solutions across various genres and platforms." },

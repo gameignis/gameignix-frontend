@@ -55,8 +55,8 @@ export default function Home() {
             </div>
             </div>
           </div>        
-          <Image src="/common/best-game-development-company.webp" alt="Game Development Company" fill priority className="hidden md:block h-full w-full object-cover" />
-          <Image src="/common/best-game-development-company-480.webp" alt="Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
+          <Image src="/common/best-game-development-company.webp" alt="Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+          <Image src="/common/best-game-development-company-480.webp" alt="Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
         </section>
 
         <div className="relative pt-16 md:pt-8 overflow-x-hidden md:overflow-visible">

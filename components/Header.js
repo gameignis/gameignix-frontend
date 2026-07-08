@@ -82,7 +82,7 @@ export default function Navbar() {
         <nav className={`tpnav w-full z-[1000] transition-all duration-500 ${scrolled ? "fixed" : ""}`} style={{ top: navTop }}>
             <div className="flex items-center justify-between px-4 py-2 lg:px-10">
                 <Link href="/" onClick={closeMobileMenu}>
-                    <Image src="/common/logo.webp" alt="logo" width={170} height={63} className="max-h-[50px] object-contain" />
+                    <Image src="/common/logo.webp" alt="logo" width={170} height={63} className="max-h-[50px] object-contain" loading="lazy" />
                 </Link>
 
                 <button type="button" aria-controls="mobile-navigation" 

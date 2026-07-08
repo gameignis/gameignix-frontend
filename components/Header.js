@@ -178,7 +178,7 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div className="flex lg:justify-end">
-                        <Link className="cm-btn1 uppercase" href="/contact" target="_blank" aria-label="Contact Us" onClick={closeMobileMenu}>
+                        <Link className="cm-btn1 uppercase" href="/contact" aria-label="Contact Us" onClick={closeMobileMenu}>
                             <span>Contact Us</span>
                         </Link>
                     </div>

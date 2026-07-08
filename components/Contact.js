@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useEffect, useCallback } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { ApiError, apiRequest } from "@/lib/api";
@@ -72,6 +73,24 @@ export default function Contact() {
       setIsSubmitting(false);
     }
   };
+
+  const getCurrentUrl = useCallback(() => {
+    if (typeof window !== 'undefined') {
+      return window.location.href;
+    }
+    return '';
+  }, []);
+  const pathname = usePathname();
+  const [whatsLink, setWhatsLink] = useState("#");
+  useEffect(() => {
+      const whatsappNumber = "919360302009";
+      const message = "Hi, I am interested in this service. Here is the page link: ";
+      const fullURL = getCurrentUrl();
+      const finalURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+        `${message}${fullURL}`
+      )}`;
+    setWhatsLink(finalURL);
+    }, [pathname]);    
 
   return (
     <>
@@ -199,7 +218,7 @@ export default function Contact() {
               </div>
               <p className="mt-[3px] mb-2 text-[20px] lg:text-[24px] font-semibold text-white">Quick Contact</p>
               <div className="flex gap-2">
-                <Link id="whatsapp-btn" className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#fc0000] px-4 pt-3 pb-2 text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#2ba805]" href="#" target="_blank" rel="noopener noreferrer" aria-label="whatsapp">
+                <Link href={whatsLink} target="_blank" className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#fc0000] px-4 pt-3 pb-2 text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#2ba805]" rel="noopener noreferrer" aria-label="whatsapp">
                   <span className="absolute left-0 flex w-full items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                     <Image src="/common/whatsapp.webp" alt="whatsapp" width={24} height={24} loading="lazy" /> WhatsApp Us
                   </span>

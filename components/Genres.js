@@ -16,68 +16,68 @@ export default function Genres() {
             This versatility enables us to produce high-quality games that are tailored to your unique vision and needs.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center">
-          <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/role-playing.webp" alt="Role-Playing" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Role-Playing</p>
+        <div className="comic-panel-wrapper flex flex-wrap justify-center">
+          <div className="comic-panel">
+            <div className="comic-panelim relative">
+              <Image src="/common/role-playing.webp" alt="Role-Playing" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Role-Playing</h3>
               </div>
             </div>
           </div>
-          <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/action.webp" alt="action" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Action</p>
+          <div className="comic-panel comic-rev">
+            <div className="comic-panelim relative">
+              <Image src="/common/action.webp" alt="action" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Action</h3>
               </div>
             </div>
           </div>
-          <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/adventure.webp" alt="Adventure" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Adventure</p>
+          <div className="comic-panel">
+            <div className="comic-panelim relative">
+              <Image src="/common/adventure.webp" alt="Adventure" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Adventure</h3>
               </div>
             </div>
           </div>
-          <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/racing.webp" alt="Racing" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Racing</p>
+          <div className="comic-panel comic-rev">
+            <div className="comic-panelim relative">
+              <Image src="/common/racing.webp" alt="Racing" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Racing</h3>
               </div>
             </div>
           </div>
-          <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/shooter.webp" alt="Shooter" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Shooter</p>
+          <div className="comic-panel">
+            <div className="comic-panelim relative">
+              <Image src="/common/shooter.webp" alt="Shooter" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Shooter</h3>
               </div>
             </div>
           </div>
-          <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/battle-royale.webp" alt="Battle Royale" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Battle Royale</p>
+          <div className="comic-panel comic-rev">
+            <div className="comic-panelim relative">
+              <Image src="/common/battle-royale.webp" alt="Battle Royale" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Battle Royale</h3>
               </div>
             </div>
           </div>
-          <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/sports.webp" alt="Sports" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Sports</p>
+          <div className="comic-panel">
+            <div className="comic-panelim relative">
+              <Image src="/common/sports.webp" alt="Sports" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Sports</h3>
               </div>
             </div>
           </div>
-          <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-            <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
-              <Image src="/common/puzzle.webp" alt="Puzzle" loading="lazy" width={190} height={360} className="max-w-full h-full md:w-[190px] xl:w-[170px] 2xl:w-[190px] md:h-auto" />
-              <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Puzzle</p>
+          <div className="comic-panel comic-rev">
+            <div className="comic-panelim relative">
+              <Image src="/common/puzzle.webp" alt="Puzzle" loading="lazy" width={190} height={360} className="max-w-full h-auto" />
+              <div className="comic-sub absolute start-0 bottom-0 w-full">
+                <h3 className="cm-hd4 text-white font-semibold">Puzzle</h3>
               </div>
             </div>
           </div>

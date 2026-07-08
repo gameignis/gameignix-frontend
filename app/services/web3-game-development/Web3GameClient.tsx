@@ -245,9 +245,9 @@ export default function Web3GamePageServer() {
                 </p>
               </div>
               <div className="relative flex flex-wrap">
-                <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
-                  <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
-                    <Image src="/common/web3-game/web3-game-company.webp" alt="Web3 Game Company" width={800} height={950} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+                <div className="afflef">
+                  <div className="affim">
+                    <Image src="/common/web3-game/web3-game-company.webp" alt="Web3 Game Company" width={800} height={950} className="h-auto max-w-full" />
                   </div>
                 </div>
                 <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -297,7 +297,7 @@ export default function Web3GamePageServer() {
                   </div>
                 </div>
               </div>
-              <div className="relative flex flex-wrap">
+              <div className="relative flex flex-wrap how-rev">
                 <div className="order-2 md:order-1 md:w-2/3 z-[2] px-2">
                   <div className="md:pl-[20px] pl-0 position-relative lg:pr-[20px] pr-0">
                     <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
@@ -350,9 +350,9 @@ export default function Web3GamePageServer() {
                     </div>
                   </div>
                 </div>
-                <div className="order-1 md:order-2 absolute w-full right-[-12px] top-0 z-[1] flex justify-end lg:w-auto lg:h-auto h-full opacity-20 md:opacity-100">
-                  <div className="w-full h-full lg:w-auto lg:h-auto">
-                    <Image src="/common/unity-game/unity-game-development-studio.webp" alt="Unity Game Development Studio" width={490} height={800} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+                <div className="order-1 md:order-2 afflef">
+                  <div className="affim">
+                    <Image src="/common/unity-game/unity-game-development-studio.webp" alt="Unity Game Development Studio" width={490} height={800} className="h-auto max-w-full" />
                   </div>
                 </div>
               </div>

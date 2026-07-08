@@ -18,9 +18,9 @@ export default function HowDoWeWork() {
           </p>
         </div>
         <div className="relative flex flex-wrap">
-          <div className="absolute left-0 top-0 z-[1] w-full flex-none h-full opacity-20 md:opacity-100">
-            <div className="relative top-[20px] -ml-[15px] h-full">
-              <Image src="/common/game-studio.webp" alt="Game Studio" width={800} height={950} className="block object-cover h-full max-w-full" />
+          <div className="afflef">
+            <div className="affim">
+              <Image src="/common/game-studio.webp" alt="Game Studio" width={800} height={950} className="h-auto max-w-full" />
             </div>
           </div>
           <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -60,7 +60,7 @@ export default function HowDoWeWork() {
             </div>
           </div>
         </div>
-        <div className="relative flex flex-wrap">
+        <div className="relative flex flex-wrap how-rev">
           <div className="order-2 md:order-1 md:w-2/3 z-[2] px-2">
             <div className="md:pl-[20px] pl-0 position-relative lg:pr-[20px] pr-0">
               <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
@@ -111,9 +111,9 @@ export default function HowDoWeWork() {
               </div>
             </div>
           </div>
-          <div className="order-1 md:order-2 absolute w-full 2xl:w-1/2 right-[-12px] top-0 z-[1] flex justify-end h-full opacity-20 md:opacity-100">
-            <div className="h-full">
-              <Image src="/common/top-game-development-companies.webp" alt="Top Game Development Companies" width={1067} height={1159} className="block object-cover h-full max-w-full" />
+          <div className="order-1 md:order-2 afflef">
+            <div className="affim">
+              <Image src="/common/top-game-development-companies.webp" alt="Top Game Development Companies" width={1067} height={1159} className="h-auto max-w-full" />
             </div>
           </div>
         </div>

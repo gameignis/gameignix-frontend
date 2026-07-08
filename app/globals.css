@@ -228,11 +228,11 @@ opacity: 0;-webkit-opacity: 0;transition: 0.5s ease-in-out all 0s;-webkit-transi
 .comic-sub .para-cnt1 {display: none;opacity: 0;transition: opacity 0.3s ease-in-out;}
 .comic-panelim:hover .comic-sub .para-cnt1 {display: block;opacity: 1;margin-top: 2px;}
 .comic-panelim .comic-sub .para-cnt1{font-size: 14px;line-height: 20px;padding-right: 0.8rem;}
-.comic-rev .comic-panelim:hover .comic-sub .cm-hd4, .comic-rev .comic-panelim:hover .comic-sub .para-cnt1 {text-align: right;
+.comic-rev .comic-panelim:hover .comic-sub .cm-hd4, .comic-rev .comic-panelim:hover .comic-sub .cm-hd4.rev-hd, .comic-rev .comic-panelim:hover .comic-sub .para-cnt1 {text-align: right;
   padding-right: 1px;padding-left: 40px;}
 .comic-panelim:hover .comic-sub *{  padding-right: 42px;width: 100%;}
 .comic-rev .comic-panelim:hover .comic-sub{padding-right: 8px;}
-.comic-rev .comic-panelim:hover .comic-sub p.cm-hd4{text-align: center;  padding: 0;}
+.comic-rev .comic-panelim:hover .comic-sub .cm-hd4{text-align: center;  padding: 0;}
 
 .teamsc {padding: 3rem 0;}
 .teamlef .cm-head2 { width: 100%;}
@@ -534,7 +534,7 @@ white-space: nowrap;}
   .container { max-width: 1100px; }
 }
 
-@media screen and (min-width:992px) and (max-width:1280px) {
+@media screen and (min-width:992px) and (max-width:1338px) {
 .comic-panel{  transform: scale(0.94);-webkit-transform: scale(0.84);}
 .comic-panel.comic-rev{  margin-left: -70px;margin-right: -26px;}
 }

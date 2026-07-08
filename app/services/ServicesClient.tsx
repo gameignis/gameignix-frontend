@@ -188,92 +188,92 @@ export default function ServicesPageServer() {
                   tailored to your vision.
                 </p>
               </div>
-              <div className="flex flex-wrap justify-center">
-                <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+              <div className="comic-panel-wrapper flex flex-wrap justify-center">
+                <div className="comic-panel">
+                  <div className="comic-panelim relative">
                     <Image src="/common/role-playing.webp" alt="Role-Playing" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                      <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Role-Playing</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold">Role-Playing</h3>
+                      <p className="para-cnt1">
                         Immersive role-playing experiences with deep storylines, character customization, and dynamic combat mechanics
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel comic-rev">
+                  <div className="comic-panelim relative">
                     <Image src="/common/action.webp" alt="action" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                      <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Action</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px] group-hover:text-right group-hover:pl-10 group-hover:pr-[1px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold rev-hd">Action</h3>
+                      <p className="para-cnt1">
                         Our action games feature high-octane gameplay, intense combat, and cinematic sequences for nonstop excitement and adrenaline-packed 
                         experience.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel">
+                  <div className="comic-panelim relative">
                     <Image src="/common/adventure.webp" alt="Adventure" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                      <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Adventure</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold">Adventure</h3>
+                      <p className="para-cnt1">
                         Exciting adventure games set within a narrative framework of interesting quests and puzzles transport players to captivating worlds.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel comic-rev">
+                  <div className="comic-panelim relative">
                     <Image src="/common/racing.webp" alt="Racing" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                      <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Racing</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px] group-hover:text-right group-hover:pl-10 group-hover:pr-[1px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold rev-hd">Racing</h3>
+                      <p className="para-cnt1">
                         Action-packed racing games are expertly designed with fast-paced gameplay, realistic driving mechanics, and dynamic tracks.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel">
+                  <div className="comic-panelim relative">
                     <Image src="/common/shooter.webp" alt="Shooter" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                      <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Shooter</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold">Shooter</h3>
+                      <p className="para-cnt1">
                         First-person and third-person shooters combined with tactical gameplay, intense battle mechanics, and an advanced weapon progression system.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel comic-rev">
+                  <div className="comic-panelim relative">
                     <Image src="/common/battle-royale.webp" alt="Battle Royale" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                      <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Battle Royale</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px] group-hover:text-right group-hover:pl-10 group-hover:pr-[1px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold rev-hd">Battle Royale</h3>
+                      <p className="para-cnt1">
                         Massive multiplayer battle games combined with last-man-standing gameplay and weapon gathering featuring shrinking playfields and large maps.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(0_0,100%_0%,69%_106%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel">
+                  <div className="comic-panelim relative">
                     <Image src="/common/sports.webp" alt="Sports" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)]">
-                      <p className="w-fit font-semibold text-left text-[16px] text-white group-hover:w-full group-hover:pr-[42px]">Sports</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold">Sports</h3>
+                      <p className="para-cnt1">
                         Whether it's soccer, cricket, or any other sport, our games capture the essence of real-world sports with lifelike mechanics and smooth 
                         controls.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="-ml-[53px] overflow-hidden bg-[#ff8300] scale-[0.98] [clip-path:polygon(29%_0%,100%_0%,100%_100%,0%_100%)]">
-                  <div className="group relative after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-black/60 after:opacity-0 after:transition-all after:duration-500 hover:after:opacity-100">
+                <div className="comic-panel comic-rev">
+                  <div className="comic-panelim relative">
                     <Image src="/common/puzzle.webp" alt="Puzzle" loading="lazy" width={190} height={360} className="max-w-full h-full" />
-                    <div className="absolute bottom-0 left-0 z-10 flex h-[30%] w-full flex-col justify-end px-2 pt-[2px] pb-[10px] transition-all duration-500 group-hover:h-[50%] group-hover:translate-y-[10px] group-hover:pb-[30px] group-hover:bg-[linear-gradient(0deg,#ff880050_9.57%,rgba(17,86,113,0)_91.21%)] group-hover:pr-2">
-                      <p className="w-full text-center text-[16px] font-semibold text-white group-hover:px-0">Puzzle</p>
-                      <p className="text-[14px] leading-5 pr-3 opacity-0 max-h-0 overflow-hidden translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-32 group-hover:translate-y-0 group-hover:mt-[2px] group-hover:text-right group-hover:pl-10 group-hover:pr-[1px]">
+                    <div className="comic-sub absolute start-0 bottom-0 w-full">
+                      <h3 className="cm-hd4 text-white fw-semibold rev-hd">Puzzle</h3>
+                      <p className="para-cnt1">
                         Brain-teasing puzzle games with mind-bending challenges, designed for all ages to test logic, strategy, and creativity.
                       </p>
                     </div>
@@ -295,9 +295,9 @@ export default function ServicesPageServer() {
                 </p>
               </div>
               <div className="relative flex flex-wrap">
-                <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
-                  <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
-                    <Image src="/common/game-develop/video-game-development-services.webp" alt="Video Game Development Services" width={490} height={800} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+                <div className="afflef">
+                  <div className="affim">
+                    <Image src="/common/game-develop/video-game-development-services.webp" alt="Video Game Development Services" width={490} height={800} className="max-w-full h-auto" />
                   </div>
                 </div>
                 <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -336,7 +336,7 @@ export default function ServicesPageServer() {
                 </div>
               </div>
 
-              <div className="relative flex flex-wrap">
+              <div className="relative flex flex-wrap how-rev">
                 <div className="order-2 md:order-1 md:w-2/3 z-[2] px-2">
                   <div className="md:pl-[20px] pl-0 position-relative lg:pr-[20px] pr-0">
                     <div className="bg-[#ffffff0d] border border-[#fff3] rounded-[14px] md:w-[90%] w-[94%] my-[1rem] lg:my-[3rem] px-[20px] py-[2px]">
@@ -368,9 +368,9 @@ export default function ServicesPageServer() {
                     </div>
                   </div>
                 </div>
-                <div className="order-1 md:order-2 absolute w-full right-[-12px] top-0 z-[1] flex justify-end lg:w-auto lg:h-auto h-full opacity-20 md:opacity-100">
-                  <div className="w-full h-full lg:w-auto lg:h-auto">
-                    <Image src="/common/game-develop/online-game-development-services.webp" alt="Online Game Development Services" width={490} height={800} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+                <div className="order-1 md:order-2 afflef">
+                  <div className="affim">
+                    <Image src="/common/game-develop/online-game-development-services.webp" alt="Online Game Development Services" width={490} height={800} className="h-auto max-w-full" />
                   </div>
                 </div>
               </div>
@@ -452,7 +452,7 @@ export default function ServicesPageServer() {
             </div>
           </section>
 
-          <section className="pt-[3rem] pb-[7rem]">
+          <section className="pt-[3rem] pb-[7rem]" id="portfolio">
               <div className="text-center md:w-[90%] mx-auto w-full">
                 <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                   Our Portfolio

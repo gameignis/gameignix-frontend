@@ -56,6 +56,27 @@ export default function Navbar() {
     }
     setServiceOpen(prev => !prev);
     };
+    const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+
+    const target = document.querySelector(targetId);
+
+    if (!target) return;
+
+    const offset = 50;
+
+    const top =
+        target.getBoundingClientRect().top +
+        window.pageYOffset -
+        offset;
+
+    window.scrollTo({
+        top,
+        behavior: "smooth",
+    });
+
+    closeMobileMenu();
+    };
 
     return (
         <nav className={`tpnav w-full z-[1000] transition-all duration-500 ${scrolled ? "fixed" : ""}`} style={{ top: navTop }}>
@@ -75,7 +96,7 @@ export default function Navbar() {
                 <div className={`navbar-menu flex flex-col lg:flex-row transition-all duration-300 ${menuOpen ? "active" : ""} `}>
                     <ul className="tp-navmn flex flex-col lg:flex-row mx-auto items-start lg:items-center">
                         <li className="nav-lis p-4 lg:p-0">
-                            <Link className="nav-listin font-semibold" href="#about-us" onClick={closeMobileMenu}>
+                            <Link className="nav-listin font-semibold" href="#about-us" onClick={(e) => handleSmoothScroll(e, "#about-us")}>
                                 ABOUT US
                             </Link>
                         </li>
@@ -146,10 +167,14 @@ export default function Navbar() {
                             )}
                         </li>
                         <li className="nav-lis p-4 lg:p-0">
-                            <Link className="nav-listin font-semibold" href="#case-study" onClick={closeMobileMenu}>CASE STUDIES</Link>
+                            <Link className="nav-listin font-semibold" href="#case-study" onClick={(e) => handleSmoothScroll(e, "#case-study")}>
+                                CASE STUDIES
+                            </Link>
                         </li>
                         <li className="nav-lis p-4 lg:p-0">
-                            <Link className="nav-listin font-semibold" href="#portfolio" onClick={closeMobileMenu}>PORTFOLIO</Link>
+                            <Link className="nav-listin font-semibold" href="#portfolio" onClick={(e) => handleSmoothScroll(e, "#portfolio")}>
+                                PORTFOLIO
+                            </Link>
                         </li>
                     </ul>
                     <div className="flex lg:justify-end">

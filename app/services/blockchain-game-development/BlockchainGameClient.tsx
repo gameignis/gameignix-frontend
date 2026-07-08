@@ -332,9 +332,9 @@ export default function BlockchainGamePageServer() {
               </p>
             </div>
             <div className="relative flex flex-wrap">
-              <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
-                <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
-                  <Image src="/common/blockchain-game/crypto-game-development-company.webp" alt="Crypto Game Development Company" width={700} height={1000} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+              <div className="afflef">
+                <div className="affim">
+                  <Image src="/common/blockchain-game/crypto-game-development-company.webp" alt="Crypto Game Development Company" width={700} height={1000} className="h-auto max-w-full" />
                 </div>
               </div>
               <div className="md:w-2/3 md:ml-auto px-2 z-[2]">

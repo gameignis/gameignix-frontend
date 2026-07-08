@@ -257,7 +257,7 @@ export default function GameArtPageServer() {
         </div>
       </section>
       
-      <section className="pb-[4rem]">
+      <section className="pb-[4rem]" id="portfolio">
         <div className="text-center md:w-[90%] mx-auto w-full">
           <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#ff8600] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
             Our Portfolio
@@ -289,9 +289,9 @@ export default function GameArtPageServer() {
             </p>
           </div>
           <div className="relative flex flex-wrap">
-            <div className="absolute left-0 top-0 z-[1] w-full lg:w-auto flex-none h-full lg:h-auto opacity-20 md:opacity-100">
-              <div className="relative -top-[120px] -ml-[15px] h-full lg:h-auto">
-                <Image src="/common/game-art/game-art-development-company.webp" alt="Game Art Development Company" width={800} height={950} className="block object-cover w-full h-full md:h-auto md:max-w-full" />
+            <div className="afflef">
+              <div className="affim">
+                <Image src="/common/game-art/game-art-development-company.webp" alt="Game Art Development Company" width={800} height={950} className="h-auto max-w-full" />
               </div>
             </div>
             <div className="md:w-2/3 md:ml-auto px-2 z-[2]">

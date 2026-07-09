@@ -84,27 +84,27 @@ export default function UnityGamePageServer() {
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
-                  <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                  <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           1. Full-cycle Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           At GameIgnix, we offer full-cycle game development services using Unity’s extensive toolset. Whether you need to build a brand-new 
                           game from scratch or want a custom feature added to your ongoing project, our experienced developers are committed to delivering 
                           high-quality games within optimal timeframes.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           2. Unity AI Integration
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           With Unity’s latest AI capabilities, we bring advanced artificial intelligence systems to your game, delivering responsive characters 
                           and unpredictable gameplay. Our AI solutions cater to a wide range of game genres, from strategic AI for tactical strategy games to 
                           reactive AI for action-oriented games where non-player characters dynamically respond to player actions.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           3. Unity 2D/3D Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Whether pixel-perfect 2D or deeply immersive 3D worlds, our game developers utilize Unity's extensive asset library, rendering 
                           support, and optimization to create visually compelling games for mobile players and hardcore console gamers.
                         </p>
@@ -128,27 +128,27 @@ export default function UnityGamePageServer() {
                       </div>
                     </div>
                     <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                      <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         4. Game Porting/Migration
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         We professionally port and migrate games, ensuring a seamless transition of your existing games into Unity. Whether moving from another 
                         engine or upgrading to a newer version of Unity, we handle the complexities of platform-specific adjustments while maintaining your 
                         game’s visual and functional integrity.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         5. AR/VR Game Development
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         We develop VR, XR, and MR games, bringing the finest touch to interactive entertainment by seamlessly blending physical and digital 
                         worlds for a stunning player experience. From training simulations to cutting-edge entertainment titles, we enable games to reach 
                         maximum performance with immersive interactivity across diverse platforms.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         6. Metaverse Game Development
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         Our game developers are well-suited to develop next-gen metaverse games that foster and establish an interlinked virtual world, drawing 
                         gamers into it. With Unity's real-time rendering and top-level network infrastructure, we create massive digital spaces that thrive in 
                         interaction, socializing, and distinct game experiences.
@@ -238,7 +238,7 @@ export default function UnityGamePageServer() {
           <div className="relative flex flex-wrap">
             <div className="afflef">
               <div className="affim">
-                <Image src="/common/unity-game/unity-game-developers.webp" alt="Unity Game Developers" width={700} height={1000} loading="lazy" className="h-auto max-w-full" />
+                <Image src="/common/unity-game/unity-game-developers.webp" alt="Unity Game Developers" width={700} height={1000} loading="lazy" className="h-auto max-w-full opacity-50" />
               </div>
             </div>
             <div className="md:w-2/3 md:ml-auto px-2 z-[2]">

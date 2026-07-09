@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const CasinoPortfolioData = [
   { portimg: "/common/royal-spinhouse.webp", title: "Royal Spinhouse", desc: "Social Casino" },
@@ -64,7 +64,7 @@ export default function CasinoPortfolio() {
   return (    
     <div className="slickwrapper cmslickwrap">
       <Slider className="portfolioin-slider" key={isMobile ? "mobile" : "desktop"} {...(isMobile ? mobileSettings : desktopSettings)}>
-        {portfolioData.map((item, i) => (
+        {CasinoPortfolioData.map((item, i) => (
           <div key={i} className="portfolio-card px-3 relative h-[420px] rounded-[20px] overflow-hidden">
             <div className="relative h-full rounded-[20px] overflow-hidden">
               <Image src={item.portimg} alt={item.title} width={320} height={420} loading="lazy" className="w-full h-full object-cover rounded-[20px]" />

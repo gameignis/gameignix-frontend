@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const PokerPortfolioData = [
   { portimg: "/common/lost-horizon.webp", title: "Holdem Horizon", desc: "Texas Hold'em" },

@@ -91,27 +91,27 @@ export default function CasinoGamePageServer() {
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                 <div className="flex items-stretch rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                   <div className="md:w-[58%] w-full relative z-[10]">
-                    <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         1. Full-Cycle Casino Game Development
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         From idea to release, we cover all stages of casino game development. Our development process encompasses game design, 
                         programming, art production, testing, and post-release support. Our casino game developers use the latest technologies 
                         to create games that engage players and drive retention.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         2. Custom Casino Game Design
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         Our team works closely with you to create bespoke casino games that are visually stunning, attracting your audience and 
                         aligning with your brand identity. We develop a wide variety of casino games that provide an easy-to-use and engaging 
                         player experience.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         3. Real Money Casino Game Development
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         At GameIgnix, we specialize in the development of real-money casino games, delivering secure and scalable solutions 
                         for both web and mobile platforms. Our services encompass RNG integration, payment setup, and comprehensive platform 
                         development, with a focus on compliance and immersive experiences that enhance player retention and revenue.
@@ -136,27 +136,27 @@ export default function CasinoGamePageServer() {
                       </div>
                     </div>
                     <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                      <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           4. Slot Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           With experience in creating interactive slot games, our team develops games featuring exciting features such as 
                           free spins, bonus rounds, and progressive jackpots. We have expertise in designing attractive games with high-quality 
                           animations, symbols, and sound effects that engage players.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           5. Table Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our expert casino game developers provide full-cycle development for classic table games like blackjack, roulette, 
                           baccarat, poker, and more. Every game is developed with immersive gameplay mechanics and high-quality graphics to 
                           provide a whole casino ambiance for players.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           6. Live Casino Games
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our live casino games feature professional dealers and high-definition streaming, combined with interactive features, 
                           allowing players to engage in real-time gameplay and experience the thrill of a real-world casino.
                         </p>
@@ -170,27 +170,27 @@ export default function CasinoGamePageServer() {
               <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                 <div className="flex items-stretch rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                   <div className="md:w-[58%] w-full relative z-[10]">
-                    <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             7. Mobile Casino Game Development
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             We craft casino games specifically designed for the mobile platform, offering a seamless gaming experience to both 
                             Android and iOS users. Providing smooth gameplay, high-quality visuals, and quick loading times, our games are 
                             compatible with smartphones, tablets, and PCs.
                           </p>
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             8. Casino Game Testing and QA
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             Our testing team conducts thorough bug checks and multiple testing procedures to ensure the game's smooth performance 
                             across various devices. The game releases undergo stability tests, usability of the user interface, security, and 
                             compatibility in various OSs to guarantee a high-quality release.
                           </p>
-                          <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                          <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                             9. Game Monetization and Optimization
                           </h3>
-                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                          <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                             Understanding the significance of revenue generation in casino games, our team implements various monetization methods, 
                             including in-app purchases, progressive jackpots, and ad integrations, so that your game is both enjoyable to play and 
                             profitable for you.
@@ -264,7 +264,7 @@ export default function CasinoGamePageServer() {
             <div className="relative flex flex-wrap">
             <div className="afflef">
               <div className="affim">
-                  <Image src="/common/casino-game/casino-game-developers.webp" alt="Casino Game Developers" width={700} height={1000} loading="lazy" className="h-auto max-w-full" />
+                  <Image src="/common/casino-game/casino-game-developers.webp" alt="Casino Game Developers" width={700} height={1000} loading="lazy" className="h-auto max-w-full opacity-50" />
                 </div>
               </div>
               <div className="md:w-2/3 md:ml-auto px-2 z-[2]">

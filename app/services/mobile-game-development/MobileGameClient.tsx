@@ -83,27 +83,27 @@ export default function MobileGamePageServer() {
                 <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                   <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                     <div className="md:w-[58%] w-full relative z-[10]">
-                      <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           1. Full-cycle Mobile Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our full-cycle mobile game development service covers every phase of game development, from initial conceptualization and 
                           prototyping to coding and post-launch updates. Our skilled experts combine innovative technologies with customer-centric 
                           design and creativity to craft high-quality games that embody your vision.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           2. Mobile Game Art and Animation
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our team specializes in creating technically and visually impressive game art, including 2D/3D assets, characters, 
                           environments, and other elements, with high-resolution quality textures and graphics. We incorporate realism into mobile 
                           games by creating an engaging illusion of movement for game assets, coupled with smoothness and fluidity.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           3. Mobile Game UI/UX Design
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our mobile game UI/UX design service is crucial in creating intuitive interfaces and layouts that naturally guide players 
                           through the game. By concentrating on designing user-friendly input controls and navigation elements, we ensure smooth 
                           transitions and interactions, ultimately enhancing the player's overall experience.
@@ -128,27 +128,27 @@ export default function MobileGamePageServer() {
                       </div>
                     </div>
                     <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                      <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           4. Mobile Game Porting
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our mobile game porting service helps you maximize your game's reach and audience. Be it porting your game from iOS to 
                           Android or from one gaming console to another, our experts will handle all the technical complexities while ensuring 
                           consistent performance and playability across various platforms.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           5. LiveOps Services
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our LiveOps services, which include dynamic in-game events, real-time updates, and customized content, are designed to 
                           keep your game fresh and engaging long after its launch. By regularly monitoring player behavior and in-game data, we can 
                           maintain long-term player retention and monetization, ensuring your game remains a player favorite.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           6. Mobile Game Testing
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our QA teams conduct meticulous tests on mobile games to identify and resolve bugs, glitches, and performance issues 
                           across multiple devices and platforms. From manual to automated testing, we cover every aspect, including functionality, 
                           compatibility, and user interface, ensuring a bug-free release.

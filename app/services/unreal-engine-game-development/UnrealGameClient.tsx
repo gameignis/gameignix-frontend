@@ -81,27 +81,27 @@ export default function UnrealGamePageServer() {
                 <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
                   <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                     <div className="md:w-[58%] w-full relative z-[10]">
-                      <div className="p-[0.5rem_1rem_1rem_1.6rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           1. Full-cycle Unreal Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           As a top-tier Unreal Engine game development studio, we provide full-cycle development services tailored to games of all genres and 
           complexity levels. Our 360-degree support spans from concept creation to testing and release, utilizing agile sprints to deliver 
           self-contained, high-quality games that meet the industry's highest standards.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           2. AR/VR/MR-Based Game Development
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           With extensive experience in leveraging Unreal Engine’s advanced rendering and physics engines, our experts provide gaming solutions 
           within augmented and virtual spaces. Whether you want a VR game for Oculus Rift or an MR gaming solution for HTC Vive, we create 
           hyper-realistic games and simulations with unparalleled graphics and standout interactions. 
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           3. Game Porting to Unreal Engine
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                           Want to switch game engines to improve underperformed graphics or reach a wider game community? We offer comprehensive porting 
           services, facilitating the smooth migration of your existing projects to the new engine, including UE4 to UE5, with no compromise on 
           compatibility.
@@ -126,26 +126,26 @@ export default function UnrealGamePageServer() {
                         </div>
                        </div>
                       <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                       <div className="p-[0.5rem_1rem_1rem_1.6rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                       <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           4. Game Art and Animation
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Whether it is 3D modeling, texturing, or animation, we use Unreal Engine’s motion capture technology and animation tools to produce 
           high-fidelity visual assets. Our team of 2D/3D game artists and animators specializes in character modeling, environmental design, 
           and motion capture integration with meticulous attention to every detail.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           5. Game Design and Prototyping
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           We build functional prototypes with basic mechanics to validate the core gameplay loop and assess the game’s concept before development 
           begins. Our team develops compelling game mechanics, defining core elements to engage players from the first moment.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           6. Unreal Game Testing
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                           Employing Unreal Engine’s testing tools, we perform extensive testing procedures to detect and eliminate bugs or glitches. Our testing 
           team closely examines every aspect of game load times, frame rates, and system compatibility to ensure the game provides the best service.
                         </p>

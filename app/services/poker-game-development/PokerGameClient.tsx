@@ -89,25 +89,25 @@ export default function PokerGamePageServer() {
              <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
               <div className="flex items-stretch rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
-                  <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                  <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                    <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                       1. Custom Poker Game Development
                     </h3>
-                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                       If you have a unique poker game concept, our bespoke game development services can help you create a custom poker game 
                       that perfectly aligns with your vision.
                     </p>
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                       2. Turnkey Poker Game Development
                     </h3>
-                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                       We help you to launch your poker platform quickly and efficiently with our end-to-end turnkey solutions. We handle all 
                       the processes from conceptualization to launch.
                     </p>
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                       3. Poker App Development for Android and iOS
                     </h3>
-                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                       We develop custom poker applications for both Android and iOS devices, helping you reach a massive audience with a 
                       performance-rich and engaging poker game app.
                     </p>
@@ -115,7 +115,7 @@ export default function PokerGamePageServer() {
                 </div>
                 <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
                   <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                   <Image src="/common/poker-game/poker-game-development-services.webp" alt="Poker Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[470px] object-cover" />
+                   <Image src="/common/poker-game/poker-game-development-services.webp" alt="Poker Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[400px] object-cover" />
                   </div>
                 </div>
                 </div>
@@ -127,29 +127,29 @@ export default function PokerGamePageServer() {
                 <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
                   <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
                     <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                      <Image src="/common/poker-game/poker-game-development.webp" alt="Poker Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[480px] object-cover" />
+                      <Image src="/common/poker-game/poker-game-development.webp" alt="Poker Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[460px] object-cover" />
                     </div>
                   </div>
                   <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                    <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         4. RNG-certified Poker Game
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         We help you develop Random Number Generators (RNG) - certified poker games for absolute fairness and unpredictability, 
                         ensuring a trustworthy gaming experience.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         5. Existing Poker Game Add-ons
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                         Suppose you are looking forward to enhancing your current poker platform with new features and functionalities. We help 
                         you integrate those features with the industry's best standards.
                       </p>
-                      <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                         6. Secure Payment Gateway Integration
                       </h3>
-                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                      <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                         We integrate robust payment gateways to support various payment methods, including credit cards, e-wallets, and 
                         cryptocurrencies, ensuring player confidence with features like encryption and fraud detection.
                       </p>

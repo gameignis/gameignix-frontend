@@ -115,25 +115,25 @@ export default function BlockchainGamePageServer() {
             <div className="p-px rounded-[18px] bg-[linear-gradient(224deg,#FC74005E_0%,#964500d4_100%)]">
               <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                 <div className="md:w-[58%] w-full relative z-[10]">
-                  <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                  <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                    <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                       1. Custom Game Development
                     </h3>
-                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                       We specialize in building next-generation blockchain, Web3, and metaverse games from the ground up, tailored to your 
                       vision, combining core gameplay with seamless blockchain integration.
                     </p>
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                       2. Smart Contract Development
                     </h3>
-                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                       We specialize in writing and deploying highly secure and efficient smart contracts that govern critical in-game logic, 
                       asset ownership, and transactions for trust and transparency.
                     </p>
-                    <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                    <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                       3. Game Tokenomics Design
                     </h3>
-                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                    <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                       Our experts meticulously design your game's economic model, encompassing the creation, distribution, utility, and burning 
                       mechanisms of your in-game cryptocurrencies and NFTs.
                     </p>
@@ -141,7 +141,7 @@ export default function BlockchainGamePageServer() {
                 </div>
                 <div className="md:w-[42%] flex absolute right-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
                   <div className="flex flex-col w-full h-full flex flex-column">
-                    <Image src="/common/blockchain-game/blockchain-game-development.webp" alt="Blockchain Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[560px] object-contain" />
+                    <Image src="/common/blockchain-game/blockchain-game-development.webp" alt="Blockchain Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[540px] object-contain" />
                   </div>
                 </div>
                </div>
@@ -152,29 +152,29 @@ export default function BlockchainGamePageServer() {
                 <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                    <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
                       <div className="flex flex-col w-full h-full flex flex-column">
-                        <Image src="/common/blockchain-game/blockchain-game-development-services.webp" alt="Blockchain Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[560px] object-contain" />
+                        <Image src="/common/blockchain-game/blockchain-game-development-services.webp" alt="Blockchain Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[540px] object-contain" />
                       </div>
                     </div>
                     <div className="md:w-[58%] w-full relative z-[10] ml-auto">
-                      <div className="p-[1rem_1rem_1rem_1.6rem] md:p-[2rem_1rem_2rem_3rem]">
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                      <div className="p-[0.2rem_0.5rem] md:p-[0.5rem_1rem]">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           4. Crypto Wallet and Token Integration
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           Our experts integrate secure and user-friendly crypto wallets directly into your game ecosystem, allowing players to 
                           manage their assets & make in-game purchases effortlessly.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           5. NFT Marketplace Creation
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[2rem]">
                           We design and develop custom NFT marketplaces, either in-game or as standalone platforms, where players can securely 
                           buy, sell, and trade their unique NFT characters.
                         </p>
-                        <h3 className="text-[18px] md:text-[24px] mt-[0.4rem] mb-[1rem] md:mb-[1.5rem] text-[#ff8600] font-bold italic capitalize">
+                        <h3 className="text-[18px] md:text-[24px] my-[0.7rem] text-[#ff8600] font-bold italic capitalize">
                           6. Game Avatar and Character Creation 
                         </h3>
-                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white">
+                        <p className="text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-white mb-[1rem]">
                           Our skilled artists create unique 2D/3D models that can be tokenized as NFTs, providing players with true ownership 
                           to express their digital identity in the game.
                         </p>

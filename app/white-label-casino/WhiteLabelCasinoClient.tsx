@@ -247,7 +247,7 @@ export default function WhiteLabelCasinoPageServer() {
           <div className="relative flex flex-wrap">
             <div className="afflef">
               <div className="affim">
-                <Image src="/common/casino-game/casino-game-developers.webp" alt="Casino Software Development Process" width={700} height={1000} loading="lazy" className="h-auto max-w-full" />
+                <Image src="/common/casino-game/casino-game-developers.webp" alt="Casino Software Development Process" width={700} height={1000} loading="lazy" className="h-auto max-w-full opacity-40" />
               </div>
             </div>
             <div className="md:w-2/3 md:ml-auto px-2 z-[2]">

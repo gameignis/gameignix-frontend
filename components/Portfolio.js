@@ -21,7 +21,9 @@ const portfolioData = [
   { portimg: "/common/royal-spinhouse.webp", title: "Royal Spinhouse", desc: "Social Casino" },
   { portimg: "/common/eclipsia.webp", title: "Eclipsia: Realms Unbound", desc: "MMORPG" },
 ];
+
 export default function Portfolio() {
+ 
   const [mounted, setMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -65,20 +67,14 @@ export default function Portfolio() {
           {portfolioData.map((item, i) => (
             <div key={i} className="portfolio-card px-3 relative h-[420px] rounded-[20px] overflow-hidden">
               <div className="relative h-full rounded-[20px] overflow-hidden">
-                <Image
-                  src={item.portimg}
-                  alt={item.title}
-                  width={320}
-                  height={420}
-                  className="w-full h-full object-cover rounded-[20px]"
-                />
+                <Image src={item.portimg} alt={item.title} width={320} height={420} loading="lazy" className="w-full h-full object-cover rounded-[20px]" />
                 <div className="absolute inset-0 bg-black/40 z-[1] rounded-[20px]" />
                 <div className="absolute left-0 z-10 flex flex-col bottom-0 right-0 p-[10px_60px_20px_25px]">
                   <p className="text-white font-semibold text-[15px] leading-[24px] font-orbitron my-[4px] text-left">
-                      {item.title}
+                    {item.title}
                   </p>
                   <p className="text-white text-[13px] leading-[16px] m-0">
-                      {item.desc}
+                    {item.desc}
                   </p>
                   <span className="arrow2 cursor-pointer"></span>
                 </div>

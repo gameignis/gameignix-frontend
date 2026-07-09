@@ -104,7 +104,7 @@ export default function WhiteLabelTeams() {
                 </p>
                 </div>
                 <div className="my-[1rem] pr-6">
-                  <Image src="/common/casino-game/casino-game-app.webp" alt="White Label Casino Solution" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
+                  <Image src="/common/casino-game/casino-game-app.webp" alt="White Label Casino Solution" width={640} height={350} loading="lazy" className="max-w-full h-auto flex-shrink-0" />
                 </div>
               </div>
            </div>
@@ -114,7 +114,7 @@ export default function WhiteLabelTeams() {
                   <div key={index} className="mb-3 border-b border-white bg-transparent rounded-none pt-[10px] pb-[17px]">
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[32px] font-semibold">
                       <button type="button" aria-label={item.question} onClick={() => toggleItem(index)} className="relative w-full pl-[60px] pr-[10px] py-[17px] text-left text-white">
-                        <Image src="/common/arrow1.webp" alt="arrow" width={34} height={34} className={`absolute left-[2px] top-[16px] transition-transform duration-300 ease-in-out ${ openIndex === index ? "rotate-180" : "rotate-0" }`} /> 
+                        <Image src="/common/arrow1.webp" alt="arrow" width={34} height={34} loading="lazy" className={`absolute left-[2px] top-[16px] transition-transform duration-300 ease-in-out ${ openIndex === index ? "rotate-180" : "rotate-0" }`} /> 
                         {item.question}
                       </button>
                     </h3>

@@ -59,8 +59,7 @@ export default function BlockchainTeams() {
                 </p>
                 </div>
               <div className="my-[1rem] pr-6">
-                  <Image src="/common/blockchain-game/blockchain-game-developers.webp" alt="Blockchain Game Developers" 
-                   width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
+                  <Image src="/common/blockchain-game/blockchain-game-developers.webp" alt="Blockchain Game Developers" width={640} height={350} loading="lazy" className="max-w-full h-auto flex-shrink-0" />
                 </div>
               </div>
            </div>

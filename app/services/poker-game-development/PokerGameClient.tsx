@@ -52,8 +52,8 @@ export default function PokerGamePageServer() {
             </div>
             </div>
           </div>        
-          <Image src="/common/poker-game/poker-game-development-company.webp" alt="Poker Game Development Company" fill priority className="hidden md:block h-full w-full object-cover" />
-          <Image src="/common/poker-game/poker-game-development-company-480.webp" alt="Poker Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
+          <Image src="/common/poker-game/poker-game-development-company.webp" alt="Poker Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+          <Image src="/common/poker-game/poker-game-development-company-480.webp" alt="Poker Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
       </section>
 
       <div className="pt-[100px] md:pt-2 relative overflow-x-hidden md:overflow-visible">
@@ -114,9 +114,9 @@ export default function PokerGamePageServer() {
                   </div>
                 </div>
                 <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
-                    <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                   <Image src="/common/poker-game/poker-game-development-services.webp" alt="Poker Game Development Services" width={600} height={600} className="w-full h-full md:h-[470px] object-cover" />
-                </div>
+                  <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
+                   <Image src="/common/poker-game/poker-game-development-services.webp" alt="Poker Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[470px] object-cover" />
+                  </div>
                 </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function PokerGamePageServer() {
                 <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
                   <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
                     <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                      <Image src="/common/poker-game/poker-game-development.webp" alt="Poker Game Development" width={600} height={600} className="w-full h-full md:h-[480px] object-cover" />
+                      <Image src="/common/poker-game/poker-game-development.webp" alt="Poker Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[480px] object-cover" />
                     </div>
                   </div>
                   <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -162,7 +162,7 @@ export default function PokerGamePageServer() {
         </section>
 
         <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
-          <Image src="/common/poker-game/game-idea.webp" alt="Got a Game Idea? Let’s Ignite It!" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+          <Image src="/common/poker-game/game-idea.webp" alt="Got a Game Idea? Let’s Ignite It!" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
              <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -293,7 +293,7 @@ export default function PokerGamePageServer() {
         </section>
 
         <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
-          <Image src="/common/poker-game/game-build.webp" alt="Yours Could Be Our Next Big Game!" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+          <Image src="/common/poker-game/game-build.webp" alt="Yours Could Be Our Next Big Game!" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -329,7 +329,7 @@ export default function PokerGamePageServer() {
             <div className="relative flex flex-wrap">
               <div className="afflef">
                 <div className="affim">
-                  <Image src="/common/poker-game/poker-game-developers.webp" alt="Poker Game Developers" width={700} height={1000} className="h-auto max-w-full" />
+                  <Image src="/common/poker-game/poker-game-developers.webp" alt="Poker Game Developers" width={700} height={1000} loading="lazy" className="h-auto max-w-full" />
                 </div>
               </div>
               <div className="md:w-2/3 md:ml-auto px-2 z-[2]">

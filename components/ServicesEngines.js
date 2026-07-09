@@ -31,10 +31,10 @@ export default function ServicesEngines() {
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className="flex-1 overflow-hidden w-full h-full relative">
-                    <Image src="/common/game-develop/unity-engine.webp" alt="Unity Engine" width={600} height={600} className="w-full h-full object-cover" />
+                    <Image src="/common/game-develop/unity-engine.webp" alt="Unity Engine" width={600} height={600} loading="lazy" className="w-full h-full object-cover" />
                   </div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[300px]">
-                    <Image src="/common/unity-logo.webp" alt="Unity Logo" width={290} height={100} className="max-w-full h-auto flex-shrink-0" />
+                    <Image src="/common/unity-logo.webp" alt="Unity Logo" width={290} height={100} loading="lazy" className="max-w-full h-auto flex-shrink-0" />
                   </div>
                   <Link className="absolute bottom-8 md:bottom-4 block text-center text-white no-underline" href="#" aria-label="Read more">
                     Read more 
@@ -60,10 +60,10 @@ export default function ServicesEngines() {
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className="flex-1 overflow-hidden w-full h-full relative">
-                    <Image src="/common/game-develop/unreal-engine.webp" alt="Unreal Engine" width={600} height={600} className="w-full h-full object-cover" />
+                    <Image src="/common/game-develop/unreal-engine.webp" alt="Unreal Engine" width={600} height={600} loading="lazy" className="w-full h-full object-cover" />
                   </div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[300px]">
-                    <Image src="/common/unreal-logo.webp" alt="Unreal Logo" width={120} height={50} className="max-w-full h-auto flex-shrink-0" />
+                    <Image src="/common/unreal-logo.webp" alt="Unreal Logo" width={120} height={50} loading="lazy" className="max-w-full h-auto flex-shrink-0" />
                   </div>
                   <Link className="absolute bottom-8 md:bottom-4 block text-center text-white no-underline" href="#" aria-label="Read more">
                     Read more 

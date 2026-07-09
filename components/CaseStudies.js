@@ -54,7 +54,7 @@ export default function CaseStudies() {
           </p>
         </div>
           <div className="relative overflow-hidden">
-            <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${current * 100}%)`, }}>
+           <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${current * 100}%)`, }}>
             {CaseStudiesdata.map((item, i) => (
               <div key={i} className="w-full shrink-0">
                 <div className="relative p-[20px] lg:p-[50px] m-0 after:content-[''] after:absolute after:left-[5px] after:top-0 after:w-[99%] after:h-[99%] after:bg-white/5 after:border after:border-white/30 after:rounded-[15px] after:pointer-events-none">

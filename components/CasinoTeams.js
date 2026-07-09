@@ -59,7 +59,7 @@ export default function CasinoTeams() {
                 </p>
                 </div>
                 <div className="my-[1rem] pr-6">
-                  <Image src="/common/casino-game/casino-game-app.webp" alt="Casino Game App Development" width={640} height={350} className="max-w-full h-auto flex-shrink-0" />
+                  <Image src="/common/casino-game/casino-game-app.webp" alt="Casino Game App Development" width={640} height={350} loading="lazy" className="max-w-full h-auto flex-shrink-0" />
                 </div>
               </div>
            </div>

@@ -48,8 +48,8 @@ export default function ServicesPageServer() {
               </div>
             </div>
           </div>        
-          <Image src="/common/game-develop/game-development-services.webp" alt="Game Development Services" fill priority className="hidden md:block h-full w-full object-cover" />
-          <Image src="/common/game-develop/game-development-services-480.webp" alt="Game Development Services" fill priority className="md:hidden h-[480px] object-cover" />
+          <Image src="/common/game-develop/game-development-services.webp" alt="Game Development Services" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+          <Image src="/common/game-develop/game-development-services-480.webp" alt="Game Development Services" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
         </section>
 
         <div className="relative pt-[2rem] md:pt-[0.2rem] overflow-x-hidden md:overflow-visible">
@@ -159,7 +159,7 @@ export default function ServicesPageServer() {
           </section>
 
           <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
-            <Image src="/common/game-develop/game-idea.webp" alt="Got a Game Idea? Let’s Set It on Fire!" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+            <Image src="/common/game-develop/game-idea.webp" alt="Got a Game Idea? Let’s Set It on Fire!" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -297,7 +297,7 @@ export default function ServicesPageServer() {
               <div className="relative flex flex-wrap">
                 <div className="afflef">
                   <div className="affim">
-                    <Image src="/common/game-develop/video-game-development-services.webp" alt="Video Game Development Services" width={490} height={800} className="max-w-full h-auto" />
+                    <Image src="/common/game-develop/video-game-development-services.webp" alt="Video Game Development Services" width={490} height={800} loading="lazy" className="max-w-full h-auto" />
                   </div>
                 </div>
                 <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -370,7 +370,7 @@ export default function ServicesPageServer() {
                 </div>
                 <div className="order-1 md:order-2 afflef">
                   <div className="affim">
-                    <Image src="/common/game-develop/online-game-development-services.webp" alt="Online Game Development Services" width={490} height={800} className="h-auto max-w-full" />
+                    <Image src="/common/game-develop/online-game-development-services.webp" alt="Online Game Development Services" width={490} height={800} loading="lazy" className="h-auto max-w-full" />
                   </div>
                 </div>
               </div>
@@ -394,7 +394,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] w-full overflow-hidden rounded-[15px]">
-                    <Image src="/common/game-develop/mobile.webp" alt="Mobile" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/mobile.webp" alt="Mobile" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       Mobile
@@ -408,7 +408,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/game-develop/pc.webp" alt="PC" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/pc.webp" alt="PC" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       PC
@@ -422,7 +422,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/game-develop/console.webp" alt="Console" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/console.webp" alt="Console" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       Console
@@ -436,7 +436,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/game-develop/AR-VR.webp" alt="AR/VR" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/AR-VR.webp" alt="AR/VR" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       AR/VR
@@ -471,7 +471,7 @@ export default function ServicesPageServer() {
           <ServicesCaseStudies />
 
           <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
-            <Image src="/common/game-develop/game-build.webp" alt="Yours Could Be Our Next Project!" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+            <Image src="/common/game-develop/game-build.webp" alt="Yours Could Be Our Next Project!" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 z-[1] bg-black/40" />
               <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
                 <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -507,7 +507,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/game-develop/project-based-model.webp" alt="Project-Based Model" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/project-based-model.webp" alt="Project-Based Model" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       Project-Based Model
@@ -522,7 +522,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/game-develop/dedicated-team.webp" alt="Dedicated Development Team" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/dedicated-team.webp" alt="Dedicated Development Team" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">  
                       Dedicated Development Team
@@ -536,7 +536,7 @@ export default function ServicesPageServer() {
                 <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/game-develop/team-extension.webp" alt="Team Extension" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/game-develop/team-extension.webp" alt="Team Extension" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       Team Extension

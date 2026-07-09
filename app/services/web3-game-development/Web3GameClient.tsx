@@ -50,8 +50,8 @@ export default function Web3GamePageServer() {
               </div>
               </div>
             </div>        
-          <Image src="/common/web3-game/web3-game-development-company.webp" alt="Web3 Game Development Company" fill priority className="hidden md:block h-full w-full object-cover" />
-          <Image src="/common/web3-game/web3-game-development-company-480.webp" alt="Web3 Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
+          <Image src="/common/web3-game/web3-game-development-company.webp" alt="Web3 Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+          <Image src="/common/web3-game/web3-game-development-company-480.webp" alt="Web3 Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
         </section>
 
         <div className="pt-16 md:pt-8 relative overflow-x-hidden md:overflow-visible">
@@ -145,7 +145,7 @@ export default function Web3GamePageServer() {
                       </div>
                       <div className="md:w-[42%] flex absolute right-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
                          <div className="flex flex-col w-full h-full flex flex-column">
-                          <Image src="/common/web3-game/web3-game-development.webp" alt="Web3 Game Development" width={600} height={600} className="w-full h-full md:h-[560px] object-contain" />
+                          <Image src="/common/web3-game/web3-game-development.webp" alt="Web3 Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[560px] object-contain" />
                       </div>
                       </div>
                   </div>
@@ -157,7 +157,7 @@ export default function Web3GamePageServer() {
                     <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                       <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
                         <div className="flex flex-col w-full h-full flex flex-column">
-                          <Image src="/common/web3-game/web3-game-development-services.webp" alt="Web3 Game Development Services" width={600} height={600} className="w-full h-full md:h-[560px] object-contain" />
+                          <Image src="/common/web3-game/web3-game-development-services.webp" alt="Web3 Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[560px] object-contain" />
                         </div>
                       </div>
                       <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -213,7 +213,7 @@ export default function Web3GamePageServer() {
           <WhyChooseWeb3Game />
 
           <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
-            <Image src="/common/web3-game/web3-game-idea.webp" alt="Got a Game Idea? Let’s Set It on Fire!" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+            <Image src="/common/web3-game/web3-game-idea.webp" alt="Got a Game Idea? Let’s Set It on Fire!" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -247,7 +247,7 @@ export default function Web3GamePageServer() {
               <div className="relative flex flex-wrap">
                 <div className="afflef">
                   <div className="affim">
-                    <Image src="/common/web3-game/web3-game-company.webp" alt="Web3 Game Company" width={800} height={950} className="h-auto max-w-full" />
+                    <Image src="/common/web3-game/web3-game-company.webp" alt="Web3 Game Company" width={800} height={950} loading="lazy" className="h-auto max-w-full" />
                   </div>
                 </div>
                 <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -352,7 +352,7 @@ export default function Web3GamePageServer() {
                 </div>
                 <div className="order-1 md:order-2 afflef">
                   <div className="affim">
-                    <Image src="/common/unity-game/unity-game-development-studio.webp" alt="Unity Game Development Studio" width={490} height={800} className="h-auto max-w-full" />
+                    <Image src="/common/unity-game/unity-game-development-studio.webp" alt="Unity Game Development Studio" width={490} height={800} loading="lazy" className="h-auto max-w-full" />
                   </div>
                 </div>
               </div>
@@ -421,7 +421,7 @@ export default function Web3GamePageServer() {
           </section>
 
           <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-4">
-            <Image src="/common/web3-game/game-build.webp" alt="Need Extra Hands or a Full Development Team?" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+            <Image src="/common/web3-game/game-build.webp" alt="Need Extra Hands or a Full Development Team?" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">

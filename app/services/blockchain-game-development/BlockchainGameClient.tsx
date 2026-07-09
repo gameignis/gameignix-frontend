@@ -47,8 +47,8 @@ export default function BlockchainGamePageServer() {
             </div>
           </div>
         </div>        
-        <Image src="/common/blockchain-game/blockchain-game-development-company.webp" alt="Blockchain Game Development Company" fill priority className="hidden md:block h-full w-full object-cover" />
-        <Image src="/common/blockchain-game/blockchain-game-development-company-480.webp" alt="Blockchain Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
+        <Image src="/common/blockchain-game/blockchain-game-development-company.webp" alt="Blockchain Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+        <Image src="/common/blockchain-game/blockchain-game-development-company-480.webp" alt="Blockchain Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
       </section>
 
       <div className="relative pt-16 md:pt-2 overflow-x-hidden md:overflow-visible">
@@ -140,12 +140,11 @@ export default function BlockchainGamePageServer() {
                   </div>
                 </div>
                 <div className="md:w-[42%] flex absolute right-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
-                    <div className="flex flex-col w-full h-full flex flex-column">
-                    <Image src="/common/blockchain-game/blockchain-game-development.webp" alt="Blockchain Game Development" 
-                    width={600} height={600} className="w-full h-full md:h-[560px] object-contain" />
+                  <div className="flex flex-col w-full h-full flex flex-column">
+                    <Image src="/common/blockchain-game/blockchain-game-development.webp" alt="Blockchain Game Development" width={600} height={600} loading="lazy" className="w-full h-full md:h-[560px] object-contain" />
                   </div>
                 </div>
-                </div>
+               </div>
               </div>
             </div>
             <div className="mt-8 md:mt-16 md:mb-4 md:py-8 pb-8">
@@ -153,7 +152,7 @@ export default function BlockchainGamePageServer() {
                 <div className="flex rounded-[18px] p-[15px] md:p-[20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)] relative">
                    <div className="md:w-[42%] flex absolute left-0 bottom-0 opacity-20 md:opacity-100 h-full md:h-auto">
                       <div className="flex flex-col w-full h-full flex flex-column">
-                        <Image src="/common/blockchain-game/blockchain-game-development-services.webp" alt="Blockchain Game Development Services" width={600} height={600} className="w-full h-full md:h-[560px] object-contain" />
+                        <Image src="/common/blockchain-game/blockchain-game-development-services.webp" alt="Blockchain Game Development Services" width={600} height={600} loading="lazy" className="w-full h-full md:h-[560px] object-contain" />
                       </div>
                     </div>
                     <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -208,7 +207,7 @@ export default function BlockchainGamePageServer() {
         <WhyChooseBlockchainGame />
 
         <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-8 md:mb-12">
-          <Image src="/common/blockchain-game/game-idea.webp" alt="Have a Vision? We’ll Ignite It!" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+          <Image src="/common/blockchain-game/game-idea.webp" alt="Have a Vision? We’ll Ignite It!" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -251,8 +250,7 @@ export default function BlockchainGamePageServer() {
                 </div>
                 <div className="w-full md:col-span-4 flex">
                   <div className="w-full h-full">
-                    <Image src="/common/poker-game/texas-holdem.webp" alt="Move-to-Earn Game" width={300} height={300} 
-                      className="w-full h-full object-cover" />
+                    <Image src="/common/poker-game/texas-holdem.webp" alt="Move-to-Earn Game" width={300} height={300} loading="lazy" className="w-full h-full object-cover" />
                   </div>
                 </div>
             </div>              
@@ -334,7 +332,7 @@ export default function BlockchainGamePageServer() {
             <div className="relative flex flex-wrap">
               <div className="afflef">
                 <div className="affim">
-                  <Image src="/common/blockchain-game/crypto-game-development-company.webp" alt="Crypto Game Development Company" width={700} height={1000} className="h-auto max-w-full" />
+                  <Image src="/common/blockchain-game/crypto-game-development-company.webp" alt="Crypto Game Development Company" width={700} height={1000} loading="lazy" className="h-auto max-w-full" />
                 </div>
               </div>
               <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -390,7 +388,7 @@ export default function BlockchainGamePageServer() {
         <BlockchainTeams />
 
         <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-8 md:mb-12">
-          <Image src="/common/blockchain-game/game-build.webp" alt="Hire Expert Game Developers Today" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+          <Image src="/common/blockchain-game/game-build.webp" alt="Hire Expert Game Developers Today" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 z-[1] bg-black/40" />
           <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
             <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">

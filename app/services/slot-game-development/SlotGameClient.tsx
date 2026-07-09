@@ -52,8 +52,8 @@ export default function SlotGamePageServer() {
               </div>
               </div>
             </div>        
-          <Image src="/common/slot-game/slot-game-development-company.webp" alt="Slot Game Development Company" fill priority className="hidden md:block h-full w-full object-cover" />
-          <Image src="/common/slot-game/slot-game-development-company-480.webp" alt="Slot Game Development Company" fill priority className="md:hidden h-[480px] object-cover" />
+          <Image src="/common/slot-game/slot-game-development-company.webp" alt="Slot Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+          <Image src="/common/slot-game/slot-game-development-company-480.webp" alt="Slot Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
         </section>
 
         <div className="pt-16 md:pt-2 relative overflow-x-hidden md:overflow-visible">
@@ -121,7 +121,7 @@ export default function SlotGamePageServer() {
                         </div>
                         <div className="md:w-[42%] flex justify-end absolute right-0 h-full opacity-20 md:relative md:opacity-100">
                            <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                             <Image src="/common/slot-game/slot-game-development-services.webp" alt="Slot Game Development Services" width={600} height={400} className="w-full h-full md:h-[480px] object-cover" />
+                             <Image src="/common/slot-game/slot-game-development-services.webp" alt="Slot Game Development Services" width={600} height={400} loading="lazy" className="w-full h-full md:h-[480px] object-cover" />
                            </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ export default function SlotGamePageServer() {
                     <div className="flex items-stretch relative rounded-[18px] p-[15px] md:p-[20px_60px_20px_20px] bg-[linear-gradient(-253.75deg,#010101_68.95%,#3E0803_123.66%,#7A0F04_213.15%)]">
                       <div className="md:w-[42%] flex absolute left-0 h-full opacity-20 md:relative md:opacity-100">
                         <div className="flex flex-col w-full h-full md:w-[88%] rounded-[10px] overflow-hidden opacity-40 md:opacity-100">                            
-                          <Image src="/common/slot-game/slot-game-development.webp" alt="Slot Game Development" width={600} height={600} className="w-full h-full object-cover" />
+                          <Image src="/common/slot-game/slot-game-development.webp" alt="Slot Game Development" width={600} height={600} loading="lazy" className="w-full h-full object-cover" />
                         </div>
                         </div>
                         <div className="md:w-[58%] w-full relative z-[10] ml-auto">
@@ -195,7 +195,7 @@ export default function SlotGamePageServer() {
             <WhyChooseSlotGame />
 
             <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-8 md:mb-12">
-              <Image src="/common/slot-game/game-idea.webp" alt="Build Winning Slot Games with GameIgnix" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+              <Image src="/common/slot-game/game-idea.webp" alt="Build Winning Slot Games with GameIgnix" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 z-[1] bg-black/40" />
               <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -237,7 +237,7 @@ export default function SlotGamePageServer() {
                     </div>
                     <div className="w-full md:col-span-4 flex">
                       <div className="w-full h-full">
-                        <Image src="/common/poker-game/texas-holdem.webp" alt="Classic 3-Reel Slots" width={300} height={300} className="w-full h-full object-cover" />
+                        <Image src="/common/poker-game/texas-holdem.webp" alt="Classic 3-Reel Slots" width={300} height={300} loading="lazy" className="w-full h-full object-cover" />
                       </div>
                     </div>
                 </div>
@@ -337,7 +337,7 @@ export default function SlotGamePageServer() {
                 <div className="relative flex flex-wrap">
                   <div className="afflef">
                     <div className="affim">
-                      <Image src="/common/slot-game/slot-game-developers.webp" alt="Slot Game Developers" width={700} height={1000} className="h-auto max-w-full" />
+                      <Image src="/common/slot-game/slot-game-developers.webp" alt="Slot Game Developers" width={700} height={1000} loading="lazy" className="h-auto max-w-full" />
                     </div>
                   </div>
                   <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -411,7 +411,7 @@ export default function SlotGamePageServer() {
                   <div className="flex">
                   <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                     <Image src="/common/mobile-game/dedicated-development-team.webp" alt="Dedicated Development Team" width={640} height={350} className="h-full w-full object-cover" />
+                     <Image src="/common/mobile-game/dedicated-development-team.webp" alt="Dedicated Development Team" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <p className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       Dedicated Development Team
@@ -425,7 +425,7 @@ export default function SlotGamePageServer() {
                   <div className="flex">
                    <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                      <Image src="/common/mobile-game/team-extension.webp" alt="Team Extension" width={640} height={350} className="h-full w-full object-cover" />
+                      <Image src="/common/mobile-game/team-extension.webp" alt="Team Extension" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
                     <p className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                       Team Extension
@@ -439,7 +439,7 @@ export default function SlotGamePageServer() {
                   <div className="flex">
                     <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                      <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                        <Image src="/common/mobile-game/project-based-model.webp" alt="Project-Based Model" width={640} height={350} className="h-full w-full object-cover" />
+                        <Image src="/common/mobile-game/project-based-model.webp" alt="Project-Based Model" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                       </div>
                       <p className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                         Project-Based Model
@@ -455,7 +455,7 @@ export default function SlotGamePageServer() {
             </section>
 
             <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-8 md:mb-12">
-              <Image src="/common/slot-game/game-build.webp" alt="Hire the Experts You Need" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+              <Image src="/common/slot-game/game-build.webp" alt="Hire the Experts You Need" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 z-[1] bg-black/40" />
               <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">

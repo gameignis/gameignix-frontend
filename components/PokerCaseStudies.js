@@ -1,7 +1,5 @@
 "use client";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -41,30 +39,15 @@ const PokerCaseStudiesdata = [
 ];
 
 export default function PokerCaseStudies() {
-  const settings = {
-    arrows: false,
-    dots: true,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    responsive: [
-      {
-        breakpoint: 1024, 
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 768, 
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+  
+  const [current, setCurrent] = useState(0);
+  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % PokerCaseStudiesdata.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <section className="pb-16" id="case-study">
@@ -78,10 +61,11 @@ export default function PokerCaseStudies() {
           </p>
         </div>
 
-        <div className="case-slider cmslickwrap">
-          <Slider {...settings}>
+        <div className="relative overflow-hidden">
+          <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${current * 100}%)`, }}>
             {PokerCaseStudiesdata.map((item, i) => (
-               <div key={i} className="relative p-[20px] lg:p-[50px] m-0 after:content-[''] after:absolute after:left-[5px] after:top-0 after:w-[99%] after:h-[99%] after:bg-white/5 after:border after:border-white/30 after:rounded-[15px] after:pointer-events-none">
+              <div key={i} className="w-full shrink-0">
+               <div className="relative p-[20px] lg:p-[50px] m-0 after:content-[''] after:absolute after:left-[5px] after:top-0 after:w-[99%] after:h-[99%] after:bg-white/5 after:border after:border-white/30 after:rounded-[15px] after:pointer-events-none">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
                   <div className="flex flex-col gap-1">
                     <div className="md:mb-4 mb-3">
@@ -121,9 +105,15 @@ export default function PokerCaseStudies() {
                     <span className="block w-full px-[15px] py-[2px] bg-[#ff8600] text-white font-medium transition-colors group-hover:bg-[#e67c03] [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)]"> Contact Us </span>
                   </Link>
                 </div>                
+               </div>
               </div>
             ))}
-          </Slider>
+          </div>
+          <div className="flex items-center justify-center gap-3 mt-6">
+            {PokerCaseStudiesdata.map((_, index) => (
+              <button aria-label="pagination dots" key={index} onClick={() => setCurrent(index)} className={`h-[10px] w-[10px] rounded-full transition-all ${ current === index ? "bg-[#ff8600] w-[32px] h-[12px]" : "bg-white opacity-75" }`} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -81,7 +81,7 @@ export default function GameArtTools() {
             <div className="flex shrink-0 items-center gap-4 lg:gap-11 whitespace-nowrap scrollimgs">
               {techData.map((item, i) => (
                 <div key={i} className="flex flex-[0_1_auto] items-center justify-center mt-[2px] rounded-lg border border-[#ffffff73] bg-white/5 hover:bg-white/15 transition-all duration-300 min-h-[80px] px-[1.2rem] py-[1.1rem] md:max-lg:w-[100px] md:max-lg:p-[5px] max-md:min-h-[50px] max-md:px-[5px] max-md:py-[6px]">
-                  <Image src={item.src} alt={item.alt} width={item.width} height={40} className="max-w-full max-h-[40px] h-auto object-contain shrink-0 max-md:max-w-[120px] max-md:h-[25px]" />
+                  <Image src={item.src} alt={item.alt} width={item.width} height={40} loading="lazy" className="max-w-full max-h-[40px] h-auto object-contain shrink-0 max-md:max-w-[120px] max-md:h-[25px]" />
                 </div>
               ))}              
             </div>

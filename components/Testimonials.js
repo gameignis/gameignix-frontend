@@ -41,6 +41,7 @@ const testimonials = [
 
 
 export default function Testimonials() {
+
   const [activeIndex, setActiveIndex] = useState(1);
 
   return (
@@ -76,7 +77,7 @@ export default function Testimonials() {
             <SwiperSlide key={index} className="testimonial">
               <div className="flex flex-col md:flex-row items-center gap-[30px] w-[99%] rounded-[10px] border border-[#301c0c] bg-gradient-to-r from-[#1a0e0e] to-[#140505] p-6">
                 <div className="w-[200px] rounded-[4px] h-auto overflow-hidden hidden md:flex">
-                <Image src={item.image} alt={item.name} width={120} height={120} className="h-auto w-[200px] rounded-[4px] object-cover" />
+                <Image src={item.image} alt={item.name} width={120} height={120} loading="lazy" className="h-auto w-[200px] rounded-[4px] object-cover" />
                 </div>
                 <div className="flex-1 md:pr-5">
                   <p className="mb-[15px] text-[14px] lg:text-[16px] leading-[20px] lg:leading-[24px] text-[#eee]">

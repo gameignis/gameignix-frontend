@@ -50,8 +50,8 @@ export default function GameArtPageServer() {
         </div>
         </div>
       </div>        
-      <Image src="/common/game-art/game-art-studio.webp" alt="Game Art Studio" fill priority className="hidden md:block h-full w-full object-cover" />
-      <Image src="/common/game-art/game-art-studio-480.webp" alt="Game Art Studio" fill priority className="md:hidden h-[480px] object-cover" />
+      <Image src="/common/game-art/game-art-studio.webp" alt="Game Art Studio" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+      <Image src="/common/game-art/game-art-studio-480.webp" alt="Game Art Studio" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
     </section>
 
     <main className="relative pt-[2rem] md:pt-[0.2rem] overflow-x-hidden md:overflow-visible">
@@ -101,7 +101,7 @@ export default function GameArtPageServer() {
                   <div className="static md:relative md:col-span-5">
                     <div className="absolute right-0 bottom-0 w-full h-full md:h-auto opacity-40 md:opacity-100">
                       <div className="w-full h-full">
-                        <Image src="/common/game-art/game-art-services.webp" alt="Game Art Services" width={300} height={200} className="h-auto max-h-full w-full md:h-[400px] object-contain" />
+                        <Image src="/common/game-art/game-art-services.webp" alt="Game Art Services" width={300} height={200} loading="lazy" className="h-auto max-h-full w-full md:h-[400px] object-contain" />
                       </div>
                     </div>
                   </div>
@@ -115,7 +115,7 @@ export default function GameArtPageServer() {
                  <div className="static md:relative md:col-span-5">
                     <div className="absolute left-0 bottom-0 w-full h-full md:h-auto opacity-40 md:opacity-100">
                       <div className="w-full h-full">
-                      <Image src="/common/game-art/game-design-services.webp" alt="Game Design Services" width={300} height={200} className="h-auto max-h-full w-full md:h-[400px] object-contain" />
+                      <Image src="/common/game-art/game-design-services.webp" alt="Game Design Services" width={300} height={200} loading="lazy" className="h-auto max-h-full w-full md:h-[400px] object-contain" />
                     </div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function GameArtPageServer() {
                 <div className="static md:relative md:col-span-5">
                   <div className="absolute right-0 bottom-0 w-full h-full md:h-auto opacity-40 md:opacity-100">
                     <div className="w-full h-full">
-                      <Image src="/common/game-art/game-art-outsourcing.webp" alt="Game Art Outsourcing Studio" width={300} height={200} className="h-auto max-h-full w-full md:h-[400px] object-contain" />
+                      <Image src="/common/game-art/game-art-outsourcing.webp" alt="Game Art Outsourcing Studio" width={300} height={200} loading="lazy" className="h-auto max-h-full w-full md:h-[400px] object-contain" />
                     </div>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export default function GameArtPageServer() {
                 <div className="static md:relative md:col-span-5">
                   <div className="absolute left-0 bottom-0 w-full h-full md:h-auto opacity-40 md:opacity-100">
                     <div className="w-full h-full">
-                      <Image src="/common/game-art/video-game-art-services.webp" alt="Video Game Art Services" width={300} height={200} className="h-auto max-h-full w-full md:h-[400px] object-contain" />
+                      <Image src="/common/game-art/video-game-art-services.webp" alt="Video Game Art Services" width={300} height={200} loading="lazy" className="h-auto max-h-full w-full md:h-[400px] object-contain" />
                     </div>
                   </div>
                 </div>
@@ -202,7 +202,7 @@ export default function GameArtPageServer() {
                 <div className="static md:relative md:col-span-5">
                   <div className="absolute right-0 bottom-0 w-full h-full md:h-auto opacity-40 md:opacity-100">
                     <div className="w-full h-full">
-                      <Image src="/common/game-art/game-art-company.webp" alt="Game Art Company" width={300} height={200} className="h-auto max-h-full w-full md:h-[400px] object-contain" />
+                      <Image src="/common/game-art/game-art-company.webp" alt="Game Art Company" width={300} height={200} loading="lazy" className="h-auto max-h-full w-full md:h-[400px] object-contain" />
                     </div>
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function GameArtPageServer() {
                 <div className="static md:relative md:col-span-5">
                   <div className="absolute left-0 bottom-0 w-full h-full md:h-auto opacity-40 md:opacity-100">
                     <div className="w-full h-full">
-                      <Image src="/common/game-art/game-design-company.webp" alt="Game Design Company" width={300} height={200} className="h-auto max-h-full w-full md:h-[400px] object-contain" />
+                      <Image src="/common/game-art/game-design-company.webp" alt="Game Design Company" width={300} height={200} loading="lazy" className="h-auto max-h-full w-full md:h-[400px] object-contain" />
                     </div>
                   </div>
                 </div>
@@ -239,7 +239,7 @@ export default function GameArtPageServer() {
       </section>
 
       <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-8 md:mb-12">
-        <Image src="/common/game-art/game-idea.webp" alt="Bring Your Game Worlds to Life with Stunning Art" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+        <Image src="/common/game-art/game-idea.webp" alt="Bring Your Game Worlds to Life with Stunning Art" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 z-[1] bg-black/40" />
         <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
           <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
@@ -291,7 +291,7 @@ export default function GameArtPageServer() {
           <div className="relative flex flex-wrap">
             <div className="afflef">
               <div className="affim">
-                <Image src="/common/game-art/game-art-development-company.webp" alt="Game Art Development Company" width={800} height={950} className="h-auto max-w-full" />
+                <Image src="/common/game-art/game-art-development-company.webp" alt="Game Art Development Company" width={800} height={950} loading="lazy" className="h-auto max-w-full" />
               </div>
             </div>
             <div className="md:w-2/3 md:ml-auto px-2 z-[2]">
@@ -369,7 +369,7 @@ export default function GameArtPageServer() {
             <div className="flex">
               <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                 <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                  <Image src="/common/game-art/project-based-model.webp" alt="Project-Based Engagement" width={640} height={350} className="h-full w-full object-cover" />
+                  <Image src="/common/game-art/project-based-model.webp" alt="Project-Based Engagement" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                 </div>
                 <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                   Project-Based Engagement
@@ -383,7 +383,7 @@ export default function GameArtPageServer() {
             <div className="flex">
               <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                 <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                  <Image src="/common/game-art/dedicated-team.webp" alt="Dedicated Art Teams" width={640} height={350} className="h-full w-full object-cover" />
+                  <Image src="/common/game-art/dedicated-team.webp" alt="Dedicated Art Teams" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                 </div>
                 <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                   Dedicated Art Teams
@@ -398,7 +398,7 @@ export default function GameArtPageServer() {
             <div className="flex">
               <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-5 pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#ff8600] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                 <div className="my-[10px] mb-8 h-[200px] md:h-[310px] w-full overflow-hidden rounded-[15px]">
-                  <Image src="/common/game-art/team-extension.webp" alt="Team Extension" width={640} height={350} className="h-full w-full object-cover" />
+                  <Image src="/common/game-art/team-extension.webp" alt="Team Extension" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                 </div>
                 <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-center my-[1rem] md:my-[1.8rem] text-white">
                   Team Extension
@@ -414,7 +414,7 @@ export default function GameArtPageServer() {
       </section>
 
       <section className="relative flex items-end overflow-hidden text-center text-white py-[25px] md:py-[55px] pb-[10px] mt-12 mb-8 md:mb-12">
-        <Image src="/common/game-art/game-build.webp" alt="Choose Your Model, Start Your Project" width={1440} height={600} className="absolute inset-0 w-full h-full object-cover" />
+        <Image src="/common/game-art/game-build.webp" alt="Choose Your Model, Start Your Project" width={1440} height={600} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 z-[1] bg-black/40" />
         <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
           <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">

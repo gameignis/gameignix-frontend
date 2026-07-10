@@ -226,7 +226,7 @@ export default function Contact() {
                     <Image src="/common/whatsapp.webp" alt="whatsapp" width={24} height={24} loading="lazy" /> +91 93603 02009
                   </span>
                 </Link>
-                <Link className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#ff8600] px-4 py-[10px] text-[14px] lg:text-[18px] leading-[26px] font-semibold text-black transition-colors duration-300 hover:text-white hover:bg-[#1c87c9]" href="https://telegram.me/gameignix" rel="noopener noreferrer" aria-label="telegram" target="_blank">
+                <Link className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#F57C00] px-4 py-[10px] text-[14px] lg:text-[18px] leading-[26px] font-semibold transition-colors duration-300 text-white hover:bg-[#1c87c9]" href="https://telegram.me/gameignix" rel="noopener noreferrer" aria-label="telegram" target="_blank">
                   <span className="absolute left-0 flex w-full items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                     <Image src="/common/telegram.webp" alt="telegram" width={24} height={24} loading="lazy" /> Telegram Us
                   </span>

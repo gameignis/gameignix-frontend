@@ -10,11 +10,11 @@ a, button{transition: 0.5s ease-in-out all 0s;-webkit-transition: 0.5s ease-in-o
 h1, h2, h3, h4, h5, h6{font-family: var(--font-orbitron);}
 .font-orbitron{font-family: var(--font-orbitron);}
 
-.slick-dots li.slick-active button::before {opacity: .75;color: #FC7400;width: 40px;height: 17px;background: #FC7400;border-radius: 10px;}
+.cmslickwrap .slick-dots li.slick-active button::before {opacity: .75;color: #FC7400;width: 30px;background: #FC7400;border-radius: 10px;}
 .slick-dots li button {font-size: 0;line-height: 0;display: block;width: 20px;height: 20px;padding: 5px;cursor: pointer;color: transparent;
   border: 0;outline: none;background: transparent;}
 .slick-dots li.slick-active { margin-right: 25px;}
-.cmslickwrap .slick-dots li button:before {font-size: 10px;color: #fff;opacity: 0.75;}
+.cmslickwrap .slick-dots li button:before{width:10px;font-size:0px;color:#fff;opacity:0.75;top:9px;height:3px;background:#676E73;}
 .cmslickwrap .slick-dots {bottom: -20px;}
 .cmslickwrap .slick-dots li.slick-active button:before {color: #fc7400;opacity: 1;}
 .custom-arrows-wrapper .slick-prev, .custom-arrows-wrapper .slick-next {background: none;border: none;font-size: 30px;line-height: 20px;

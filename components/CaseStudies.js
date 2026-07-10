@@ -103,7 +103,7 @@ export default function CaseStudies() {
            </div>
            <div className="flex items-center justify-center gap-3 mt-6">
             {CaseStudiesdata.map((_, index) => (
-              <button aria-label="pagination dots" key={index} onClick={() => setCurrent(index)} className={`h-[10px] w-[10px] rounded-full transition-all ${ current === index ? "bg-[#ff8600] w-[32px] h-[12px]" : "bg-white opacity-75" }`} />
+              <button aria-label="pagination dots" key={index} onClick={() => setCurrent(index)} className={`h-[3px] w-[10px] rounded-full transition-all ${ current === index ? "bg-[#ff8600] w-[30px] h-[3px]" : "bg-[#676E73]" }`} />
             ))}
           </div>
           </div>

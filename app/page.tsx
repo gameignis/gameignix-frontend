@@ -23,10 +23,10 @@ export default function Home() {
           <div className="relative z-[5] h-full">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="absolute left-0 right-0 text-center w-[96%] mx-auto top-[175px] md:top-auto md:pb-16 md:bottom-8 xl:pb-32 2xl:w-[1336px]">            
-                <h1 className="uppercase text-center my-4 text-[26px] md:text-[36px] lg:text-[45px] text-white [-webkit-text-stroke:1px_#c65d00] font-bold">
+                <h1 className="uppercase text-center my-4 text-[26px] md:text-[36px] lg:text-[45px] text-white [-webkit-text-stroke:1px_#F57C00] font-bold">
                   Game Development Company
                 </h1>
-                <p className="font-semibold tracking-[0px] md:tracking-[1px] my-[0.8rem] lg:text-[24px] text-[20px] text-[#c65d00] italic">
+                <p className="font-semibold tracking-[0px] md:tracking-[1px] my-[0.8rem] lg:text-[24px] text-[20px] text-[#F57C00] italic">
                   Ignite Your Iconic Game With GameIgnix
                 </p>
                 <p className="text-[15px] lg:text-[18px] leading-[24px] lg:leading-[30px] mb-[2rem]">
@@ -38,15 +38,15 @@ export default function Home() {
                 </p>
                 <ul className="flex list-none justify-center gap-4 flex-wrap">
                   <li>
-                    <button aria-label="Talk to Experts" data-scroll="#footer" className="inline-block bg-[#c65d00] p-[1px] text-[15px] leading-[24px] md:text-[18px] [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:bg-white group">
-                      <span className="inline-block w-full bg-[#c65d00] px-[15px] py-[2px] font-medium text-white transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] group-hover:bg-[#e67c03]">
+                    <button aria-label="Talk to Experts" data-scroll="#footer" className="inline-block bg-[#F57C00] p-[1px] text-[15px] leading-[24px] md:text-[18px] [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:bg-white group">
+                      <span className="inline-block w-full bg-[#F57C00] px-[15px] py-[2px] font-medium text-white transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] group-hover:bg-[#e67c03]">
                         Talk to Experts
                       </span>
                     </button>         
                   </li>
                   <li>
-                    <Link href="/contact" aria-label="Get Quote" className="inline-block bg-[#c65d00] p-[1px] text-[15px] leading-[24px] md:text-[18px] [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] group">
-                      <span className="inline-block w-full bg-black px-[15px] py-[2px] font-medium text-white transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] group-hover:bg-[#c65d00]">
+                    <Link href="/contact" aria-label="Get Quote" className="inline-block bg-[#F57C00] p-[1px] text-[15px] leading-[24px] md:text-[18px] [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] group">
+                      <span className="inline-block w-full bg-black px-[15px] py-[2px] font-medium text-white transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] group-hover:bg-[#F57C00]">
                         Get Quote
                       </span>
                     </Link>
@@ -64,10 +64,10 @@ export default function Home() {
           <section className="pt-0 pb-16" id="about-us">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
-                <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
+                <h2 className="inline-block w-fit mx-auto my-4 px-0 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full md:max-w-[600px] lg:max-w-[800px] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                   GameIgnix - A Premier Game Development Studio
                 </h2>
-                <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[0.8rem] lg:my-[0.8rem] lg:text-[24px] text-[20px] text-[#c65d00] italic">
+                <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[0.8rem] lg:my-[0.8rem] lg:text-[24px] text-[20px] text-[#F57C00] italic">
                   I͏gniting Inn͏ovation In Every Game We Invent 
                 </p>
                 <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem]">
@@ -82,7 +82,7 @@ export default function Home() {
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
                         <Image src="/common/gameignix-mission.webp" alt="GameIgnix Mission" loading="lazy" width={80} height={64} className="max-w-full h-[40px] object-contain ml-[-14px] mb-[10px] lg:h-auto lg:ml-0 flex-shrink-0" />
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#c65d00] italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#F57C00] italic">
                         Our Mission
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -96,7 +96,7 @@ export default function Home() {
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
                         <Image src="/common/gameignix-vision.webp" alt="GameIgnix Vision" loading="lazy" width={80} height={64} className="max-w-full h-[40px] object-contain ml-[-14px] mb-[10px] lg:h-auto lg:ml-0 flex-shrink-0" />
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#c65d00] italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#F57C00] italic">
                         Our Vision
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -110,7 +110,7 @@ export default function Home() {
                   <div className="rounded-[12px] bg-[linear-gradient(150deg,rgb(24,24,24)_0%,rgba(150,69,0,0.14)_100%)] p-[1px] my-[10px] lg:my-4 w-full relative">
                     <div className="h-full rounded-[12px] bg-[linear-gradient(90deg,#140c06_0%,#251710_60%)] px-5 pt-5 pb-[10px] md:p-5">
                         <Image src="/common/gameignix-philosophy.webp" alt="GameIgnix Philosophy" loading="lazy" width={80} height={64} className="max-w-full h-[40px] object-contain ml-[-14px] mb-[10px] lg:h-auto lg:ml-0 flex-shrink-0" />
-                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#c65d00] italic">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[28px] font-semibold text-left my-[8px] md:my-[18px] text-[#F57C00] italic">
                         Our Philosophy
                       </h3>
                       <p className="text-[14px] leading-[24px] lg:text-[16px]">
@@ -127,7 +127,7 @@ export default function Home() {
           <section className="py-4">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full pb-[0.5rem]">
-                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-6 text-[24px] md:text-[28px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
+                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-6 text-[24px] md:text-[28px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                   We Offer Comprehensive Services
                 </h2>
                 <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[0.5rem]">
@@ -141,7 +141,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-0 relative">
                   <div className="w-full md:col-span-7">
                     <div className="py-[1rem] md:py-[2rem] pr-[1rem] pl-[1.6rem] md:pl-[3rem] relative z-[10]">
-                        <h3 className="text-[19px] md:text-[24px] leading-[26px] md:leading-[32px] text-[#c65d00] capitalize font-bold italic my-[1.5rem]">
+                        <h3 className="text-[19px] md:text-[24px] leading-[26px] md:leading-[32px] text-[#F57C00] capitalize font-bold italic my-[1.5rem]">
                         Game De͏velopment
                         </h3>
                         <p className="text-[15px] leading-[24px] lg:text-[16px]">
@@ -191,7 +191,7 @@ export default function Home() {
                             </Link>
                         </li>
                         </ul>
-                        <Link href="/services" target="_blank" aria-label="Game Development Services" className="flex justify-center w-full underline uppercase text-white font-semibold cursor-default mb-4 md:mb-8 hover:text-[#c65d00]">
+                        <Link href="/services" target="_blank" aria-label="Game Development Services" className="flex justify-center w-full underline uppercase text-white font-semibold cursor-default mb-4 md:mb-8 hover:text-[#F57C00]">
                           View All
                         </Link>
                     </div>
@@ -213,7 +213,7 @@ export default function Home() {
                     </div>
                     <div className="w-full md:col-span-7">
                         <div className="py-[1rem] md:py-[2rem] pr-[1rem] pl-[1.6rem] md:pl-[3rem] relative z-[10]">
-                            <h3 className="text-[19px] md:text-[24px] leading-[26px] md:leading-[32px] text-[#c65d00] capitalize font-bold italic my-[1.5rem]">Game Art</h3>
+                            <h3 className="text-[19px] md:text-[24px] leading-[26px] md:leading-[32px] text-[#F57C00] capitalize font-bold italic my-[1.5rem]">Game Art</h3>
                             <p className="text-[15px] leading-[24px] lg:text-[16px]">
                                 We combine our technical skills with endless creativity to bring your games to life with vibrant
                                 animations
@@ -253,7 +253,7 @@ export default function Home() {
                                     </Link>
                                 </li>
                             </ul>
-                            <Link href="/game-art-services" target="_blank" aria-label="Game Art Services" className="flex justify-center w-full underline uppercase text-white font-semibold cursor-default mb-4 md:mb-8 hover:text-[#c65d00]">
+                            <Link href="/game-art-services" target="_blank" aria-label="Game Art Services" className="flex justify-center w-full underline uppercase text-white font-semibold cursor-default mb-4 md:mb-8 hover:text-[#F57C00]">
                             View All
                             </Link>
                         </div>
@@ -265,7 +265,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-0 relative">
                 <div className="w-full md:col-span-7">
                   <div className="py-[1rem] md:py-[2rem] pr-[1rem] pl-[1.6rem] md:pl-[3rem] relative z-[10]">
-                      <h3 className="text-[19px] md:text-[24px] leading-[26px] md:leading-[32px] text-[#c65d00] capitalize font-bold italic my-[1.5rem]">
+                      <h3 className="text-[19px] md:text-[24px] leading-[26px] md:leading-[32px] text-[#F57C00] capitalize font-bold italic my-[1.5rem]">
                       Game Inn͏ovation
                       </h3>
                       <p className="text-[15px] leading-[24px] lg:text-[16px]">
@@ -304,7 +304,7 @@ export default function Home() {
                           </Link>
                       </li>
                       </ul>
-                      <Link href="#" aria-label="Game Inn͏ovation" className="flex justify-center w-full underline uppercase text-white font-semibold cursor-default mb-4 md:mb-8 hover:text-[#c65d00]">
+                      <Link href="#" aria-label="Game Inn͏ovation" className="flex justify-center w-full underline uppercase text-white font-semibold cursor-default mb-4 md:mb-8 hover:text-[#F57C00]">
                         View All
                       </Link>
                   </div>
@@ -321,10 +321,10 @@ export default function Home() {
         
           <section className="pt-[3rem] pb-[5rem] md:pb-[7rem]" id="portfolio">
             <div className="text-center md:w-[90%] mx-auto w-full">
-              <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
+              <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">
                 Our Ga͏me Portfolio
               </h2>
-              <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[0.8rem] text-[20px] lg:text-[24px] text-[#c65d00] italic uppercase">
+              <p className="font-semibold tracking-[0px] md:tracking-[1px] mb-[0.8rem] text-[20px] lg:text-[24px] text-[#F57C00] italic uppercase">
                 Recent Projects We Have Completed
               </p>
               <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[1rem] md:mb-[2rem] max-w-[96%] mx-auto">
@@ -344,14 +344,14 @@ export default function Home() {
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-              <h2 className="inline-block w-fit mx-auto mt-[0.4rem] md:mt-[1.4rem] mb-[1.4rem] text-[24px] md:text-[28px] leading-[1.5] tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full box-border font-bold uppercase">
+              <h2 className="inline-block w-fit mx-auto mt-[0.4rem] md:mt-[1.4rem] mb-[1.4rem] text-[24px] md:text-[28px] leading-[1.5] tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full box-border font-bold uppercase">
                 Ready to Ignite Your Game Idea?
               </h2>
               <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
                 Whether you have a concept ready or just an idea burning bright, let’s bring it to life together. At GameIgnix, we 
                 transform passion into playable worlds.
               </p>
-              <Link href="/contact" target="_blank" className="inline-block p-[1px] bg-[#c65d00] md:text-[18px] text-[16px] transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:bg-white [&>span]:inline-block [&>span]:w-full [&>span]:px-[15px] [&>span]:py-[2px] [&>span]:bg-[#c65d00] [&>span]:text-white [&>span]:font-medium [&>span]:no-underline [&>span]:transition-colors [&>span]:duration-300 [&>span]:[clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [&>span]:[-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:[&>span]:bg-[#e67c03]" aria-label="Start Your Project">
+              <Link href="/contact" target="_blank" className="inline-block p-[1px] bg-[#F57C00] md:text-[18px] text-[16px] transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:bg-white [&>span]:inline-block [&>span]:w-full [&>span]:px-[15px] [&>span]:py-[2px] [&>span]:bg-[#F57C00] [&>span]:text-white [&>span]:font-medium [&>span]:no-underline [&>span]:transition-colors [&>span]:duration-300 [&>span]:[clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [&>span]:[-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:[&>span]:bg-[#e67c03]" aria-label="Start Your Project">
                 <span> Start Your Project </span>
               </Link>
               </div>
@@ -371,7 +371,7 @@ export default function Home() {
           <section className="py-12">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-4 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Our Engagement Models</h2>
+                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-4 lg:px-10 text-[24px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Our Engagement Models</h2>
                 <p className="text-[15px] xl:text-[18px] leading-[24px] xl:leading-[28px] text-[#e6e6e6] mb-[1rem] lg:mb-[2rem]">
                   At GameIgnix, we not only customize game solutions to meet your requirements but also offer the best-fit engagement 
                   model for your project. Our engagement model is built on transparency and collaboration, with a clear line of sight 
@@ -380,7 +380,7 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 lg:gap-6">
                 <div className="flex">
-                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#c65d00] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#F57C00] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] xl:h-[310px] w-full overflow-hidden rounded-[15px]">
                       <Image src="/common/dedicated-team.webp" alt="Dedicated Team" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
@@ -394,7 +394,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex">
-                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#c65d00] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#F57C00] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] xl:h-[310px] w-full overflow-hidden rounded-[15px]">
                       <Image src="/common/team-extension.webp" alt="Team Extension" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
@@ -408,7 +408,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex">
-                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#c65d00] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
+                  <div className="relative mb-4 h-full w-full rounded-[20px] bg-[#03070D] px-3 lg:px-5 pt-1 lg:pt-5 pb-[2px] transition-all duration-500 hover:shadow-[0_0_10px_0_#F57C00] before:absolute before:-left-[2px] before:-right-[2px] before:-top-[2px] before:-bottom-[2px] before:-z-10 before:rounded-[22px] before:content-[''] before:bg-[linear-gradient(120deg,_rgba(58,120,170,0.15)_6%,_#173044_94%)]">
                     <div className="my-[10px] mb-8 h-[200px] xl:h-[310px] w-full overflow-hidden rounded-[15px]">
                       <Image src="/common/project-based-model.webp" alt="Project-Based Model" width={640} height={350} loading="lazy" className="h-full w-full object-cover" />
                     </div>
@@ -430,13 +430,13 @@ export default function Home() {
             <div className="absolute inset-0 z-[1] bg-black/40" />
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto relative py-12 z-[2]">
               <div className="text-center md:w-[80%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-              <h2 className="inline-block w-fit mx-auto my-[1.4rem] text-[24px] lg:text-[28px] leading-[1.5] tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full box-border font-bold uppercase">
+              <h2 className="inline-block w-fit mx-auto my-[1.4rem] text-[24px] lg:text-[28px] leading-[1.5] tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full box-border font-bold uppercase">
                 Do You Need Extra Hands or a Dedicated Development Team?
               </h2>
               <p className="text-[15px] leading-[20px] md:text-[16px] lg:text-[18px] md:leading-[24px] lg:leading-[28px] text-[#e6e6e6] mb-[2rem]">
                 Our game developers power up your production with expert skill, rapid execution, and passion for games.
               </p>
-              <Link href="/contact" target="_blank" className="inline-block p-[1px] bg-[#c65d00] md:text-[18px] text-[15px] transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:bg-white [&>span]:inline-block [&>span]:w-full [&>span]:px-[15px] [&>span]:py-[2px] [&>span]:bg-[#c65d00] [&>span]:text-white [&>span]:font-medium [&>span]:no-underline [&>span]:transition-colors [&>span]:duration-300 [&>span]:[clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [&>span]:[-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:[&>span]:bg-[#e67c03]" aria-label="HIRE OUR GAME DEVELOPER">
+              <Link href="/contact" target="_blank" className="inline-block p-[1px] bg-[#F57C00] md:text-[18px] text-[15px] transition-colors duration-300 [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:bg-white [&>span]:inline-block [&>span]:w-full [&>span]:px-[15px] [&>span]:py-[2px] [&>span]:bg-[#F57C00] [&>span]:text-white [&>span]:font-medium [&>span]:no-underline [&>span]:transition-colors [&>span]:duration-300 [&>span]:[clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] [&>span]:[-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] hover:[&>span]:bg-[#e67c03]" aria-label="HIRE OUR GAME DEVELOPER">
                 <span> HIRE OUR GAME DEVELOPER </span>
               </Link>
               </div>
@@ -450,7 +450,7 @@ export default function Home() {
           <section className="py-[2rem]" id="footer">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="text-center md:w-[90%] mx-auto w-full md:pb-[2rem] pb-[1rem]">
-                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#c65d00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Contact Us</h2>
+                <h2 className="inline-block w-fit mx-auto my-4 px-0 md:px-10 text-[26px] md:text-[30px] lg:text-[35px] leading-[32px] md:leading-[1.5] tracking-0 md:tracking-[2px] text-white [-webkit-text-stroke:1px_#F57C00] text-center relative max-w-full md:max-w-[90%] box-border font-bold uppercase before:content-[''] before:absolute before:top-[20px] before:w-[71px] before:h-[20px] before:left-0 before:-translate-x-full  before:bg-none md:before:bg-[url('/common/head-sep.webp')] before:bg-no-repeat before:bg-center before:bg-contain after:content-[''] after:absolute after:top-[20px] after:w-[71px] after:h-[20px] after:right-0 after:translate-x-full after:bg-none md:after:bg-[url('/common/head-sep.webp')] after:bg-no-repeat after:bg-center after:bg-contain">Contact Us</h2>
                 <p className="text-[15px] lg:text-[18px] leading-[24px] md:leading-[28px] text-[#e6e6e6] mb-[2rem]">
                   Have a game idea or project in mind? Share your requirements with GameIgnix, and our team will get back to you with the perfect 
                   solution tailored to your goals.

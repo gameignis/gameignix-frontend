@@ -155,7 +155,7 @@ export default function Contact() {
                     {errors.message ? <p className="text-red-400 text-sm mt-1">{errors.message}</p> : null}
                   </div>
                   <div className="w-full md:col-span-12 mt-2 text-center">
-                    <button type="submit" className="w-full rounded bg-[#F57C00] cursor-pointer px-4 py-2 text-[16px] lg:text-[18px] font-semibold text-white transition-colors hover:bg-[#e77007]" aria-label="Send message" disabled={isSubmitting}>
+                    <button type="submit" className="w-full rounded bg-[#F57C00] cursor-pointer px-4 py-2 text-[16px] lg:text-[18px] font-semibold text-black transition-colors hover:bg-[#e77007]" aria-label="Send message" disabled={isSubmitting}>
                       {isSubmitting ? "Sending..." : "Send message"}
                     </button>
                     <div id="form-alert" className={`alert mt-3 text-left ${alert.message ? "" : "d-none"} ${alert.type === "error" ? "text-red-400" : "text-green-400"}`}>
@@ -218,7 +218,7 @@ export default function Contact() {
               </div>
               <p className="mt-[3px] mb-2 text-[20px] lg:text-[24px] font-semibold text-white">Quick Contact</p>
               <div className="flex gap-2">
-                <Link href={whatsLink} target="_blank" className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#fc0000] px-4 pt-3 pb-2 text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#2ba805]" rel="noopener noreferrer" aria-label="whatsapp">
+                <Link href={whatsLink} target="_blank" className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#fc0000] px-4 pt-3 pb-2 text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#1F8A00]" rel="noopener noreferrer" aria-label="whatsapp">
                   <span className="absolute left-0 flex w-full items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                     <Image src="/common/whatsapp.webp" alt="whatsapp" width={24} height={24} loading="lazy" /> WhatsApp Us
                   </span>
@@ -226,7 +226,7 @@ export default function Contact() {
                     <Image src="/common/whatsapp.webp" alt="whatsapp" width={24} height={24} loading="lazy" /> +91 93603 02009
                   </span>
                 </Link>
-                <Link className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#ff8600] px-4 py-[10px] text-[14px] lg:text-[18px] leading-[26px] font-semibold text-white transition-colors duration-300 hover:bg-[#1c87c9]" href="https://telegram.me/gameignix" rel="noopener noreferrer" aria-label="telegram" target="_blank">
+                <Link className="group relative inline-flex w-1/2 min-h-[40px] items-center justify-center overflow-hidden rounded-md bg-[#ff8600] px-4 py-[10px] text-[14px] lg:text-[18px] leading-[26px] font-semibold text-black transition-colors duration-300 hover:text-white hover:bg-[#1c87c9]" href="https://telegram.me/gameignix" rel="noopener noreferrer" aria-label="telegram" target="_blank">
                   <span className="absolute left-0 flex w-full items-center justify-center gap-1 lg:gap-2 whitespace-nowrap opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                     <Image src="/common/telegram.webp" alt="telegram" width={24} height={24} loading="lazy" /> Telegram Us
                   </span>

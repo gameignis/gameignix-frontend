@@ -155,7 +155,7 @@ export default function Contact() {
                     {errors.message ? <p className="text-red-400 text-sm mt-1">{errors.message}</p> : null}
                   </div>
                   <div className="w-full md:col-span-12 mt-2 text-center">
-                    <button type="submit" className="w-full rounded bg-[#ff8600] cursor-pointer px-4 py-2 text-[16px] lg:text-[18px] font-semibold text-white transition-colors hover:bg-[#e77007]" aria-label="Send message" disabled={isSubmitting}>
+                    <button type="submit" className="w-full rounded bg-[#F57C00] cursor-pointer px-4 py-2 text-[16px] lg:text-[18px] font-semibold text-white transition-colors hover:bg-[#e77007]" aria-label="Send message" disabled={isSubmitting}>
                       {isSubmitting ? "Sending..." : "Send message"}
                     </button>
                     <div id="form-alert" className={`alert mt-3 text-left ${alert.message ? "" : "d-none"} ${alert.type === "error" ? "text-red-400" : "text-green-400"}`}>

@@ -51,21 +51,25 @@ export default function Portfolio() {
   };
 
   const mobileSettings = {
-    arrows: false,
-    dots: true,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
+     centerMode: true,
+  centerPadding: "45px",
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  variableWidth: false,
+
+  arrows: false,
+  dots: false,
+  infinite: true,
+  speed: 600,
+  autoplay: true,
+  autoplaySpeed: 5000,
   };
 
   return (    
       <div className="slickwrapper cmslickwrap">
         <Slider className="portfolioin-slider" key={isMobile ? "mobile" : "desktop"} {...(isMobile ? mobileSettings : desktopSettings)}>
           {portfolioData.map((item, i) => (
-            <div key={i} className="portfolio-card px-3 relative h-[420px] rounded-[20px] overflow-hidden">
+            <div key={i} className="portfolio-card px-3 relative h-[380px] rounded-[20px] overflow-hidden">
               <div className="relative h-full rounded-[20px] overflow-hidden">
                 <Image src={item.portimg} alt={item.title} width={320} height={420} loading="lazy" className="w-full h-full object-cover rounded-[20px]" />
                 <div className="absolute inset-0 bg-black/40 z-[1] rounded-[20px]" />

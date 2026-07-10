@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const SlotPortfolioData = [
   { portimg: "/common/royal-spinhouse.webp", title: "Royal Spinhouse", desc: "Social Casino" },
@@ -21,6 +21,7 @@ const SlotPortfolioData = [
   { portimg: "/common/coinquest-rise.webp", title: "CoinQuest: Rise of Guilds", desc: "Play to Earn" },
   { portimg: "/common/cinder-clash.webp", title: "Cinder Clash", desc: "Action Combat" },
 ];
+
 export default function SlotPortfolio() {
  
   const [mounted, setMounted] = useState(false);
@@ -50,12 +51,15 @@ export default function SlotPortfolio() {
   };
 
   const mobileSettings = {
-    arrows: false,
-    dots: true,
-    infinite: true,
-    speed: 600,
+    centerMode: true,
+    centerPadding: "45px",
     slidesToShow: 1,
     slidesToScroll: 1,
+    variableWidth: false,
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 600,
     autoplay: true,
     autoplaySpeed: 5000,
   };

@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const PokerPortfolioData = [
   { portimg: "/common/lost-horizon.webp", title: "Holdem Horizon", desc: "Texas Hold'em" },
@@ -51,12 +51,15 @@ export default function PokerPortfolio() {
   };
 
   const mobileSettings = {
-    arrows: false,
-    dots: true,
-    infinite: true,
-    speed: 600,
+    centerMode: true,
+    centerPadding: "45px",
     slidesToShow: 1,
     slidesToScroll: 1,
+    variableWidth: false,
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 600,
     autoplay: true,
     autoplaySpeed: 5000,
   };

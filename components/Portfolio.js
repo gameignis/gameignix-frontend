@@ -51,18 +51,17 @@ export default function Portfolio() {
   };
 
   const mobileSettings = {
-     centerMode: true,
-  centerPadding: "45px",
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  variableWidth: false,
-
-  arrows: false,
-  dots: false,
-  infinite: true,
-  speed: 600,
-  autoplay: true,
-  autoplaySpeed: 5000,
+    centerMode: true,
+    centerPadding: "45px",
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: false,
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 600,
+    autoplay: true,
+    autoplaySpeed: 5000,
   };
 
   return (    

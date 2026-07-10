@@ -102,7 +102,9 @@ export default function BlockchainCaseStudies() {
           </div>
           <div className="flex items-center justify-center gap-3 mt-6">
             {BlockchainCaseStudiesdata.map((_, index) => (
-              <button aria-label="pagination dots" key={index} onClick={() => setCurrent(index)} className={`h-[10px] w-[10px] rounded-full transition-all ${ current === index ? "bg-[#ff8600] w-[32px] h-[12px]" : "bg-white opacity-75" }`} />
+              <button key={index} aria-label={`Go to slide ${index + 1}`} onClick={() => setCurrent(index)} className="flex h-8 w-8 items-center justify-center">
+                <span className={`rounded-full transition-all ${ current === index ? "bg-[#ff8600] w-[30px] h-[3px]" : "bg-[#676E73] w-[10px] h-[3px]" }`} />
+              </button>
             ))}
           </div>
         </div>

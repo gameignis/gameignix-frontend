@@ -58,7 +58,4 @@ text-decoration:none;transform:translateY(-.625rem);-webkit-transform:translateY
 .soc-bk1 a:hover {background: #000;}
 .soc-bk1 a:hover img {filter: brightness(0) invert(1);-webkit-filter: brightness(0) invert(1);}
 
-@media (min-width: 1200px) {
- body .container {max-width: 81rem;padding: 0 1.25rem;}
-}
 .ccm-cardsc1 h1, .ccm-cardsc1 h2, .ccm-cardsc1 h3, .ccm-cardsc1 h4, .ccm-cardsc1 h5, .ccm-cardsc1 h6, .cmcard-rcn1 .cm-hd2{font-family: "Montserrat", sans-serif;}

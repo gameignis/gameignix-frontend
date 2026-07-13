@@ -289,7 +289,7 @@ export default function BlockchainGamePageServer() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-12 subgrids">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-[20px] mt-[20px]">
               <div className="w-full md:col-span-6 flex">
                 <div className="border border-[#F57C00a1] rounded-[14px] p-[2px_14px_18px] my-[3px] w-full">
                   <h3 className="text-[18px] my-[12px] text-left text-[#F57C00] font-semibold leading-[26px] md:leading-[28px] italic">

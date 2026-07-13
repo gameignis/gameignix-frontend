@@ -6,7 +6,7 @@ export default function ContactPageServer() {
   return (
     <>
 
-    <main className="gradientsc mt-12 pt-12">     
+    <main className="relative overflow-x-hidden md:overflow-visible mt-12 pt-12">     
       
       <section className="py-[2rem]" id="footer">
         <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">

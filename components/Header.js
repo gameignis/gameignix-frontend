@@ -182,12 +182,12 @@ export default function Navbar() {
                       </li>
                     </ul>
                     <div className="flex justify-center lg:justify-end">
-                      <Link href="/contact" aria-label="Contact Us" onClick={closeMobileMenu} className="inline-block p-[1px] bg-[#B85E00] text-[16px] uppercase 
+                      <Link href="/contact" aria-label="Contact Us" onClick={closeMobileMenu} className="inline-block p-[1px] bg-[#f85d06] text-[16px] uppercase 
                       transition-colors duration-300 
                       [clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] 
                       [-webkit-clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] 
                       hover:bg-white [&>span]:inline-block [&>span]:w-full [&>span]:px-[15px] [&>span]:py-[6px] 
-                      md:[&>span]:py-[2px] [&>span]:bg-[#B85E00] [&>span]:text-white 
+                      md:[&>span]:py-[2px] [&>span]:bg-[#f85d06] [&>span]:text-white 
                       [&>span]:font-medium [&>span]:no-underline [&>span]:transition-colors 
                       [&>span]:duration-300 
                       [&>span]:[clip-path:polygon(0px_8px,8px_0px,100%_0,100%_calc(100%-8px),calc(100%-8px)_100%,0_100%)] 

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Orbitron } from "next/font/google";
 import Script from "next/script";
-import "./header.css";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";

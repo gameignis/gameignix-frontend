@@ -87,5 +87,14 @@ export default async function BlogDetailByPathPage({ params }: BlogPageProps) {
   ?.replace(/&nbsp;/g, " ")
   ?.replace(/\u00A0/g, " ");
 
-  return <BlogDetailContent blog={data.result} dangerouslySetInnerHTML={{ __html: cleanedHtml || "" }} />;
+  // return <BlogDetailContent blog={data.result} dangerouslySetInnerHTML={{ __html: cleanedHtml || "" }} />;
+
+  return (
+  <BlogDetailContent
+    blog={{
+      ...data.result,
+      contentHtml: cleanedHtml || "",
+    }}
+  />
+  );
 }

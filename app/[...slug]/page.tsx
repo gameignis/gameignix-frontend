@@ -83,5 +83,9 @@ export default async function BlogDetailByPathPage({ params }: BlogPageProps) {
     notFound();
   }
 
-  return <BlogDetailContent blog={data.result} />;
+  const cleanedHtml = cleanInternalLinkRels(
+    html?.replace(/&nbsp;/g, " ")?.replace(/\u00A0/g, " ")
+  );
+
+  return <BlogDetailContent blog={data.result} dangerouslySetInnerHTML={{ __html: cleanedHtml || "" }} />;
 }

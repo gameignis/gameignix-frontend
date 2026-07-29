@@ -38,15 +38,15 @@ font-weight: var(--fw600);line-height:20px;color: #666487;text-decoration: none;
 .st-num {border-right:1px solid rgba(102,100,135,.25);margin-right: .625rem;min-width: 40px;padding-right: .625rem;flex-shrink: 0;
 font-size: 24px;line-height: 30px;font-weight: 700;}
 .pos-mncnt p {font-size: 17px;line-height:27px;margin: 0 0 1rem;}
-.pos-mncnt h2 {font-size:36px;padding:1.2rem 0 2rem;line-height:45px;border-bottom: 4px solid var(--primary);margin:1.2rem 0 2rem;}
+.pos-mncnt h2 {font-size:36px;padding:1.2rem 0 2rem;line-height:40px;border-bottom: 4px solid var(--primary);margin:1.2rem 0 2rem;}
 .pos-mncnt h3 {font-size: 28px;line-height:32px;margin: 1.3rem 0;}
 .pos-mncnt ul li {position: relative;list-style-type: none;padding-left: 2rem;font-size: 1rem;line-height: 1.5;margin: 0.5rem 0;}
 .pos-mncnt ul li:after {content: "";position: absolute;width: 10px;height: 10px;left: 10px;top: 0.5rem;background: var(--primary);}
 .pos-mncnt ul li a {text-decoration: underline;color: #82b8e9;}
 .dat-tx1 {line-height: var(--sz24);font-size: 14px;color: #bbb;}
 video { border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-.pos-mncnt { padding-left: 55px;}
-.blog-rich-content { text-align: left; word-break: break-word; }
+.pos-mncnt { padding-left: 30px;}
+.blog-rich-content { text-align: left; /*word-break: break-word;*/ }
 .blog-rich-content img,
 .blog-rich-content video,
 .blog-rich-content iframe { max-width: 100%; height: auto; display: block; margin: 1rem 0; border-radius: 10px; }
@@ -56,9 +56,9 @@ video { border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 .blog-rich-content blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 4px solid var(--primary); }
 .blog-rich-content a { color: #1160f2; text-decoration: underline; }
 .blogfoot{background: #000;}
-    .soc-bk1 {margin-top: 2rem;}
-.soc-bk1 img {filter: brightness(0);-webkit-filter: brightness(0);}
-.soc-bk1 .social-icons a {border: 1px solid #000;}
+.soc-bk1 {margin-top: 2rem;}
+.soc-bk1 img {filter: brightness(0);-webkit-filter: brightness(0);max-width: 16px;max-height: 16px;object-fit: contain;}
+.soc-bk1 .social-icons a {border: 1px solid #000;width: 30px; height: 30px; margin-right: 4px;}
 .soc-bk1 a:hover {background: #000;}
 .soc-bk1 a:hover img {filter: brightness(0) invert(1);-webkit-filter: brightness(0) invert(1);}
     

@@ -81,7 +81,7 @@ export default function BlogdetailPageServer() {
             </div>
             <div className="w-full md:w-6/12">
               <div className="blog-mnim">
-                 <Image src="/common/blog/blogim1.webp" className="blog-im1" alt="AI Companion" width="450" height="450" />
+                 <img src="/common/blog/blogim1.webp" className="blog-im1" alt="AI Companion" width="450" height="450" />
               </div>
             </div>
           </div>

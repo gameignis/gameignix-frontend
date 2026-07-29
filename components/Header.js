@@ -111,7 +111,7 @@ export default function Navbar() {
 
     return (
         <nav style={{ top: navTop }} className={`fixed left-0 top-0 z-[1000] w-full md:max-lg:w-[98%] px-[10px] py-[4px] transition-all duration-500 ease-in-out max-lg:px-0 max-lg:py-[8px] max-lg:h-[68px] ${ scrolled ? "bg-black shadow-[0_0_20px_#000] max-lg:border-b max-lg:border-[#3d3c44]" : "bg-transparent" } `}>
-            <div className="flex items-center justify-between md:px-[30px] px-[15px] py-2">
+            <div className="flex items-center justify-between px-[15px] py-2">
                 <Link href="/" onClick={closeMobileMenu}>
                   <Image src="/common/logo.webp" alt="logo" width={170} height={63} className="max-h-[50px] object-contain" loading="lazy" />
                 </Link>

@@ -67,3 +67,17 @@ video { border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 }
 
 .pos-mnsc1 h1, .pos-mnsc1 h2, .pos-mnsc1 h3, .pos-mnsc1 h4, .pos-mnsc1 h5, .pos-mnsc1 h6{font-family: "Montserrat", sans-serif;}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.in-bansc{padding-left: 15px;padding-right: 15px;}
+.inban-lef .cm-hd1{line-height: 42px;}
+.inban-lef p.para-cnt1{font-size: 16px;}
+.inban-lef { margin-bottom: 20px; }
+.pos-mnsc1 .pos-stickycn { position: relative; top: auto;   margin-bottom: 2rem;}
+body .pos-mnsc1 { padding-left: 15px; padding-right: 15px; }
+.pos-mnsc1 .pos-mncnt { padding-left: 0px; }
+.pos-mnsc1 .pos-mncnt h2{font-size: 26px;line-height: 36px;padding-bottom:1rem;}
+.pos-mnsc1 .pos-mncnt p{  font-size: 15px;}
+.pos-mnsc1 .pos-mncnt h3{font-size: 23px;}
+.pos-mnsc1 .pos-mncnt ul li{font-size: 15px;}
+}

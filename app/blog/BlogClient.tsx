@@ -73,6 +73,7 @@ export default function BlogPageServer() {
   );
 
   const heroPost = filteredCards[0] || posts[0];
+  const heroImageSrc = !loading ? getBlogImageSrc(heroPost?.imageUrl) : null;
 
   return (
     <>
@@ -144,11 +145,18 @@ export default function BlogPageServer() {
             <div className="w-full md:w-5/12">
               <div className="cm-cardbk1 ms-auto">
                 <span className="categ-tag">{heroPost?.category?.name || "Blog"}</span>
-                <img
-                  src={getBlogImageSrc(heroPost?.imageUrl)}
-                  className="blog-im1"
-                  alt={heroPost?.imageAlt || heroPost?.title || "Blog"}
-                />
+                {heroImageSrc ? (
+                  <img
+                    src={heroImageSrc}
+                    className="blog-im1"
+                    alt={heroPost?.imageAlt || heroPost?.title || "Blog"}
+                  />
+                ) : (
+                  <div
+                    className="blog-im1 w-full animate-pulse bg-gray-200"
+                    aria-hidden="true"
+                  />
+                )}
                 <div className="cmcard-rcn1">
                   <h3 className="cm-hd2">{heroPost?.title || "The latest updates from GameIgnix"}</h3>
                   <p className="para-cnt1">

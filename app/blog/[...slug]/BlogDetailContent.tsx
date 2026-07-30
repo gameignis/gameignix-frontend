@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Contact from "@/components/Contact";
 import {
   getBlogExcerpt,
+  getBlogImageSrc,
   prepareContentWithHeadings,
   type BlogPost,
 } from "@/lib/blogs";
@@ -120,12 +121,10 @@ export default function BlogDetailContent({ blog }: Props) {
             </div>
             <div className="w-full md:w-6/12">
               <div className="blog-mnim">
-                <Image
-                  src={blog.imageUrl || "/common/blog/blogim1.webp"}
+                <img
+                  src={getBlogImageSrc(blog.imageUrl)}
                   className="blog-im1"
                   alt={blog.imageAlt || blog.title}
-                  width={450}
-                  height={450}
                 />
               </div>
             </div>

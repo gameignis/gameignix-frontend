@@ -1,9 +1,14 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import Contact from "@/components/Contact";
-import Image from "next/image";
 import Link from "next/link";
-import { getBlogExcerpt, getPublishedBlogs, toBlogHref, type BlogPost } from "@/lib/blogs";
+import {
+  getBlogExcerpt,
+  getBlogImageSrc,
+  getPublishedBlogs,
+  toBlogHref,
+  type BlogPost,
+} from "@/lib/blogs";
 
 export default function BlogPageServer() {
   const [search, setSearch] = useState("");
@@ -139,12 +144,10 @@ export default function BlogPageServer() {
             <div className="w-full md:w-5/12">
               <div className="cm-cardbk1 ms-auto">
                 <span className="categ-tag">{heroPost?.category?.name || "Blog"}</span>
-                <Image
-                  src={heroPost?.imageUrl || "/common/blog/blogim1.webp"}
+                <img
+                  src={getBlogImageSrc(heroPost?.imageUrl)}
                   className="blog-im1"
                   alt={heroPost?.imageAlt || heroPost?.title || "Blog"}
-                  width={450}
-                  height={450}
                 />
                 <div className="cmcard-rcn1">
                   <h3 className="cm-hd2">{heroPost?.title || "The latest updates from GameIgnix"}</h3>
@@ -175,7 +178,7 @@ export default function BlogPageServer() {
                     <div className="cm-cardbk1">
                       <Link href={toBlogHref(card)} className="cm-cardin1">
                         <img
-                          src={card.imageUrl || "/common/blog/blogim1.webp"}
+                          src={getBlogImageSrc(card.imageUrl)}
                           className="w-full h-48 object-cover blog-im1"
                           alt={card.imageAlt || card.title || card.category?.name || "Blog"}
                         />

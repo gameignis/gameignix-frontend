@@ -1,5 +1,11 @@
 import { apiRequest } from "@/lib/api";
 
+const BLOG_IMAGE_BASE_URL = (
+  process.env.NEXT_PUBLIC_API_URL ||
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  ""
+).replace(/\/+$/, "");
+
 export type BlogCategory = {
   _id?: string;
   name?: string;
@@ -64,6 +70,17 @@ export function toBlogHref(blog: BlogPost) {
   if (blog.urlPath) return blog.urlPath;
   if (blog.slug) return `/${blog.slug}`;
   return "/blog";
+}
+
+export function getBlogImageSrc(imageUrl?: string) {
+  if (!imageUrl) return "/common/blog/blogim1.webp";
+  if (/^https?:\/\//i.test(imageUrl) || imageUrl.startsWith("data:")) {
+    return imageUrl;
+  }
+  if (imageUrl.startsWith("/") && BLOG_IMAGE_BASE_URL) {
+    return `${BLOG_IMAGE_BASE_URL}${imageUrl}`;
+  }
+  return imageUrl;
 }
 
 export function decodeHtmlEntities(text = "") {

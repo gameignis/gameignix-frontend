@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ServicesGameDevelopdata = [
   { title: "Full-Cycle Game Dev͏elopment", desc: "From the initial spark of an idea to t͏h͏e fina͏l lau͏nch, we offer a ͏holist͏ic approach to turn your cre͏ativ͏e͏ vis͏ions into immersive games͏ of hi͏gh qu͏ality." },

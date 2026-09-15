@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ServicesGameArtdata = [
   { title: "Concept Art", desc: "We create meticulously crafted concept art, utilizing high-quality sketches that detail colors, poses, gestures, and looks to provide a comprehensive view of all possible game elements." },

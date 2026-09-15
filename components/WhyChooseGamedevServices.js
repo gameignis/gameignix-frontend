@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseGamedevServicesdata = [
   { title: "Skilled, Cross-Functional Team", desc: "At GameIgnix, game development is a true collaboration of cross-functional specialists. Our developers bring a specialized skill set fused with creativity and technical mastery to make the game excel in every dimension." },

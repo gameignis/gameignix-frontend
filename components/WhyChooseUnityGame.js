@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseUnityGamedata = [
   { title: "Developer-Friendly with Robust Tools", desc: "Unity has an intuitive and simple-to-use environment for creating games. Features such as visual scripting tools put even very complex tasks within easy reach of almost every game developer, allowing them to devote more time to creative work and less time to writing code." },

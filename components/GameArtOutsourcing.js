@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const GameArtOutsourcingdata = [
   { title: "Creative Vision With Technical Mastery", desc: "We blend creative vision with technical mastery to produce game art that is both visually impressive and technically sound. Every asset is designed using emerging technologies to maximize performance and integration across platforms." },

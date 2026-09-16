@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const PokerCloneScriptdata = [
   { title: "WSOP Poker", desc: "We help you replicate the thrill and prestige of the World Series of Poker with a feature-rich clone script, which includes leaderboards, integrated social features, and more." },

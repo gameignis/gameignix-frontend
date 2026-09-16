@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseUnity3Ddata = [
   { title: "Skilled Unity Team", desc: "GameIgnix boasts a team of over 100 expert-level game developers, designers, artists, and animators, all of whom are explicitly focused on Unity game development. Our team stays ahead of the curve, continually upgrading their skill sets and methodologies to remain aligned with the latest features the games have to offer." },

@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ArtConceptsdata = [
   { title: "Character Concepts", desc: "We develop narratively and technically grounded characters with strong silhouettes, costume variations, poses, facial expressions, and accessories, tailored to their respective gameplay roles. " },

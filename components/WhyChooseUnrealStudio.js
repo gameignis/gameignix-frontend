@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseUnrealStudiodata = [
   { title: "Skilled Unreal Team", desc: "At GameIgnix, we have assembled a team of over 300+ expert developers, designers, artists, and animators, all united by a shared passion for game development. Constantly updating our skills, we leverage the latest technological trends and Unreal Engine’s newest features, ensuring your game is on the cutting edge of innovation." },

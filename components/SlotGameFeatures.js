@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const SlotGameFeaturesdata = [
   { title: "Custom Paylines & Reels", desc: "We create unique reel structures and custom paylines that complement your chosen theme and game mechanics. This allows for creative gameplay variations, making your slot stand out in a competitive market." },

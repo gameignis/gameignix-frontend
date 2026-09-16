@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseWhiteLabelCasinodata = [
   { title: "Full Customization", desc: "GameIgnix empowers you to shape your casino exactly how you envision it. From user interface design to game selection and feature sets, every element is tailored to reflect your brand identity and meet your specific business goals." },

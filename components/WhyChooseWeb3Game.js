@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseWeb3Gamedata = [
   { title: "Business Aligned Game Design", desc: "Our game design strategies are planned beyond gameplay; we build games that align with your revenue and engagement goals. Whether your goal is community growth, consistent revenue, or investor appeal, we create games that align with your business objectives." },

@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseMobileGamedata = [
   { title: "Expert Team of Game Developers", desc: "At GameIgnix, we assemble a diverse and visionary team of developers, artists, and designers, each bringing a wealth of experience in mobile game development, art direction, and design. With a perfect blend of expertise and creativity, we create groundbreaking mobile games that push the boundaries of creativity and set new standards in a competitive market." },

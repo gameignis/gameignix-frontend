@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseBlockchainGamedata = [
   { title: "Affordable Pricing", desc: "We are known for our affordable blockchain game development solutions that don't compromise your budget. Our transparent pricing models and agile development processes ensure you receive the best value." },

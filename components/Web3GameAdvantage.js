@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const Web3GameAdvantagedata = [
   { title: "True Ownership", desc: "Web3 allows players to own in-game assets as NFTs, giving them complete control over their digital assets. Businesses can benefit from increased user retention and create a secondary market for trading and monetization." },

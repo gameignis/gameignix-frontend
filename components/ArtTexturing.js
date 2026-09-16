@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ArtTexturingdata = [
   { title: "UV Mapping and Baking", desc: "Our team utilizes the most effective UV layout methods and precisely manages normal, ambient occlusion, and curvature baking to ensure optimal texture usage and surface detailing." },

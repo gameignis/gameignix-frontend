@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ArtAssetsdata = [
   { title: "Characters", desc: "We design game-ready characters with distinct silhouettes, strong personality traits, and optimized geometry that considers rigging and animation constraints from the outset." },

@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseUnrealGamedata = [
   { title: "Quality Visuals", desc: "Unreal Engine leads the industry in delivering high-fidelity, photorealistic graphics. With cutting-edge features like Lumen for dynamic global illumination and Nanite for virtualized geometry, this engine ensures lifelike environments, realistic lighting, and smooth performance." },

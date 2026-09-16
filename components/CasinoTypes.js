@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const CasinoTypesdata = [
   { title: "Poker", desc: "From Texas Hold'em to Omaha, we create multiplayer and tournament-style poker games with real-time gameplay, secure algorithms, and customizable features. All the visuals, tables, and lobby designs are customizable to match your brand." },

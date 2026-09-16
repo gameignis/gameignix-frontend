@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChoosePokerGamedata = [
   { title: "Industry Best Experts Team", desc: "We have a team of highly skilled and experienced professionals, including seasoned game designers, developers, and QA specialists with in-depth experience in the poker industry." },

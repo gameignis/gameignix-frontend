@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ArtVFXdata = [
   { title: "Particle Effects", desc: "We specialize in developing refined particle effects for visual effects such as flash, magic, explosions, and weather effects, optimized to enhance gameplay clarity and deliver a cinematic impact." },

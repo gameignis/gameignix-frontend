@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseCasinoGamedata = [
   { title: "Proven Experience & Market Success", desc: "With over 50+ successful casino game launches and partnerships with global iGaming brands, we have a proven track record of delivering casino projects on time that drive revenue growth and player retention." },

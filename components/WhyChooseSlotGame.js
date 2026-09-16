@@ -2,7 +2,8 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const WhyChooseSlotGamedata = [
   { title: "Proven Expertise", desc: "With years of hands-on experience in slot game development, we have successfully delivered high-performing titles across multiple markets and platforms. Our portfolio reflects consistent quality and innovation tailored to diverse audiences." },

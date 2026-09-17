@@ -16,7 +16,7 @@ const portfolioData = [
   { portimg: "/common/Neokick.webp", title: "Neokick", desc: "eFootball" },
   { portimg: "/common/casino-royale-poker.webp", title: "Casino Royale Poker", desc: "Poker" },
   { portimg: "/common/iron-vow.webp", title: "Iron Vow", desc: "Fighting Game" },
-  { portimg: "/common/Wicketcraft.webp", title: "Wicketcraft", desc: "Fantasy Cricket" },
+  { portimg: "/common/wicketcraft.webp", title: "Wicketcraft", desc: "Fantasy Cricket" },
   { portimg: "/common/coinquest-rise.webp", title: "CoinQuest: Rise of Guilds", desc: "Play to Earn" },
   { portimg: "/common/street-rage.webp", title: "Street Rage", desc: "Street Fighter" },
   { portimg: "/common/cinder-clash.webp", title: "Cinder Clash", desc: "Action Combat" },

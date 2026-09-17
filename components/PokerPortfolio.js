@@ -18,7 +18,7 @@ const PokerPortfolioData = [
   { portimg: "/common/car-racing.webp", title: "SpeedDrift: Overdrive", desc: "Intensive Car Racing" },
   { portimg: "/common/chronicles-of-ather.webp", title: "Chronicles of Aether", desc: "RPG" },
   { portimg: "/common/lost-horizon.webp", title: "Legends of the Lost Horizon", desc: "Multiplayer Adventure" },
-  { portimg: "/common/Wicketcraft.webp", title: "Wicketcraft", desc: "Fantasy Cricket" },
+  { portimg: "/common/wicketcraft.webp", title: "Wicketcraft", desc: "Fantasy Cricket" },
   { portimg: "/common/coinquest-rise.webp", title: "CoinQuest: Rise of Guilds", desc: "Play to Earn" },
 ];
 

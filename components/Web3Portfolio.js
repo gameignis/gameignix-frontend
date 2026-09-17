@@ -15,7 +15,7 @@ const portfolioData = [
   { portimg: "/common/Neokick.webp", title: "Neokick", desc: "eFootball" },
   { portimg: "/common/iron-vow.webp", title: "Iron Vow", desc: "Fighting Game" },
   { portimg: "/common/chronicles-of-ather.webp", title: "Chronicles of Aether", desc: "RPG" },
-  { portimg: "/common/Wicketcraft.webp", title: "Wicketcraft", desc: "Fantasy Cricket" },
+  { portimg: "/common/wicketcraft.webp", title: "Wicketcraft", desc: "Fantasy Cricket" },
   { portimg: "/common/street-rage.webp", title: "Street Rage", desc: "Street Fighter" },
   { portimg: "/common/cinder-clash.webp", title: "Cinder Clash", desc: "Action Combat" },
   { portimg: "/common/royal-spinhouse.webp", title: "Royal Spinhouse", desc: "Social Casino" },

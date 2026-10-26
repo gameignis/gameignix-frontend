@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 
@@ -24,20 +23,7 @@ const portfolioData = [
 
 export default function Portfolio() {
   
-  const [mounted, setMounted] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-  useEffect(() => {
-    const checkScreen = () => setIsMobile(window.innerWidth <= 768);
-    checkScreen(); 
-    window.addEventListener("resize", checkScreen);
-    return () => window.removeEventListener("resize", checkScreen);
-  }, []);
-  if (!mounted) return null;
-    
-  const desktopSettings = {
+  const settings = {
     centerMode: true,
     variableWidth: true,
     centerPadding: "60px",
@@ -47,26 +33,26 @@ export default function Portfolio() {
     infinite: true,
     speed: 400,
     autoplay: true,
-    autoplaySpeed: 5000, 
-  };
-
-  const mobileSettings = {
-    centerMode: true,
-    centerPadding: "45px",
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: false,
-    arrows: false,
-    dots: false,
-    infinite: true,
-    speed: 600,
-    autoplay: true,
     autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          centerPadding: "45px",
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          variableWidth: false,
+          dots: false,
+          speed: 600,
+        },
+      },
+    ],
   };
 
   return (    
       <div className="slickwrapper cmslickwrap">
-        <Slider className="portfolioin-slider" key={isMobile ? "mobile" : "desktop"} {...(isMobile ? mobileSettings : desktopSettings)}>
+        <Slider className="portfolioin-slider" {...settings}>
           {portfolioData.map((item, i) => (
             <div key={i} className="portfolio-card px-3 relative h-[420px] rounded-[20px] overflow-hidden">
               <div className="relative h-full rounded-[20px] overflow-hidden">

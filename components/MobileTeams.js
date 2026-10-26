@@ -69,19 +69,37 @@ export default function MobileTeams() {
            </div>
            <div className="flex">
               <div className="w-full space-y-3">
-                {MidCol.map((item, index) => (
-                  <div key={index} className="mb-3 border-b border-white bg-transparent rounded-none pt-[10px] pb-[17px]">
-                    <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[32px] font-semibold">
-                      <button type="button" aria-label={item.question} onClick={() => toggleItem(index)} className="relative w-full pl-[60px] pr-[10px] py-[17px] text-left text-white">
-                        <Image src="/common/arrow1.webp" alt="arrow" width={34} height={34} loading="lazy" className={`absolute left-[2px] top-[16px] transition-transform duration-300 ease-in-out ${ openIndex === index ? "rotate-180" : "rotate-0" }`} /> 
-                        {item.question}
-                      </button>
-                    </h3>
-                    {openIndex === index && (
-                      <div className="border-t border-[#ff8600] px-[10px] py-4 text-[15px] md:text-[16px] leading-[24px] text-white" dangerouslySetInnerHTML={{ __html: item.answer }} />
-                    )}
-                  </div>
-                ))}
+                {MidCol.map((item, index) => {
+                  const isOpen = openIndex === index;
+                  return (
+                    <div key={index} className="mb-1 lg:mb-3 border-b border-white bg-transparent rounded-none pt-[4px] lg:pt-[10px] pb-[8px] lg:pb-[17px]">
+                      <h3 className="text-[19px] md:text-[20px] leading-[26px] md:leading-[32px] font-semibold">
+                        <button
+                          type="button"
+                          aria-expanded={isOpen}
+                          aria-controls={`team-panel-${index}`}
+                          onClick={() => toggleItem(index)}
+                          className="relative w-full pl-[60px] pr-[10px] py-[17px] text-left text-white"
+                        >
+                          <Image
+                            src="/common/arrow1.webp"
+                            alt="arrow"
+                            width={34}
+                            height={34}
+                            className={`absolute left-[2px] top-[16px] transition-transform duration-300 ease-in-out ${isOpen ? "rotate-180" : "rotate-0"}`}
+                          />
+                          {item.question}
+                        </button>
+                      </h3>
+                      <div
+                        id={`team-panel-${index}`}
+                        className={`${isOpen ? "block" : "hidden"} border-t border-[#ff8600] px-[10px] py-4 text-[15px] md:text-[16px] leading-[24px] text-white`}
+                      >
+                        {item.answer}
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
         </div>

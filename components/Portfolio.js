@@ -50,7 +50,6 @@ export default function Portfolio() {
     ],
   };
 
-
   return (    
       <div className="slickwrapper cmslickwrap">
         <Slider className="portfolioin-slider" {...settings}>

@@ -63,23 +63,37 @@ export default function ServicesFaq() {
         </div>
         <div className="flex justify-center">
          <div className="w-full md:w-10/12 mx-auto space-y-3">
-           {MidCol.map((item, index) => (
-            <div key={index} className="overflow-hidden rounded-lg border border-[#fc740080] bg-white/[0.03] px-5 py-[10px]">
-              <button onClick={() => toggleItem(index)} type="button" aria-label={item.question} className={`font-orbitron relative w-full border-0 bg-transparent pl-[10px] pr-[50px] py-[10px] md:py-[17px] text-left text-[17px] md:text-[20px] leading-[26px] md:leading-[32px] text-white font-medium shadow-none focus:outline-none focus:ring-0 transition-opacity ${openIndex === index ? "opacity-100" : "opacity-60"}`}>
-                {item.question}
-                <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center">
-                  <svg className={`h-6 w-6 stroke-[1.5] transition-transform duration-300 ease-in-out ${openIndex === index ? "rotate-180" : "rotate-0"}`} fill="none" stroke="currentColor"  viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                  </svg>
-                </span>
-              </button>
-              {openIndex === index && (
-                <div className="border-t border-[#ff8600] px-[10px] py-4 text-[15px] md:text-[16px] leading-[24px] text-white" dangerouslySetInnerHTML={{ __html: item.answer }} />
-               )}
-            </div>
-            ))}
-          </div>
+           {MidCol.map((item, index) => {
+            const isOpen = openIndex === index;
+            return (
+              <div key={index} className="overflow-hidden rounded-lg border border-[#fc740080] bg-white/[0.03] px-5 py-[10px]">
+                <h3>
+                  <button
+                    onClick={() => toggleItem(index)}
+                    type="button"
+                    aria-expanded={isOpen}
+                    aria-controls={`faq-panel-${index}`}
+                    className={`font-orbitron relative w-full border-0 bg-transparent pl-[10px] pr-[50px] py-[10px] md:py-[17px] text-left text-[17px] lg:text-[20px] leading-[26px] md:leading-[32px] text-white font-medium shadow-none focus:outline-none focus:ring-0 transition-opacity ${isOpen ? "opacity-100" : "opacity-60"}`}
+                  >
+                    {item.question}
+                    <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center">
+                      <svg className={`h-6 w-6 stroke-[1.5] transition-transform duration-300 ease-in-out ${isOpen ? "rotate-180" : "rotate-0"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </button>
+                </h3>
+                <div
+                  id={`faq-panel-${index}`}
+                  className={`${isOpen ? "block" : "hidden"} border-t border-[#ff8600] px-[10px] py-4 text-[14px] lg:text-[16px] leading-[24px] text-white`}
+                >
+                  {item.answer}
+                </div>
+              </div>
+            );
+           })}
          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,9 +1,7 @@
 "use client";
-import { useEffect, useState } from "react";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-import "../app/slick-theme.css";
 
 const WhyChooseBlockchainGamedata = [
   { title: "Affordable Pricing", desc: "We are known for our affordable blockchain game development solutions that don't compromise your budget. Our transparent pricing models and agile development processes ensure you receive the best value." },
@@ -15,20 +13,8 @@ const WhyChooseBlockchainGamedata = [
 ];
 
 export default function WhyChooseBlockchainGameSlider() {
-  const [mounted, setMounted] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-  useEffect(() => {
-    const checkScreen = () => setIsMobile(window.innerWidth <= 768);
-    checkScreen(); 
-    window.addEventListener("resize", checkScreen);
-    return () => window.removeEventListener("resize", checkScreen);
-  }, []);
-  if (!mounted) return null;
-    
-  const desktopSettings = {
+  
+  const settings = {
     centerMode: true,
     variableWidth: false,
     centerPadding: "60px",
@@ -39,17 +25,18 @@ export default function WhyChooseBlockchainGameSlider() {
     speed: 400,
     autoplay: true,
     autoplaySpeed: 5000,
-  };
-
-  const mobileSettings = {
-    arrows: false,
-    dots: true,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+          speed: 600,
+        },
+      },
+    ],
   };
 
   return (
@@ -67,7 +54,7 @@ export default function WhyChooseBlockchainGameSlider() {
         </div>
 
         <div className="content-slider cmslickwrap">
-          <Slider key={isMobile ? "mobile" : "desktop"} {...(isMobile ? mobileSettings : desktopSettings)}>
+          <Slider {...settings}>
             {WhyChooseBlockchainGamedata.map((item, i) => (
               <div key={i}>
                 <div className="my-4 flex h-full md:min-h-[350px] flex-col justify-center rounded-[12px] p-[1px] bg-[linear-gradient(150deg,rgba(242,239,236,0.44)_0%,rgba(150,69,0,0.14)_100%)]">

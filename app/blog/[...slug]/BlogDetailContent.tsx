@@ -32,10 +32,10 @@ export default function BlogDetailContent({ blog }: Props) {
   const headings = preparedContent.headings;
   const excerpt = getBlogExcerpt(blog, 220);
 
-  const readMinutes = Math.max(
-    1,
-    Math.ceil(htmlToWordCount(contentHtml) / 200)
-  );
+  // const readMinutes = Math.max(
+  //   1,
+  //   Math.ceil(htmlToWordCount(contentHtml) / 200)
+  // );
 
   useEffect(() => {
     const contentRoot = document.querySelector(".blog-rich-content");
@@ -113,10 +113,10 @@ export default function BlogDetailContent({ blog }: Props) {
                 <span className="categ-tx">{blog.category?.name || "Blog"}</span>
                 <h1 className="cm-hd1">{blog.title}</h1>
                 {excerpt ? <p className="para-cnt1">{excerpt}</p> : null}
-                <div className="flex justify-between">
+                {/* <div className="flex justify-between">
                   <span className="dat-tx1">{readMinutes} min read</span>
                   <span className="dat-tx1">{formatDate(blog.createdAt)}</span>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="w-full md:w-6/12">

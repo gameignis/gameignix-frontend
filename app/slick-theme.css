@@ -73,6 +73,8 @@
     /* font-family: 'slick';
     font-size: 20px;
     line-height: 1; */
+    
+    font-family: inherit;
 
     opacity: .75;
     color: white;
@@ -181,7 +183,8 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
+    /* font-family: 'slick'; */
+    font-family: inherit;
     font-size: 6px;
     line-height: 20px;
 

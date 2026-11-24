@@ -1,8 +1,9 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ServicesGameDevelopdata = [
   { title: "Full-Cycle Game Dev͏elopment", desc: "From the initial spark of an idea to t͏h͏e fina͏l lau͏nch, we offer a ͏holist͏ic approach to turn your cre͏ativ͏e͏ vis͏ions into immersive games͏ of hi͏gh qu͏ality." },
@@ -14,41 +15,29 @@ const ServicesGameDevelopdata = [
 
 export default function ServicesGameDevelopSlider() {
 
-  const [mounted, setMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+
   useEffect(() => {
     const checkScreen = () => setIsMobile(window.innerWidth <= 768);
-    checkScreen(); 
+    checkScreen();
     window.addEventListener("resize", checkScreen);
     return () => window.removeEventListener("resize", checkScreen);
   }, []);
-  if (!mounted) return null;
-    
-  const desktopSettings = {
-    dots: true,
-    infinite: true,
-    speed: 400,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  };
 
-  const mobileSettings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 400,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: isMobile ? 1 : 3,
+    slidesToScroll: 1,
+    responsive: [
+      { breakpoint: 768, settings: { slidesToShow: 1 } }
+    ]
   };
 
   return (
     <div className="incontent-slider cmslickwrap">
-      <Slider
-      key={isMobile ? "mobile" : "desktop"}
-      {...(isMobile ? mobileSettings : desktopSettings)}
-      >
+      <Slider {...settings}>
         {ServicesGameDevelopdata.map((item, i) => (
           <div key={i} className="px-[15px]">
             <div className="h-full border border-[#FC7400] rounded-[61px_8.71429px] p-[10px] my-4">

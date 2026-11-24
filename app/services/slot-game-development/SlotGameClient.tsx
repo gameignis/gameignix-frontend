@@ -19,6 +19,21 @@ export default function SlotGamePageServer() {
       <main>
 
         <section className="relative h-[580px] md:h-[700px] text-white after:content-[''] after:absolute after:inset-0 after:bg-black/40 after:z-[2] before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[30%] before:z-[2] before:bg-gradient-to-t before:from-black before:from-50% before:to-transparent"> 
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcSet="/common/slot-game/slot-game-development-company.webp"
+            />
+            <img
+              src="/common/slot-game/slot-game-development-company-480.webp"
+              alt="Slot Game Development Company"
+              width={480}
+              height={580}
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </picture>         
           <div className="relative z-[5] h-full">
             <div className="max-w-[1336px] md:px-[30px] px-[15px] mx-auto">
               <div className="absolute left-0 right-0 text-center w-[96%] mx-auto top-[150px] md:top-auto md:pb-16 md:bottom-8 xl:pb-32 2xl:w-[1336px]">            
@@ -50,10 +65,10 @@ export default function SlotGamePageServer() {
                   </li>
                 </ul>
               </div>
-              </div>
-            </div>        
-          <Image src="/common/slot-game/slot-game-development-company.webp" alt="Slot Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
-          <Image src="/common/slot-game/slot-game-development-company-480.webp" alt="Slot Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" />
+            </div>
+          </div>        
+          {/* <Image src="/common/slot-game/slot-game-development-company.webp" alt="Slot Game Development Company" fill priority fetchPriority="high" className="hidden md:block h-full w-full object-cover" />
+          <Image src="/common/slot-game/slot-game-development-company-480.webp" alt="Slot Game Development Company" fill priority fetchPriority="high" className="md:hidden h-[480px] object-cover" /> */}
         </section>
 
         <div className="pt-16 md:pt-2 relative overflow-x-hidden md:overflow-visible">

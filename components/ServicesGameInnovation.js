@@ -1,8 +1,9 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "../app/slick-theme.css";
 
 const ServicesGameInn͏ovationdata = [
   { title: "͏NFT͏ ͏Game D͏evel͏opment͏", desc: "We integrate blockc͏hain͏ te͏ch͏nolo͏g͏y t͏o ͏create NFT games that f͏eature unique͏, tra͏dable assets, provi͏di͏ng players with new ways to interact͏ and i͏nve͏st in your game’s ecosystem." },
@@ -13,41 +14,30 @@ const ServicesGameInn͏ovationdata = [
 ];
 
 export default function ServicesGameInn͏ovationSlider() {
-  const [mounted, setMounted] = useState(false);
+  
   const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+
   useEffect(() => {
     const checkScreen = () => setIsMobile(window.innerWidth <= 768);
-    checkScreen(); 
+    checkScreen();
     window.addEventListener("resize", checkScreen);
     return () => window.removeEventListener("resize", checkScreen);
   }, []);
-  if (!mounted) return null;
-    
-  const desktopSettings = {
-    dots: true,
-    infinite: true,
-    speed: 400,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  };
 
-  const mobileSettings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 400,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: isMobile ? 1 : 3,
+    slidesToScroll: 1,
+    responsive: [
+      { breakpoint: 768, settings: { slidesToShow: 1 } }
+    ]
   };
 
   return (
     <div className="incontent-slider cmslickwrap">
-      <Slider
-      key={isMobile ? "mobile" : "desktop"}
-      {...(isMobile ? mobileSettings : desktopSettings)}
-      >
+      <Slider {...settings}>
         {ServicesGameInn͏ovationdata.map((item, i) => (
           <div key={i} className="px-[15px]">
             <div className="h-full border border-[#FC7400] rounded-[61px_8.71429px] p-[10px] my-4">
